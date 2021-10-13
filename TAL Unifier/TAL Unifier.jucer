@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="suDSnc" name="TAL Unifier" projectType="consoleapp" useAppConfig="0"
+              jucerFormatVersion="1" projectLineFeed="&#10;" companyName="PlugInGuru">
+  <MAINGROUP id="lgR7Ke" name="TAL Unifier">
+    <GROUP id="{9132FE30-1AF8-3C60-EB09-F25D33D6A5D6}" name="Source">
+      <FILE id="GZ4VMk" name="UnoLX_Unifier.cpp" compile="1" resource="0"
+            file="Source/UnoLX_Unifier.cpp"/>
+      <FILE id="nfHNg7" name="UnoLX_Unifier.h" compile="0" resource="0" file="Source/UnoLX_Unifier.h"/>
+      <FILE id="ydTyx2" name="J8_Unifier.cpp" compile="1" resource="0" file="Source/J8_Unifier.cpp"/>
+      <FILE id="hm6rd0" name="J8_Unifier.h" compile="0" resource="0" file="Source/J8_Unifier.h"/>
+      <FILE id="aDnZp0" name="TAL_Unifier.cpp" compile="1" resource="0" file="Source/TAL_Unifier.cpp"/>
+      <FILE id="cXLZjf" name="TAL_Unifier.h" compile="0" resource="0" file="Source/TAL_Unifier.h"/>
+      <FILE id="Pi07kP" name="BassLine_Unifier.cpp" compile="1" resource="0"
+            file="Source/BassLine_Unifier.cpp"/>
+      <FILE id="eUnVps" name="BassLine_Unifier.h" compile="0" resource="0"
+            file="Source/BassLine_Unifier.h"/>
+      <FILE id="iDkKTi" name="Sampler_Unifier.cpp" compile="1" resource="0"
+            file="Source/Sampler_Unifier.cpp"/>
+      <FILE id="wu8eqa" name="Sampler_Unifier.h" compile="0" resource="0"
+            file="Source/Sampler_Unifier.h"/>
+      <FILE id="KE28JX" name="MyVstUtils.cpp" compile="1" resource="0" file="Source/MyVstUtils.cpp"/>
+      <FILE id="OOKMNW" name="MyVstUtils.h" compile="0" resource="0" file="Source/MyVstUtils.h"/>
+      <FILE id="VHeMB2" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="TAL Unifier"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="TAL Unifier"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
