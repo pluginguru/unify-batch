@@ -42,3 +42,9 @@ A user had invested a lot of effort making a unified library, but used the Audio
 `batch-swap-1st-inst.py1` (intended to be used between invocations of `batch-unpack.py` and `batch-repack.py`) locates the `<instrument>` tag from the first INST layer and swaps it for alternate text, hand-edited from another patch made using the target VST plug-in. `batch-swap-all-inst.py` is similar, but swaps ALL `<instrument>` tags on all INST layers.
 
 The result is a version of the original unified library, where every patch retains the original name, author, comment, tags, and structure, but loads the VST version of the plug-in instead of the AU. The limitation of this approach is that all of the VST instances load the same generic preset (saved state), so it's necessary to restore the state manually in every case. A lot of work, to be sure, but a good deal less than having to start from scratch.
+
+## Complete unpack-modify-repack loop
+
+You may not want to bother with separate unpack, modify, and repack steps. `batch-modify.py` provides an example of how to modify all `.unify` files in a folder directly, by unpacking, processing, and repacking their contents in memory. The `batch-modify.py` script should be placed inside the target folder (sibling to all the `.unify` files to be processed) and run from there.
+
+The actual XML modification code is isolated into a function `getModifiedXml()`, which in this script performs one simple string-replace operation, but the idea is that you could expand this into an arbitrary amount of code, including something that actually parses and operates on the XML structure.
