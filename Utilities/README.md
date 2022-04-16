@@ -29,11 +29,13 @@ A very common operation when preparing unified libraries, where most patches con
 
 `batch-name-layer1.py` is designed to be run inside a Unify library folder, with no command-line arguments, preceded by a run of `batch-unpack.py` and followed by `batch-repack.py`. It loops over all XML files in the *XML* folder, isolates the patch name, and substitutes it for the first layer's title.
 
-## Modifying patch names
+## Modifying patch names, comments
 
 Another common operation when preparing unified libraries is to make some systematic change to all the patch names, e.g. removing a suffix such as `" RX2"`.
 
 `batch-rename.py` loops over all XML files in the *XML* folder, isolates the patch name, computes a modified version, and rewrites the XML with the modified name.
+
+`batch-nocomment.py` is almost the same, but isolates the patch comment and deletes it.
 
 ## Swapping instrument plug-in
 
