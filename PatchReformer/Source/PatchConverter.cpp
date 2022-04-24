@@ -61,8 +61,10 @@ void PatchConverter::processFile(File file, int& fileCount)
         // get state of INST1 instrument, replace into outputPatchXml
         auto inputInst1Xml = inputPatchXml->getChildByName("Layer")->getChildByName("Instrument");
         String inst1State = inputInst1Xml->getStringAttribute("stateInformation");
+        int inst1Program = inputInst1Xml->getIntAttribute("currentProgram");
         auto outInst1Xml = outputPatchXml->getChildByName("Layer")->getChildByName("Instrument");
         outInst1Xml->setAttribute("stateInformation", inst1State);
+        outInst1Xml->setAttribute("currentProgram", inst1Program);
 
         if (saveMidiFx)
         {
