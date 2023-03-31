@@ -55,7 +55,7 @@ void PatchConverter::processFile(File file, String patchNamePattern, int& fileCo
                 (pluginXml->getStringAttribute("format") == "Built-In"))
             {
                 if (updateLayerTitles)
-                    layerXml->setAttribute("layerTitle", patchName);
+                    layerXml->setAttribute("layerTitle", sfzName);
 
                 String samplerState = instXml->getStringAttribute("stateInformation");
                 String newState = convertGuruSamplerState(samplerState, sfzName);

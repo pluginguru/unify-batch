@@ -22,7 +22,7 @@ private:
     PatchConverter patchConverter;
 
     Label referencePatchPathLabel; TextButton referencePatchPath;
-    Label updateL1Label; ToggleButton updateLayerTitleToggle;
+    Label updateLayerLabels; ToggleButton updateLayerTitleToggle;
 
     Label outputPatchNameInstruction, outputPatchNameLabel;
     TextEditor outputPatchNamePattern;

@@ -33,10 +33,11 @@ MainComponent::MainComponent()
 	outputPatchNameLabel.attachToComponent(&outputPatchNamePattern, true);
 	addAndMakeVisible(outputPatchNamePattern);
 
-	updateL1Label.setText("While processing:", dontSendNotification);
-	updateL1Label.setJustificationType(Justification::right);
-	updateL1Label.attachToComponent(&updateLayerTitleToggle, true);
+	updateLayerLabels.setText("While processing:", dontSendNotification);
+	updateLayerLabels.setJustificationType(Justification::right);
+	updateLayerLabels.attachToComponent(&updateLayerTitleToggle, true);
 	updateLayerTitleToggle.setButtonText("Update INST layer title(s) to match SFZ name");
+	updateLayerTitleToggle.setToggleState(true, dontSendNotification);
 	updateLayerTitleToggle.onStateChange = [this]()
 	{
 		patchConverter.updateLayerTitles = updateLayerTitleToggle.getToggleState();
