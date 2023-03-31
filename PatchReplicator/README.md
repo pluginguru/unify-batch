@@ -7,7 +7,7 @@ This can be useful in preparing certain "unified" libraries, where multiple vers
 
 ## "While processing" checkbox
 
-If checked, the "while processing, update INST layer title to match SFZ name" checkbox will cause the layer-titles for all affected INST layers to be set to match the selected sample-set name.
+If checked, the "while processing, update INST layer title(s) to match SFZ name" checkbox will cause the layer-titles for all affected INST layers to be set to match the selected sample-set name.
 
 ## Using the program
 
