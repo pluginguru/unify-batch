@@ -47,15 +47,17 @@ void PatchConverter::processFile(File file, int& fileCount)
 
             if (outputFolderPath.isNotEmpty())
             {
-                // Save to new file
+                // Save to output folder
                 File outFile = File(outputFolderPath).getChildFile(newPatchNameOrErrorMessage + ".unify");
                 outFile.create();
                 outFile.replaceWithData(outBlock.getData(), outBlock.getSize());
             }
             else
             {
-                // Overwrite original file
-                file.replaceWithData(outBlock.getData(), outBlock.getSize());
+                // Save in original folder
+                File outFile = file.getSiblingFile(newPatchNameOrErrorMessage + ".unify");
+                outFile.create();
+                outFile.replaceWithData(outBlock.getData(), outBlock.getSize());
             }
         }
         else
