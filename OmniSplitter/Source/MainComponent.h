@@ -21,8 +21,15 @@ private:
     std::unique_ptr<PropertiesFile> settings;
     PatchConverter patchConverter;
 
+    Label matchSoundNote1, matchSoundNote2;
+    ToggleButton matchSoundToggle; Label matchSoundToggleLabel;
+
+    Label patchNameSuffixNote;
+    TextEditor patchNameSuffixEditor; Label patchNameSuffixLabel;
+
     Label outputPathLabel;
-    TextButton outputFolderPath;    Label outputFolderPathLabel;
+    TextButton outputFolderPath; Label outputFolderPathLabel;
+    TextButton clearOutputPathButton;
 
     String message;
 

@@ -55,7 +55,9 @@ void PatchConverter::processFile(File file, int& fileCount)
             else
             {
                 // Save in original folder
-                File outFile = file.getSiblingFile(newPatchNameOrErrorMessage + ".unify");
+                File outFile = file;
+                if (patchNameSuffix.isNotEmpty())
+                    outFile = file.getSiblingFile(newPatchNameOrErrorMessage + ".unify");
                 outFile.create();
                 outFile.replaceWithData(outBlock.getData(), outBlock.getSize());
             }
@@ -94,14 +96,26 @@ bool PatchConverter::processPatchXmlAndReturnNewPatchName(XmlElement* patchXml, 
     auto instXml = layerXml->getChildByName("Instrument");
     for (int partIndex = 0; partIndex < 8; partIndex++)
     {
-        float mixLevel, panPos;
+        PartInfo partInfo;
         String stateInfo = instXml->getStringAttribute("stateInformation");
-        String newStateInfo = isolateOneOmnispherePart(stateInfo, partIndex, mixLevel, panPos);
+        String newStateInfo = isolateOneOmnispherePart(stateInfo, partIndex, partInfo);
         if (newStateInfo.isNotEmpty())
         {
             auto newLayerXml = new XmlElement(*layerXml);   // deep copy
-            newLayerXml->setAttribute("mixLevel", mixLevel);
-            newLayerXml->setAttribute("panPos", panPos);
+            if (setLayerTitle)
+                newLayerXml->setAttribute("layerTitle", partInfo.partName);
+            if (setLayerLevelAndPan)
+            {
+                newLayerXml->setAttribute("mixLevel", partInfo.mixLevel);
+                newLayerXml->setAttribute("panPos", partInfo.panPos);
+            }
+            if (setLayerSplitDetails && partInfo.splitDetailsValid)
+            {
+                newLayerXml->setAttribute("lokey", partInfo.lokey);
+                newLayerXml->setAttribute("hikey", partInfo.hikey);
+                newLayerXml->setAttribute("loFadeKey", partInfo.loFadeKey);
+                newLayerXml->setAttribute("hiFadeKey", partInfo.hiFadeKey);
+            }
             newLayerXml->getChildByName("Instrument")->setAttribute("stateInformation", newStateInfo);
             patchXml->addChildElement(newLayerXml);
         }
@@ -110,12 +124,13 @@ bool PatchConverter::processPatchXmlAndReturnNewPatchName(XmlElement* patchXml, 
 
     // update patch name
     XmlElement* pmXml = patchXml->getChildByName("PresetMetadata");
-    newNameOrErrorMessage = pmXml->getStringAttribute("name") + " SPLIT";
+    newNameOrErrorMessage = pmXml->getStringAttribute("name").trim();
+    if (patchNameSuffix.isNotEmpty()) newNameOrErrorMessage += " " + patchNameSuffix.trim();
     pmXml->setAttribute("name", newNameOrErrorMessage.trim());
     return true;
 }
 
-String PatchConverter::isolateOneOmnispherePart(String& stateInfo, int partIndex, float& mixLevel, float& panPos)
+String PatchConverter::isolateOneOmnispherePart(const String& stateInfo, int partIndex, PartInfo& partInfo)
 {
     // recover XML from Base64-encoded, VST-encoded state string
     MemoryBlock inBlock;
@@ -128,20 +143,47 @@ String PatchConverter::isolateOneOmnispherePart(String& stateInfo, int partIndex
 
     // get part level and pan amount (as hexadecimal strings)
     auto mebpbXml = omniXml->getChildByName("SynthMasterEngineParamBlock")->getChildByName("MasterEngineBaseParamBlock");
-    String hexStr = mebpbXml->getStringAttribute("pLevel" + String(partIndex));
+    String partLevelHex = mebpbXml->getStringAttribute("pLevel" + String(partIndex));
     union { float f; uint8 bytes[4]; } data;
-    data.bytes[3] = hexStr.substring(0, 2).getHexValue32() & 0xFF;
-    data.bytes[2] = hexStr.substring(2, 4).getHexValue32() & 0xFF;
-    data.bytes[1] = hexStr.substring(4, 6).getHexValue32() & 0xFF;
-    data.bytes[0] = hexStr.substring(6, 8).getHexValue32() & 0xFF;
+    data.bytes[3] = partLevelHex.substring(0, 2).getHexValue32() & 0xFF;
+    data.bytes[2] = partLevelHex.substring(2, 4).getHexValue32() & 0xFF;
+    data.bytes[1] = partLevelHex.substring(4, 6).getHexValue32() & 0xFF;
+    data.bytes[0] = partLevelHex.substring(6, 8).getHexValue32() & 0xFF;
     float dB = (data.f < 0.75f) ? 17.378f * logf(data.f) + 5.0317f : 9.54f * (data.f - 0.75f);
-    mixLevel = Decibels::decibelsToGain(dB, -80.0f);
-    hexStr = mebpbXml->getStringAttribute("pPan" + String(partIndex));
-    data.bytes[3] = hexStr.substring(0, 2).getHexValue32() & 0xFF;
-    data.bytes[2] = hexStr.substring(2, 4).getHexValue32() & 0xFF;
-    data.bytes[1] = hexStr.substring(4, 6).getHexValue32() & 0xFF;
-    data.bytes[0] = hexStr.substring(6, 8).getHexValue32() & 0xFF;
-    panPos = data.f;
+    partInfo.mixLevel = Decibels::decibelsToGain(dB, -80.0f);
+    String partPanHex = mebpbXml->getStringAttribute("pPan" + String(partIndex));
+    data.bytes[3] = partPanHex.substring(0, 2).getHexValue32() & 0xFF;
+    data.bytes[2] = partPanHex.substring(2, 4).getHexValue32() & 0xFF;
+    data.bytes[1] = partPanHex.substring(4, 6).getHexValue32() & 0xFF;
+    data.bytes[0] = partPanHex.substring(6, 8).getHexValue32() & 0xFF;
+    partInfo.panPos = data.f;
+
+    // get part key range and fade limits
+    partInfo.loFadeKey = partInfo.lokey = 0;
+    partInfo.hiFadeKey = partInfo.hikey = 127;
+    partInfo.splitDetailsValid = false;
+    auto stackRampsXml = omniXml->getChildByName("InputMapper")->getChildByName("StackRamps");
+    if (stackRampsXml)
+    {
+        for (auto spXml : stackRampsXml->getChildWithTagNameIterator("SplitPart"))
+        {
+            int pi = spXml->getIntAttribute("Part");
+            if (pi == partIndex)
+            {
+                partInfo.splitDetailsValid = true;
+                partInfo.left = spXml->getIntAttribute("Left");
+                partInfo.leftRamp = spXml->getIntAttribute("LeftRamp");
+                partInfo.right = spXml->getIntAttribute("Right");
+                partInfo.rightRamp = spXml->getIntAttribute("RightRamp");
+                partInfo.lokey = partInfo.left;
+                partInfo.hikey = partInfo.right;
+                partInfo.loFadeKey = partInfo.left + partInfo.leftRamp;
+                partInfo.hiFadeKey = partInfo.right - partInfo.rightRamp;
+                break;
+            }
+        }
+    }
+    else DBG("No InputMapper/StackRamps");
 
     // locate desired part (SynthSubEngine tag)
     XmlElement* partXml = nullptr;
@@ -163,8 +205,8 @@ String PatchConverter::isolateOneOmnispherePart(String& stateInfo, int partIndex
     if (!sengXml) sengXml = seXml->getChildByName("SYNTHENG2"); // support newer Omni presets
     jassert(sengXml);
     auto partEntryDescr = sengXml->getChildByName("ENTRYDESCR");
+    partInfo.partName = partEntryDescr->getStringAttribute("name");
     String partEntryDescrAttribValueData = partEntryDescr->getStringAttribute("ATTRIB_VALUE_DATA");
-    //DBG(partEntryDescrAttribValueData);
     if (partEntryDescrAttribValueData == "size=0;") return String();
 
     // replace main ENTRYDESCR tag with deep copy of part's ENTRYDESCR
@@ -180,10 +222,24 @@ String PatchConverter::isolateOneOmnispherePart(String& stateInfo, int partIndex
     auto copyOfPartXml = new XmlElement(*partXml);                                          // deep copy
     newOmniXml->replaceChildElement(firstPartXml, copyOfPartXml);
 
-    // fix part level
-    //mebpbXml = newOmniXml->getChildByName("SynthMasterEngineParamBlock")->getChildByName("MasterEngineBaseParamBlock");
-    //mebpbXml->setAttribute("pLevel0", partLevelHex);
-    //mebpbXml->setAttribute("pPan0", partPanHex);
+    if (retainPartLevelAndPan)
+    {
+        mebpbXml = newOmniXml->getChildByName("SynthMasterEngineParamBlock")->getChildByName("MasterEngineBaseParamBlock");
+        mebpbXml->setAttribute("pLevel0", partLevelHex);
+        mebpbXml->setAttribute("pPan0", partPanHex);
+    }
+
+    if (partInfo.splitDetailsValid && retainPartSplitDetails)
+    {
+        auto inputMapperXml = newOmniXml->getChildByName("InputMapper");
+        inputMapperXml->setAttribute("mapMode", "3d75c28f");
+        stackRampsXml = inputMapperXml->getChildByName("StackRamps");
+        auto part1SplitXml = stackRampsXml->getChildByName("SplitPart");
+        part1SplitXml->setAttribute("Left", partInfo.left);
+        part1SplitXml->setAttribute("LeftRamp", partInfo.leftRamp);
+        part1SplitXml->setAttribute("Right", partInfo.right);
+        part1SplitXml->setAttribute("RightRamp", partInfo.rightRamp);
+    }
 
     // convert XML back to VST-encoded, Base64-encoded form
     conv.memoryBlock.setSize(0);
