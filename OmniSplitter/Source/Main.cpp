@@ -11,6 +11,13 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "MainComponent.h"
 
+// To get JUCE_APP_VERSION as a string, use TOSTRING(JUCE_APP_VERSION)
+// see https://stackoverflow.com/questions/240353/convert-a-preprocessor-token-to-a-string
+// for why two macro definitions are needed.
+#define STRINGIFY(x) #x
+#define TOSTRING(x) STRINGIFY(x)
+#define APP_VERSION " v" TOSTRING(JUCE_APP_VERSION)
+
 //==============================================================================
 class UnifyEncryptApplication  : public JUCEApplication
 {
@@ -60,7 +67,7 @@ public:
     class MainWindow    : public DocumentWindow
     {
     public:
-        MainWindow (String name)  : DocumentWindow (name,
+        MainWindow (String name)  : DocumentWindow (name + String(APP_VERSION),
                                                     Desktop::getInstance().getDefaultLookAndFeel()
                                                                           .findColour (ResizableWindow::backgroundColourId),
                                                     DocumentWindow::allButtons)

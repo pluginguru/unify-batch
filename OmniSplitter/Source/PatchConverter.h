@@ -5,7 +5,7 @@ class PatchConverter
 {
 public:
     String outputFolderPath;
-    String patchNameSuffix = "SPLIT";
+    String patchNameSuffix;
 
     bool setLayerTitle = true;
     bool setLayerLevelAndPan = false;
@@ -23,10 +23,15 @@ protected:
     struct PartInfo
     {
         String partName;
-        float mixLevel, panPos;
-        bool splitDetailsValid;
+        float mixLevel = 0.8f;
+        float panPos = 0.5f;
+        bool stackMode = false;
+        bool splitDetailsValid = false;
+        int lokey = 0, loFadeKey = 0, hiFadeKey = 127, hikey = 127;
         int left, right, leftRamp, rightRamp;
-        int lokey, hikey, loFadeKey, hiFadeKey;
+
+        bool hasFullKeyRange() { return (lokey == 0) && (hikey == 127); }
+
     };
     String isolateOneOmnispherePart(const String& stateInfo, int partIndex, PartInfo& partInfo);
 

@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="g6jZQZ" name="OmniSplitter" projectType="guiapp" projectLineFeed="&#10;"
               reportAppUsage="0" jucerFormatVersion="1" companyName="PlugInGuru"
-              defines="JUCE_MODAL_LOOPS_PERMITTED" version="1.1.0">
+              defines="JUCE_MODAL_LOOPS_PERMITTED" version="1.1.1">
   <MAINGROUP id="F7NPr8" name="OmniSplitter">
     <GROUP id="{405A2C30-01AE-93EA-EB3E-1D7D4BB5A2CF}" name="Assets">
       <FILE id="gTWGaN" name="Omnisphere Initialized Multi.xml" compile="0"

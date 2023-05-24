@@ -109,12 +109,22 @@ bool PatchConverter::processPatchXmlAndReturnNewPatchName(XmlElement* patchXml, 
                 newLayerXml->setAttribute("mixLevel", partInfo.mixLevel);
                 newLayerXml->setAttribute("panPos", partInfo.panPos);
             }
-            if (setLayerSplitDetails && partInfo.splitDetailsValid)
+            if (partInfo.splitDetailsValid)
             {
-                newLayerXml->setAttribute("lokey", partInfo.lokey);
-                newLayerXml->setAttribute("hikey", partInfo.hikey);
-                newLayerXml->setAttribute("loFadeKey", partInfo.loFadeKey);
-                newLayerXml->setAttribute("hiFadeKey", partInfo.hiFadeKey);
+                if (setLayerSplitDetails)
+                {
+                    newLayerXml->setAttribute("lokey", partInfo.lokey);
+                    newLayerXml->setAttribute("loFadeKey", partInfo.loFadeKey);
+                    newLayerXml->setAttribute("hikey", partInfo.hikey);
+                    newLayerXml->setAttribute("hiFadeKey", partInfo.hiFadeKey);
+                }
+                else if (partInfo.stackMode)
+                {
+                    newLayerXml->setAttribute("lokey", partInfo.lokey);
+                    newLayerXml->setAttribute("loFadeKey", partInfo.lokey);
+                    newLayerXml->setAttribute("hikey", partInfo.hikey);
+                    newLayerXml->setAttribute("hiFadeKey", partInfo.hikey);
+                }
             }
             newLayerXml->getChildByName("Instrument")->setAttribute("stateInformation", newStateInfo);
             patchXml->addChildElement(newLayerXml);
@@ -159,10 +169,10 @@ String PatchConverter::isolateOneOmnispherePart(const String& stateInfo, int par
     partInfo.panPos = data.f;
 
     // get part key range and fade limits
-    partInfo.loFadeKey = partInfo.lokey = 0;
-    partInfo.hiFadeKey = partInfo.hikey = 127;
-    partInfo.splitDetailsValid = false;
-    auto stackRampsXml = omniXml->getChildByName("InputMapper")->getChildByName("StackRamps");
+    auto inputMapperXml = omniXml->getChildByName("InputMapper");
+    String mapMode = inputMapperXml->getStringAttribute("mapMode");
+    if (mapMode == "3d75c28f") partInfo.stackMode = true;
+    auto stackRampsXml = inputMapperXml->getChildByName("StackRamps");
     if (stackRampsXml)
     {
         for (auto spXml : stackRampsXml->getChildWithTagNameIterator("SplitPart"))
@@ -175,10 +185,11 @@ String PatchConverter::isolateOneOmnispherePart(const String& stateInfo, int par
                 partInfo.leftRamp = spXml->getIntAttribute("LeftRamp");
                 partInfo.right = spXml->getIntAttribute("Right");
                 partInfo.rightRamp = spXml->getIntAttribute("RightRamp");
-                partInfo.lokey = partInfo.left;
-                partInfo.hikey = partInfo.right;
-                partInfo.loFadeKey = partInfo.left + partInfo.leftRamp;
-                partInfo.hiFadeKey = partInfo.right - partInfo.rightRamp;
+                partInfo.lokey = jlimit<int>(0, 127, partInfo.left);
+                partInfo.hikey = jlimit<int>(0, 127, partInfo.right);
+                partInfo.loFadeKey = jlimit<int>(partInfo.left, partInfo.right, partInfo.left + partInfo.leftRamp);
+                partInfo.hiFadeKey = jlimit<int>(partInfo.left, partInfo.right, partInfo.right - partInfo.rightRamp);
+                if (partInfo.hasFullKeyRange()) partInfo.stackMode = false;
                 break;
             }
         }
@@ -232,13 +243,16 @@ String PatchConverter::isolateOneOmnispherePart(const String& stateInfo, int par
     if (partInfo.splitDetailsValid && retainPartSplitDetails)
     {
         auto inputMapperXml = newOmniXml->getChildByName("InputMapper");
-        inputMapperXml->setAttribute("mapMode", "3d75c28f");
-        stackRampsXml = inputMapperXml->getChildByName("StackRamps");
-        auto part1SplitXml = stackRampsXml->getChildByName("SplitPart");
-        part1SplitXml->setAttribute("Left", partInfo.left);
-        part1SplitXml->setAttribute("LeftRamp", partInfo.leftRamp);
-        part1SplitXml->setAttribute("Right", partInfo.right);
-        part1SplitXml->setAttribute("RightRamp", partInfo.rightRamp);
+        if (partInfo.stackMode)
+        {
+            inputMapperXml->setAttribute("mapMode", mapMode);
+            stackRampsXml = inputMapperXml->getChildByName("StackRamps");
+            auto part1SplitXml = stackRampsXml->getChildByName("SplitPart");
+            part1SplitXml->setAttribute("Left", partInfo.left);
+            part1SplitXml->setAttribute("LeftRamp", partInfo.leftRamp);
+            part1SplitXml->setAttribute("Right", partInfo.right);
+            part1SplitXml->setAttribute("RightRamp", partInfo.rightRamp);
+        }
     }
 
     // convert XML back to VST-encoded, Base64-encoded form

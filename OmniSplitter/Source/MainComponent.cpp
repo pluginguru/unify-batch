@@ -98,6 +98,8 @@ bool MainComponent::isInterestedInFileDrag(const StringArray&)
 
 void MainComponent::filesDropped(const StringArray& filePaths, int, int)
 {
+	patchConverter.patchNameSuffix = patchNameSuffixEditor.getText().trim();
+
 	bool exactSound = matchSoundToggle.getToggleState();
 	patchConverter.setLayerLevelAndPan = !exactSound;
 	patchConverter.setLayerSplitDetails = !exactSound;
