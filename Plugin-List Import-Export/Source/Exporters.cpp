@@ -30,8 +30,13 @@ bool UnifyKnownPluginsList::replaceWith(XmlElement* newKnownPluginsXml)
 
 SyndicateKnownPluginsList::SyndicateKnownPluginsList()
 {
+#ifdef __APPLE__
+    knownPluginsXmlFile = File::getSpecialLocation(File::userApplicationDataDirectory)
+        .getChildFile("WhiteElephantAudio/Syndicate").getChildFile("ScannedPlugins.txt");
+#else
     knownPluginsXmlFile = File::getSpecialLocation(File::userDocumentsDirectory)
         .getChildFile("WhiteElephantAudio/Syndicate").getChildFile("Data").getChildFile("ScannedPlugins.txt");
+#endif
 
     knownPluginsXml = parseXML(knownPluginsXmlFile);
 }
