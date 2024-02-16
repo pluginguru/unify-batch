@@ -28,6 +28,7 @@ bool UnifyKnownPluginsList::replaceWith(XmlElement* newKnownPluginsXml)
     return true;
 }
 
+
 SyndicateKnownPluginsList::SyndicateKnownPluginsList()
 {
 #ifdef __APPLE__
@@ -47,5 +48,28 @@ bool SyndicateKnownPluginsList::replaceWith(XmlElement* newKnownPluginsXml)
 
     knownPluginsXml.reset(new XmlElement(*newKnownPluginsXml)); // deep copy
     knownPluginsXmlFile.moveFileTo(knownPluginsXmlFile.getSiblingFile("OLD ScannedPlugins.txt"));
+    return knownPluginsXml->writeTo(knownPluginsXmlFile);
+}
+
+
+KshmrChainKnownPluginsList::KshmrChainKnownPluginsList()
+{
+#ifdef __APPLE__
+    knownPluginsXmlFile = File::getSpecialLocation(File::userApplicationDataDirectory)
+        .getChildFile("WhiteElephantAudio/Syndicate").getChildFile("ScannedPlugins.txt");
+#else
+    knownPluginsXmlFile = File::getSpecialLocation(File::commonApplicationDataDirectory)
+        .getChildFile("Excite Audio").getChildFile("Chain").getChildFile("plugins64.cache");
+#endif
+
+    knownPluginsXml = parseXML(knownPluginsXmlFile);
+}
+
+bool KshmrChainKnownPluginsList::replaceWith(XmlElement* newKnownPluginsXml)
+{
+    if (newKnownPluginsXml->getTagName() != "cachedPlugins") return false;
+
+    knownPluginsXml.reset(new XmlElement(*newKnownPluginsXml)); // deep copy
+    knownPluginsXmlFile.moveFileTo(knownPluginsXmlFile.getSiblingFile("OLD plugins64.cache"));
     return knownPluginsXml->writeTo(knownPluginsXmlFile);
 }

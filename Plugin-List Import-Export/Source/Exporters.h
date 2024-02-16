@@ -13,7 +13,7 @@ private:
 	std::unique_ptr<PropertiesFile> knownPluginsPropsFile;
 	std::unique_ptr<XmlElement> knownPluginsXml;
 
-	JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(UnifyKnownPluginsList)
+	JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (UnifyKnownPluginsList)
 };
 
 
@@ -29,5 +29,21 @@ private:
 	File knownPluginsXmlFile;
 	std::unique_ptr<XmlElement> knownPluginsXml;
 
-	JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(SyndicateKnownPluginsList)
+	JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (SyndicateKnownPluginsList)
+};
+
+
+class KshmrChainKnownPluginsList
+{
+public:
+	KshmrChainKnownPluginsList();
+
+	XmlElement* getXml() { return knownPluginsXml.get(); }
+	bool replaceWith(XmlElement* newKnownPluginsXml);
+
+private:
+	File knownPluginsXmlFile;
+	std::unique_ptr<XmlElement> knownPluginsXml;
+
+	JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (KshmrChainKnownPluginsList)
 };

@@ -9,18 +9,23 @@ class MainComponent : public Component
 {
 public:
     MainComponent();
-    ~MainComponent() override;
 
     void paint (Graphics&) override;
     void resized() override;
 
     Label versionLabel, resultLabel;
-    TextButton exportUnifyToSyndicateButton;
-    TextButton exportSyndicateToUnifyButton;
+
+    TextButton unifyToSyndicateButton, syndicateToUnifyButton;
+    TextButton unifyToKshmrChainButton, kshmrChainToUnifyButton;
 
 protected:
+    void test();
+
     void exportUnifyToSyndicate();
     void exportSyndicateToUnify();
+
+    void exportUnifyToKshmrChain();
+    void exportKshmrChainToUnify();
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
