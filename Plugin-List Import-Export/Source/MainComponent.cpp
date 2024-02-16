@@ -31,7 +31,7 @@ MainComponent::MainComponent()
 
     setSize (600, 400);
 
-    //test();
+    test();
 }
 
 void MainComponent::test()

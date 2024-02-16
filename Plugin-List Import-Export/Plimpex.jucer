@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="jKwAHb" name="Plimpex" projectType="guiapp" jucerFormatVersion="1"
-              projectLineFeed="&#10;" companyName="PlugInGuru" defines="JUCE_MODAL_LOOPS_PERMITTED">
+              projectLineFeed="&#10;" companyName="PlugInGuru" defines="JUCE_MODAL_LOOPS_PERMITTED"
+              version="1.1.0">
   <MAINGROUP id="ZMFBoP" name="Plimpex">
     <GROUP id="{4067F1EF-48CC-D93F-6946-1EDE4AC72FD3}" name="Source">
       <FILE id="hU6WKK" name="Exporters.cpp" compile="1" resource="0" file="Source/Exporters.cpp"/>

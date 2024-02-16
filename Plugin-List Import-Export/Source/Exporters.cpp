@@ -56,7 +56,7 @@ KshmrChainKnownPluginsList::KshmrChainKnownPluginsList()
 {
 #ifdef __APPLE__
     knownPluginsXmlFile = File::getSpecialLocation(File::userApplicationDataDirectory)
-        .getChildFile("WhiteElephantAudio/Syndicate").getChildFile("ScannedPlugins.txt");
+        .getChildFile("Excite Audio").getChildFile("Chain").getChildFile("plugins.cache");
 #else
     knownPluginsXmlFile = File::getSpecialLocation(File::commonApplicationDataDirectory)
         .getChildFile("Excite Audio").getChildFile("Chain").getChildFile("plugins64.cache");
@@ -70,6 +70,10 @@ bool KshmrChainKnownPluginsList::replaceWith(XmlElement* newKnownPluginsXml)
     if (newKnownPluginsXml->getTagName() != "cachedPlugins") return false;
 
     knownPluginsXml.reset(new XmlElement(*newKnownPluginsXml)); // deep copy
+#ifdef __APPLE__
+    knownPluginsXmlFile.moveFileTo(knownPluginsXmlFile.getSiblingFile("OLD plugins.cache"));
+#else
     knownPluginsXmlFile.moveFileTo(knownPluginsXmlFile.getSiblingFile("OLD plugins64.cache"));
+#endif
     return knownPluginsXml->writeTo(knownPluginsXmlFile);
 }
