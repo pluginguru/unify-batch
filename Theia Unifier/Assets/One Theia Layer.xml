@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UnifyPreset formatVersion="0.3"
+             showMidiLanes="0"
+             globalTranspose="0"
+             masterEffectsDisabled="0">
+	<PresetMetadata formatVersion="0.1"
+	                name="SYNTH - 1OscModWheelSawPadStack"
+	                library="Unified - WS Theia"
+	                category="Synth"
+	                tags=""
+	                genre=""
+	                author="Shane Dunne"
+	                comment=""
+	                hasBpmData="1"
+	                masterFxLocked="0"
+	                variationsFilePath=""
+	                variation="0.0"
+	                keyZonesFilePath=""/>
+	<bpmData bpm="120.0"
+	         timeSigNumerator="4"
+	         timeSigDenominator="4"
+	         beatDivision="16"
+	         loopBarCount="0"
+	         triggerMode="1"
+	         followHost="1"
+	         lokey="0"
+	         hikey="127"/>
+	<Layer layerTitle="1OscModWheelSawPadStack"
+	       mixLevel="1.0"
+	       panPos="0.5"
+	       muteState="1"
+	       midiDisabled="0"
+	       midiChannel="0"
+	       midiConvChannel="0"
+	       midiSourceIndex="-1"
+	       lovel="0"
+	       hivel="127"
+	       keyOffset="0"
+	       inputBusIndex="-1"
+	       outputBusIndex="-1"
+	       lokey="0"
+	       hikey="127"
+	       loFadeKey="0"
+	       hiFadeKey="127"
+	       loFadeCurvature="0.0"
+	       hiFadeCurvature="0.0"
+	       latchEnabled="0"
+	       directSendLevel="1.0"
+	       fxSendLevel1="0.0"
+	       fxSendLevel2="0.0"
+	       fxSendLevel3="0.0"
+	       fxSendLevel4="0.0">
+		<Instrument stateInformation=""
+		            currentProgram="0">
+			<PLUGIN name="Theia"
+			        format="VST3"
+			        category="Instrument|Synth"
+			        manufacturer="wavesequencer.com"
+			        version="1.00"
+			        file="C:\Program Files\Common Files\VST3\Theia.vst3"
+			        uniqueId="3a25759a"
+			        isInstrument="1"
+			        fileTime="18a37164140"
+			        infoUpdateTime="18a84f91bf0"
+			        numInputs="0"
+			        numOutputs="2"
+			        isShell="0"
+			        uid="5758aa90"/>
+		</Instrument>
+		<MidiVelCurve>
+			<Segment fxMin="0.0"
+			         fxMax="1.0"
+			         fyMin="0.0"
+			         fyMax="1.0"
+			         curvature="0.0"/>
+		</MidiVelCurve>
+		<MidiInserts/>
+		<AudioInserts/>
+	</Layer>
+	<AudioFxLane title=""
+	             mixLevel="1.0"
+	             panPos="0.5"
+	             muteState="1"
+	             inputBusIndex="-1"
+	             outputBusIndex="0">
+		<AudioInserts/>
+	</AudioFxLane>
+	<MacroParameter id="macro1" name="Macro1" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="0">
+		<link paramPath="inst/1/plugin/#0" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro2" name="Macro2" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="1">
+		<link paramPath="inst/1/plugin/#1" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro3" name="Macro3" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="2">
+		<link paramPath="inst/1/plugin/#2" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro4" name="Macro4" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="3">
+		<link paramPath="inst/1/plugin/#3" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro5" name="Macro5" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="4">
+		<link paramPath="inst/1/plugin/#4" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro6" name="Macro6" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="5">
+		<link paramPath="inst/1/plugin/#5" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro7" name="Macro7" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="6">
+		<link paramPath="inst/1/plugin/#6" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro8" name="Macro8" unit="" value="0.0" minValue="0.0"
+					maxValue="1.0" valueStep="0.0" defaultValue="0.0" index="7">
+		<link paramPath="inst/1/plugin/#7" enabled="1" stepped="0">
+			<curve>
+				<Segment fxMin="0.0" fxMax="1.0" fyMin="0.0" fyMax="1.0" curvature="0.0"/>
+			</curve>
+		</link>
+	</MacroParameter>
+	<MacroParameter id="macro9"
+	                name="Macro9"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="8"/>
+	<MacroParameter id="macro10"
+	                name="Macro10"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="9"/>
+	<MacroParameter id="macro11"
+	                name="Macro11"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="10"/>
+	<MacroParameter id="macro12"
+	                name="Macro12"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="11"/>
+	<MacroParameter id="macro13"
+	                name="Macro13"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="12"/>
+	<MacroParameter id="macro14"
+	                name="Macro14"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="13"/>
+	<MacroParameter id="macro15"
+	                name="Macro15"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="14"/>
+	<MacroParameter id="macro16"
+	                name="Macro16"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="15"/>
+	<MacroParameter id="macro17"
+	                name="Macro17"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="16"/>
+	<MacroParameter id="macro18"
+	                name="Macro18"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="17"/>
+	<MacroParameter id="macro19"
+	                name="Macro19"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="18"/>
+	<MacroParameter id="macro20"
+	                name="Macro20"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="19"/>
+	<MacroParameter id="macro21"
+	                name="Macro21"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="20"/>
+	<MacroParameter id="macro22"
+	                name="Macro22"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="21"/>
+	<MacroParameter id="macro23"
+	                name="Macro23"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="22"/>
+	<MacroParameter id="macro24"
+	                name="Macro24"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="23"/>
+	<MacroParameter id="macro25"
+	                name="Macro25"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="24"/>
+	<MacroParameter id="macro26"
+	                name="Macro26"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="25"/>
+	<MacroParameter id="macro27"
+	                name="Macro27"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="26"/>
+	<MacroParameter id="macro28"
+	                name="Macro28"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="27"/>
+	<MacroParameter id="macro29"
+	                name="Macro29"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="28"/>
+	<MacroParameter id="macro30"
+	                name="Macro30"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="29"/>
+	<MacroParameter id="macro31"
+	                name="Macro31"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="30"/>
+	<MacroParameter id="macro32"
+	                name="Macro32"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="31"/>
+	<MacroParameter id="macro33"
+	                name="Macro33"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="32"/>
+	<MacroParameter id="macro34"
+	                name="Macro34"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="33"/>
+	<MacroParameter id="macro35"
+	                name="Macro35"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="34"/>
+	<MacroParameter id="macro36"
+	                name="Macro36"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="35"/>
+	<MacroParameter id="macro37"
+	                name="Macro37"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="36"/>
+	<MacroParameter id="macro38"
+	                name="Macro38"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="37"/>
+	<MacroParameter id="macro39"
+	                name="Macro39"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="38"/>
+	<MacroParameter id="macro40"
+	                name="Macro40"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="39"/>
+	<MacroParameter id="macro41"
+	                name="Macro41"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="40"/>
+	<MacroParameter id="macro42"
+	                name="Macro42"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="41"/>
+	<MacroParameter id="macro43"
+	                name="Macro43"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="42"/>
+	<MacroParameter id="macro44"
+	                name="Macro44"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="43"/>
+	<MacroParameter id="macro45"
+	                name="Macro45"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="44"/>
+	<MacroParameter id="macro46"
+	                name="Macro46"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="45"/>
+	<MacroParameter id="macro47"
+	                name="Macro47"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="46"/>
+	<MacroParameter id="macro48"
+	                name="Macro48"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="47"/>
+	<MacroParameter id="macro49"
+	                name="Macro49"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="48"/>
+	<MacroParameter id="macro50"
+	                name="Macro50"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="49"/>
+	<MacroParameter id="macro51"
+	                name="Macro51"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="50"/>
+	<MacroParameter id="macro52"
+	                name="Macro52"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="51"/>
+	<MacroParameter id="macro53"
+	                name="Macro53"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="52"/>
+	<MacroParameter id="macro54"
+	                name="Macro54"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="53"/>
+	<MacroParameter id="macro55"
+	                name="Macro55"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="54"/>
+	<MacroParameter id="macro56"
+	                name="Macro56"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="55"/>
+	<MacroParameter id="macro57"
+	                name="Macro57"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="56"/>
+	<MacroParameter id="macro58"
+	                name="Macro58"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="57"/>
+	<MacroParameter id="macro59"
+	                name="Macro59"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="58"/>
+	<MacroParameter id="macro60"
+	                name="Macro60"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="59"/>
+	<MacroParameter id="macro61"
+	                name="Macro61"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="60"/>
+	<MacroParameter id="macro62"
+	                name="Macro62"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="61"/>
+	<MacroParameter id="macro63"
+	                name="Macro63"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="62"/>
+	<MacroParameter id="macro64"
+	                name="Macro64"
+	                unit=""
+	                value="0.0"
+	                minValue="0.0"
+	                maxValue="1.0"
+	                valueStep="0.0"
+	                defaultValue="0.0"
+	                index="63"/>
+</UnifyPreset>
