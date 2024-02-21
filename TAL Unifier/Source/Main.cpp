@@ -3,14 +3,16 @@
 #include "BassLine_Unifier.h"
 #include "J8_Unifier.h"
 #include "UnoLX_Unifier.h"
+#include "Pha_Unifier.h"
 
 int main (int /*argc*/, char** /*argv*/)
 {
     // Uncomment exactly one of the following
     //Sampler_Unifier unifier;
     //BassLine_Unifier unifier;
-    J8_Unifier unifier;
+    //J8_Unifier unifier;
     //UnoLX_Unifier unifier;
+    Pha_Unifier unifier;
 
     unifier.makeUnifiedLibrary();
 
