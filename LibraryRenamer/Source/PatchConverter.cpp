@@ -1,4 +1,5 @@
 #include "PatchConverter.h"
+#include "MyVstUtils.h"
 
 PatchConverter::PatchConverter()
 {
@@ -40,6 +41,8 @@ void PatchConverter::processFile(File file, int& fileCount)
 
         std::unique_ptr<XmlElement> xml = AudioProcessor::getXmlFromBinary(inBlock.getData(), inBlock.getSize());
         XmlElement* pmXml = xml->getChildByName("PresetMetadata");
+
+        oldLibraryName = pmXml->getStringAttribute("library");
 
         pmXml->setAttribute("library", libraryName);
         processPatchXml(xml.get(), false);
@@ -100,7 +103,6 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
             }
         }
 
-#if 0   // Not needed yet, because no built-in audio effects require library paths
         // Audio inserts on INST layer
         auto audioInsertsXml = layerXml->getChildByName("AudioInserts");
         forEachXmlChildElementWithTagName(*audioInsertsXml, insertXml, "InsertEffect")
@@ -109,14 +111,13 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
             String pluginName = pluginXml->getStringAttribute("name");
             String pluginFormat = pluginXml->getStringAttribute("format");
 
-            if (pluginName == "NoizBox" && pluginFormat == "Built-In")
+            if (pluginName == "KlangFalter" && pluginFormat == "VST")
             {
                 String stateInfo = insertXml->getStringAttribute("stateInformation");
-                stateInfo = convertNoizBoxState(stateInfo);
+                stateInfo = convertKlangFalterState(stateInfo, libraryName);
                 insertXml->setAttribute("stateInformation", stateInfo);
             }
         }
-#endif
 
         // Instrument plug-in
         auto instXml = layerXml->getChildByName("Instrument");
@@ -171,7 +172,6 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
         }
     }
 
-#if 0   // Not needed yet, because no built-in audio effects require library paths
     else if (layerXml->getTagName() == "AudioFxLane")
     {
         auto audioInsertsXml = layerXml->getChildByName("AudioInserts");
@@ -181,15 +181,14 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
             String pluginName = pluginXml->getStringAttribute("name");
             String pluginFormat = pluginXml->getStringAttribute("format");
 
-            if (pluginName == "NoizBox" && pluginFormat == "Built-In")
+            if (pluginName == "KlangFalter" && pluginFormat == "VST")
             {
                 String stateInfo = insertXml->getStringAttribute("stateInformation");
-                stateInfo = convertNoizBoxState(stateInfo);
+                stateInfo = convertKlangFalterState(stateInfo, libraryName);
                 insertXml->setAttribute("stateInformation", stateInfo);
             }
         }
     }
-#endif
 }
 
 String PatchConverter::convertUnifyState(String stateInfo)
@@ -223,31 +222,40 @@ String PatchConverter::convertComboBoxState(String stateInfo)
         {
             String pluginName = pluginXml->getStringAttribute("name");
             String pluginFormat = pluginXml->getStringAttribute("format");
-            if (pluginFormat != "Built-In") continue;
 
-            if (pluginName == "Unify")
+            if (pluginFormat == "Built-In")
             {
-                auto stateXml = filterXml->getChildByName("STATE");
-                String pluginState = convertUnifyState(stateXml->getAllSubText());
-                stateXml->getFirstChildElement()->setText(pluginState);
+                if (pluginName == "Unify")
+                {
+                    auto stateXml = filterXml->getChildByName("STATE");
+                    String pluginState = convertUnifyState(stateXml->getAllSubText());
+                    stateXml->getFirstChildElement()->setText(pluginState);
+                }
+                if (pluginName == "ComboBox")
+                {
+                    auto stateXml = filterXml->getChildByName("STATE");
+                    String pluginState = convertComboBoxState(stateXml->getAllSubText());
+                    stateXml->getFirstChildElement()->setText(pluginState);
+                }
+                if (pluginName == "Guru Sampler")
+                {
+                    auto stateXml = filterXml->getChildByName("STATE");
+                    String pluginState = convertGuruSamplerState(stateXml->getAllSubText());
+                    stateXml->getFirstChildElement()->setText(pluginState);
+                }
+                else if (pluginName == "MIDIBox")
+                {
+                    auto stateXml = filterXml->getChildByName("STATE");
+                    String pluginState = convertMIDIBoxState(stateXml->getAllSubText());
+                    stateXml->getFirstChildElement()->setText(pluginState);
+                }
             }
-            if (pluginName == "ComboBox")
+
+            else if (pluginName == "KlangFalter" && pluginFormat == "VST")
             {
                 auto stateXml = filterXml->getChildByName("STATE");
-                String pluginState = convertComboBoxState(stateXml->getAllSubText());
-                stateXml->getFirstChildElement()->setText(pluginState);
-            }
-            if (pluginName == "Guru Sampler")
-            {
-                auto stateXml = filterXml->getChildByName("STATE");
-                String pluginState = convertGuruSamplerState(stateXml->getAllSubText());
-                stateXml->getFirstChildElement()->setText(pluginState);
-            }
-            else if (pluginName == "MIDIBox")
-            {
-                auto stateXml = filterXml->getChildByName("STATE");
-                String pluginState = convertMIDIBoxState(stateXml->getAllSubText());
-                stateXml->getFirstChildElement()->setText(pluginState);
+                String pluginState = convertKlangFalterState(stateInfo, libraryName);
+                stateXml->setAttribute("stateInformation", pluginState);
             }
         }
     }
@@ -318,4 +326,28 @@ String PatchConverter::convertMIDIBoxState(String stateInfo)
     AudioProcessor::copyXmlToBinary(*xml, outBlock);
 
     return outBlock.toBase64Encoding();
+}
+
+String PatchConverter::convertKlangFalterState(String stateInfo, String newLibraryName)
+{
+    MemoryBlock memBlock;
+    memBlock.fromBase64Encoding(stateInfo);
+
+    MyVstConv conv;
+    conv.loadFromFXBFile(memBlock.getData(), memBlock.getSize());
+    auto kfXml = AudioProcessor::getXmlFromBinary(conv.memoryBlock.getData(), conv.memoryBlock.getSize());
+
+    //DBG(kfXml->toString());
+
+    for (auto* irXml : kfXml->getChildWithTagNameIterator("ImpulseResponse"))
+    {
+        String path = irXml->getStringAttribute("file");
+        irXml->setAttribute("file", path.replaceCharacter('\\', '/').replace(oldLibraryName, newLibraryName));
+    }
+
+    //DBG(kfXml->toString());
+
+    AudioProcessor::copyXmlToBinary(*kfXml, conv.memoryBlock);
+    conv.saveToFXBFile(memBlock, true);
+    return memBlock.toBase64Encoding();
 }

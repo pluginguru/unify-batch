@@ -20,9 +20,11 @@ protected:
     String convertComboBoxState(String stateInfo);
     String convertGuruSamplerState(String stateInfo);
     String convertMIDIBoxState(String stateInfo);
+    String convertKlangFalterState(String stateInfo, String newLibraryName);
 
 private:
     File unifyRootFolder, outputFolder;
+    String oldLibraryName;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PatchConverter)
 };
