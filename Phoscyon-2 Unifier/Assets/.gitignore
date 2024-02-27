@@ -1,0 +1,7 @@
+# The "Global Presets" folder is obtained on a PC using 7-zip, by opening
+# C:\ProgramData\D16 Group\Phosycon 2\Presets\Scene Presets.d16pkg
+# and then opening the "content" file within it.
+#
+# The result is a folder full of .ph2scn files
+
+Scene Presets/*

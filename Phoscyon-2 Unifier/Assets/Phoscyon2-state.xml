@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PluginState application="Phoscyon 2">
+  <ProcessingQuality>
+    <Preset>
+      <Parameters>
+        <param name="Real-time Processing Quality" value="Normal"/>
+        <param name="Offline Processing Quality" value="Normal"/>
+      </Parameters>
+    </Preset>
+  </ProcessingQuality>
+  <ParametersState>
+    <Preset name="Best Served with Beat" version="2.1.0" author="Sebastian Bachli&#324;ski / D16"
+            tags="Seq|Square|None">
+      <Parameters>
+        <param name="Waveform" value="Square"/>
+        <param name="Tuning Extended" value="Off"/>
+        <param name="Tuning" value="0"/>
+        <param name="Tuning Coarse" value="0"/>
+        <param name="Tuning Fine" value="0"/>
+        <param name="Cutoff" value="34"/>
+        <param name="Resonance" value="90.4"/>
+        <param name="Envmod" value="32"/>
+        <param name="Decay" value="66.4"/>
+        <param name="Accent" value="100"/>
+        <param name="Slide Time" value="50"/>
+        <param name="Resonance/Sweep Couple" value="On"/>
+        <param name="Sweep Amount" value="100"/>
+        <param name="Envmod Attack" value="0"/>
+        <param name="Accent Decay" value="0"/>
+        <param name="EnvAcc/AccVolume Couple" value="On"/>
+        <param name="Accent Volume" value="100"/>
+        <param name="Vibrato Speed" value="50"/>
+        <param name="Vibrato Depth" value="50"/>
+        <param name="Calibration Preset" value="- Custom -"/>
+        <param name="TM3 Cutoff Tuning" value="0"/>
+        <param name="C21/C22 DC Filter" value="1.59e-08"/>
+        <param name="Accent Filter Env" value="1951"/>
+        <param name="Accent Amp Env" value="1.0984"/>
+        <param name="C13 Accent Capacitor" value="9.26035e-07"/>
+        <param name="TM5 Octave Width" value="1"/>
+        <param name="Square PW Shift" value="0.5"/>
+        <param name="BA662 Clicks" value="Off"/>
+        <param name="BA662 Noise" value="0"/>
+        <param name="Distortion Active" value="On"/>
+        <param name="Distortion Model" value="Diode Clean"/>
+        <param name="Distortion Dynamics" value="100"/>
+        <param name="Distortion Dynamics Ord" value="Pre"/>
+        <param name="Distortion Drive" value="0"/>
+        <param name="Distortion Color" value="0"/>
+        <param name="EQ Active" value="Off"/>
+        <param name="EQ Preset" value="- Custom -"/>
+        <param name="EQ Low Gain" value="0"/>
+        <param name="EQ Low Freq" value="100"/>
+        <param name="EQ Low Width" value="2"/>
+        <param name="EQ Mid-Low Gain" value="0"/>
+        <param name="EQ Mid-Low Freq" value="550"/>
+        <param name="EQ Mid-Low Width" value="1.5039"/>
+        <param name="EQ Mid-High Gain" value="0"/>
+        <param name="EQ Mid-High Freq" value="3500"/>
+        <param name="EQ Mid-High Width" value="2.63158"/>
+        <param name="EQ High Gain" value="0"/>
+        <param name="EQ High Freq" value="10000"/>
+        <param name="EQ High Width" value="3.52566"/>
+        <param name="Delay Active" value="Off"/>
+        <param name="Delay Preset" value="- Custom -"/>
+        <param name="Delay Feedback" value="13.2"/>
+        <param name="Delay FB Filter Cutoff" value="16000"/>
+        <param name="Delay FB Filter Reso" value="0"/>
+        <param name="Delay FB Filter Type" value="Off"/>
+        <param name="Delay Stereo Spread" value="0"/>
+        <param name="Delay Time" value="0.22376"/>
+        <param name="Delay Sync" value="On"/>
+        <param name="Delay L Scale" value="Full"/>
+        <param name="Delay L Rate Nominator" value="3"/>
+        <param name="Delay L Rate Denominator" value="16"/>
+        <param name="Delay R Scale" value="Full"/>
+        <param name="Delay R Rate Nominator" value="3"/>
+        <param name="Delay R Rate Denominator" value="16"/>
+        <param name="Delay FX" value="30.4"/>
+        <param name="Reverb Active" value="On"/>
+        <param name="Reverb Preset" value="- Custom -"/>
+        <param name="Reverb Pre Delay" value="116"/>
+        <param name="Reverb Early Size" value="1.1"/>
+        <param name="Reverb Early Diffusion" value="42"/>
+        <param name="Reverb Late Size" value="5.1"/>
+        <param name="Reverb Late Diffusion" value="45"/>
+        <param name="Reverb Late Feedback" value="50"/>
+        <param name="Reverb Early/Late Mix" value="20.4"/>
+        <param name="Reverb Tail Modulation" value="47"/>
+        <param name="Reverb Early Brightness" value="70"/>
+        <param name="Reverb Late Brightness" value="70"/>
+        <param name="Reverb FX" value="28.8"/>
+        <param name="Chorus Active" value="Off"/>
+        <param name="Chorus Preset" value="- Custom -"/>
+        <param name="Chorus Offset" value="0"/>
+        <param name="Chorus Modulation Depth" value="37.2"/>
+        <param name="Chorus Modulation Rate" value="36"/>
+        <param name="Chorus Stereo Spatial" value="50"/>
+        <param name="Chorus Fatness" value="0"/>
+        <param name="Chorus HP Cutoff" value="0"/>
+        <param name="Chorus Output Volume" value="0"/>
+        <param name="Chorus FX" value="50"/>
+        <param name="Limiter Active" value="Off"/>
+        <param name="Limiter Preset" value="- Custom -"/>
+        <param name="Limiter Knee" value="100"/>
+        <param name="Limiter Ratio" value="40"/>
+        <param name="Limiter Attack" value="0.1"/>
+        <param name="Limiter Release" value="145.6"/>
+        <param name="Limiter Threshold" value="0"/>
+        <param name="Limiter Gain" value="0"/>
+        <param name="Limiter Soft Clip" value="Off"/>
+        <param name="Pitch Bend Range" value="2"/>
+        <param name="FX Chain Order" value="20134"/>
+        <param name="Output Volume" value="0"/>
+        <param name="Synthesis Preset" value="Multi-Dimensional"/>
+        <param name="Play Mode" value="Sequencer"/>
+      </Parameters>
+      <ExtraData>
+        <Sequencer>
+          <Patterns>
+            <Pattern name="Best Served with Beat" rate="1/16" modifier="Full" shuffle="0"
+                     steplen="40" steps="300|29a|398|2a8|2aa|359|35a|319|300|348|358|2a8|2aa|3a8|3aa|299"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+          </Patterns>
+        </Sequencer>
+        <Arpeggiator>
+          <Patterns>
+            <Pattern name="Great Slam" author="Sebastian Bachli&#324;ski / D16" rate="1/16"
+                     modifier="Full" shuffle="0" steplen="42" steps="208|308|30b|318|30a|309|318|208|309|328|308|309|308|218|20b|308"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+            <Pattern name="- Empty -" rate="1/16" modifier="Full" shuffle="0" steplen="50"
+                     steps="300|300|300|300|300|300|300|300|300|300|300|300|300|300|300|300"/>
+          </Patterns>
+        </Arpeggiator>
+        <RandomizerPreset name="303 - Melodic 1" notes="0|2|5|8" octaves="2|3|4|5" attributes="1|1|0"/>
+      </ExtraData>
+    </Preset>
+  </ParametersState>
+  <NotPresetableParams>
+    <Preset version="1.0">
+      <Parameters>
+        <param name="Pitch Bend Range" value="2"/>
+        <param name="Bypass FX" value="Off"/>
+        <param name="Accented Note Velocity" value="96"/>
+        <param name="Non-accented Note Velocity" value="32"/>
+        <param name="Accent Velocity Threshold" value="64"/>
+        <param name="Enable Midi Out" value="true"/>
+        <param name="Randomizer Seed" value="-332736708"/>
+      </Parameters>
+    </Preset>
+  </NotPresetableParams>
+  <MidiControlMap name="Phoscyon 2"/>
+  <Editor systemScale="1.0">
+    <Evaluation infoTime="20240227T000000.000-0400"/>
+    <Skin theme="Light" name="1180"/>
+    <Preset version="1.0">
+      <Parameters>
+        <param name="Selected Insert" value="Reverb"/>
+        <param name="Host Link" value="Off"/>
+        <param name="Sequencer Mode" value="Live"/>
+        <param name="Pattern Follow" value="On"/>
+        <param name="Step Auto Increment" value="Off"/>
+        <param name="Selected Pattern" value="0"/>
+        <param name="Seq View" value="Piano Roll"/>
+        <param name="Note Preview" value="Off"/>
+        <param name="Calibration Cover Open State" value="false"/>
+        <param name="Disable Calibration Cover Anim" value="false"/>
+      </Parameters>
+    </Preset>
+    <Browsers>
+      <ContentBrowser name="Scene Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State">
+            <group name="Play Mode" tags="Seq"/>
+          </Filter>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Synthesis Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Calibration Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Distortion Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Equalizer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Delay Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Reverb Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Chorus Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Limiter Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Sequencer Patterns" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggiator Patterns" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Randomizer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+    </Browsers>
+  </Editor>
+</PluginState>
