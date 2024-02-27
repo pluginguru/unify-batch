@@ -1,0 +1,2414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PluginState application="Lush 2">
+  <ProcessingQuality>
+    <Preset>
+      <Parameters>
+        <param name="Real-time Processing Quality" value="Normal"/>
+        <param name="Offline Processing Quality" value="Normal"/>
+      </Parameters>
+    </Preset>
+  </ProcessingQuality>
+  <ParametersState>
+    <Preset name="Back to the 80s" version="2.0.1" author="Sebastian Bachli&#324;ski / D16"
+            tags="Single|Poly Sound|Lead|Backing|Bell|Analog">
+      <Parameters>
+        <param name="Master Volume" value="0.217121"/>
+        <param name="Arpeggio Sync Mode" value="Each Individual"/>
+        <param name="Reverb Panning" value="0"/>
+        <param name="Reverb Level" value="5.93775e-07"/>
+        <param name="Reverb EQ" value="On"/>
+        <param name="Reverb EQ Pre Comp" value="Off"/>
+        <param name="Reverb EQ Low" value="-7.296"/>
+        <param name="Reverb EQ Mid Frq" value="4965.92"/>
+        <param name="Reverb EQ Mid" value="-7.296"/>
+        <param name="Reverb EQ Hi" value="-21.696"/>
+        <param name="Reverb Comp" value="Off"/>
+        <param name="Reverb Comp Envelope" value="Mid"/>
+        <param name="Reverb Comp Ratio" value="1:2"/>
+        <param name="Reverb Comp Threshold" value="-12"/>
+        <param name="Reverb Preset Name" value="Church 1"/>
+        <param name="Reverb Enable" value="On"/>
+        <param name="Reverb Early Size" value="9.1464"/>
+        <param name="Reverb Early Diffusion" value="100"/>
+        <param name="Reverb Early Attenuation" value="16600"/>
+        <param name="Reverb Late Size" value="44.1972"/>
+        <param name="Reverb Late Diffusion" value="100"/>
+        <param name="Reverb Late Attenuation" value="1700"/>
+        <param name="Reverb Late Feedback" value="46"/>
+        <param name="Reverb Modulation" value="95.6"/>
+        <param name="Reverb Pre Delay" value="99.6"/>
+        <param name="Reverb ER/LT Mix" value="53.6"/>
+        <param name="Delay Panning" value="0"/>
+        <param name="Delay Level" value="5.93775e-07"/>
+        <param name="Delay EQ" value="Off"/>
+        <param name="Delay EQ Pre Comp" value="Off"/>
+        <param name="Delay EQ Low" value="0"/>
+        <param name="Delay EQ Mid Frq" value="1000"/>
+        <param name="Delay EQ Mid" value="0"/>
+        <param name="Delay EQ Hi" value="0"/>
+        <param name="Delay Comp" value="Off"/>
+        <param name="Delay Comp Envelope" value="Mid"/>
+        <param name="Delay Comp Ratio" value="1:2"/>
+        <param name="Delay Comp Threshold" value="-12"/>
+        <param name="Delay Preset Name" value="Default"/>
+        <param name="Delay Enable" value="On"/>
+        <param name="Delay Time" value="500"/>
+        <param name="Delay Stereo Spread" value="0"/>
+        <param name="Delay Sync" value="On"/>
+        <param name="Delay Rate Left Scale" value="Full"/>
+        <param name="Delay Rate Left Nom" value="3"/>
+        <param name="Delay Rate Left Denom" value="16"/>
+        <param name="Delay Rate Right Scale" value="Full"/>
+        <param name="Delay Rate Right Nom" value="3"/>
+        <param name="Delay Rate Right Denom" value="16"/>
+        <param name="Delay Stereo Link" value="Off"/>
+        <param name="Delay Feedback" value="50"/>
+        <param name="Delay Feedback Cutoff" value="2777.17"/>
+        <param name="Delay Feedback Type" value="LP"/>
+        <param name="Delay Feedback Resonance" value="96.4"/>
+        <param name="Chorus Panning" value="0"/>
+        <param name="Chorus Level" value="5.93775e-07"/>
+        <param name="Chorus EQ" value="Off"/>
+        <param name="Chorus EQ Pre Comp" value="Off"/>
+        <param name="Chorus EQ Low" value="0"/>
+        <param name="Chorus EQ Mid Frq" value="1000"/>
+        <param name="Chorus EQ Mid" value="0"/>
+        <param name="Chorus EQ Hi" value="0"/>
+        <param name="Chorus Comp" value="Off"/>
+        <param name="Chorus Comp Envelope" value="Mid"/>
+        <param name="Chorus Comp Ratio" value="1:2"/>
+        <param name="Chorus Comp Threshold" value="-12"/>
+        <param name="Chorus Preset Name" value="Default"/>
+        <param name="Chorus Enable" value="Off"/>
+        <param name="Chorus Offset" value="1.5"/>
+        <param name="Chorus Depth" value="6"/>
+        <param name="Chorus Rate" value="0.112533"/>
+        <param name="Chorus Mode" value="100"/>
+        <param name="Chorus Hi Pass" value="1"/>
+        <param name="Chorus Stereo" value="100"/>
+        <param name="Layer 1 Enable" value="On"/>
+        <param name="Layer 1 Mute" value="Off"/>
+        <param name="Layer 1 Transpose" value="0"/>
+        <param name="Layer 1 Zone Beg" value="C-0"/>
+        <param name="Layer 1 Zone End" value="G-H"/>
+        <param name="Layer 1 Timbre Name" value="Smooth Echoes"/>
+        <param name="Layer 1 Polyphony Voices" value="8"/>
+        <param name="Layer 1 Polyphony Mode" value="Queue"/>
+        <param name="Layer 1 Portamento Time" value="0"/>
+        <param name="Layer 1 Portamento Mode" value="Legato"/>
+        <param name="Layer 1 Unison Voices" value="1"/>
+        <param name="Layer 1 Unison Tune Spr" value="0"/>
+        <param name="Layer 1 Unison Pan Spr" value="0"/>
+        <param name="Layer 1 Unison Flt Spr" value="0"/>
+        <param name="Layer 1 Insert Effect 1" value="Flanger"/>
+        <param name="Layer 1 Insert Effect 2" value="None"/>
+        <param name="Layer 1 Insert Effect 1 FX" value="100"/>
+        <param name="Layer 1 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 1 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 1 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 1 Chorus 1 Fat" value="On"/>
+        <param name="Layer 1 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 1 Flanger 1 Rate" value="0.260201"/>
+        <param name="Layer 1 Flanger 1 Depth" value="5.0176"/>
+        <param name="Layer 1 Flanger 1 Fdbck" value="83.2"/>
+        <param name="Layer 1 Flanger 1 Invert" value="On"/>
+        <param name="Layer 1 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 1 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 1 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 1 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 1 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 1 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 1 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 1 Phaser 1 Depth" value="70"/>
+        <param name="Layer 1 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 1 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 1 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 1 Vowel 1 Rate" value="0.406308"/>
+        <param name="Layer 1 Vowel 1 Depth" value="42.8"/>
+        <param name="Layer 1 Vowel 1 Reso" value="18.4"/>
+        <param name="Layer 1 Vowel 1 1st" value="A"/>
+        <param name="Layer 1 Vowel 1 2nd" value="E"/>
+        <param name="Layer 1 Vowel 1 3rd" value="I"/>
+        <param name="Layer 1 Vowel 1 4th" value="O"/>
+        <param name="Layer 1 Vowel 1 5th" value="U"/>
+        <param name="Layer 1 Vowel 1 Position" value="0"/>
+        <param name="Layer 1 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 1 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 1 Dist 1 Preamp" value="24"/>
+        <param name="Layer 1 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 1 Dist 1 Shape" value="100"/>
+        <param name="Layer 1 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 1 BitCrsh 1 Freq" value="3346.62"/>
+        <param name="Layer 1 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 1 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 1 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 1 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 1 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 1 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 1 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 1 Chorus 2 Depth" value="10"/>
+        <param name="Layer 1 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 1 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 1 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 1 Flanger 2 Depth" value="10"/>
+        <param name="Layer 1 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 1 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 1 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 1 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 1 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 1 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 1 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 1 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 1 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 1 Phaser 2 Depth" value="10"/>
+        <param name="Layer 1 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 1 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 1 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 1 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 1 Vowel 2 Depth" value="0"/>
+        <param name="Layer 1 Vowel 2 Reso" value="50"/>
+        <param name="Layer 1 Vowel 2 1st" value="A"/>
+        <param name="Layer 1 Vowel 2 2nd" value="E"/>
+        <param name="Layer 1 Vowel 2 3rd" value="I"/>
+        <param name="Layer 1 Vowel 2 4th" value="O"/>
+        <param name="Layer 1 Vowel 2 5th" value="U"/>
+        <param name="Layer 1 Vowel 2 Position" value="0"/>
+        <param name="Layer 1 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 1 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 1 Dist 2 Preamp" value="24"/>
+        <param name="Layer 1 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 1 Dist 2 Shape" value="100"/>
+        <param name="Layer 1 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 1 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 1 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 1 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 1 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 1 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 1 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 1 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 1 Pitch Tracking" value="On"/>
+        <param name="Layer 1 Pitch Frequency" value="151.54"/>
+        <param name="Layer 1 Pitch Range" value="16'"/>
+        <param name="Layer 1 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 1 Pitch Mod" value="0"/>
+        <param name="Layer 1 Pitch Mod Source" value="LFO2"/>
+        <param name="Layer 1 Hard Sync" value="Off"/>
+        <param name="Layer 1 Hard Sync Offset" value="0"/>
+        <param name="Layer 1 Hard Sync Mix" value="0"/>
+        <param name="Layer 1 Pulse Width" value="50"/>
+        <param name="Layer 1 Pulse Mod" value="0"/>
+        <param name="Layer 1 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 1 VCO Pulse Volume" value="0"/>
+        <param name="Layer 1 VCO Saw Volume" value="100"/>
+        <param name="Layer 1 VCO Sub Volume" value="0"/>
+        <param name="Layer 1 VCO Noise Volume" value="0"/>
+        <param name="Layer 1 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 1 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 1 VCO Saw Mod" value="Off"/>
+        <param name="Layer 1 VCO Sub Mod" value="Off"/>
+        <param name="Layer 1 VCO Noise Mod" value="Off"/>
+        <param name="Layer 1 VCO Osc Restart" value="Off"/>
+        <param name="Layer 1 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 1 VCO Noise Type" value="White"/>
+        <param name="Layer 1 VCO SupSaw" value="Off"/>
+        <param name="Layer 1 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 1 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 1 VCO Pitch Drift" value="0"/>
+        <param name="Layer 1 Flt Type" value="LP"/>
+        <param name="Layer 1 Flt 101 Mode" value="Off"/>
+        <param name="Layer 1 Flt Frequency" value="41.3724"/>
+        <param name="Layer 1 Flt ENV1" value="65.6"/>
+        <param name="Layer 1 Flt ENV2" value="0"/>
+        <param name="Layer 1 Flt LFO1" value="0"/>
+        <param name="Layer 1 Flt LFO2" value="0"/>
+        <param name="Layer 1 Flt Keyboard" value="50.4"/>
+        <param name="Layer 1 Flt Reso" value="0"/>
+        <param name="Layer 1 Flt Reso ENV2" value="0"/>
+        <param name="Layer 1 Flt Reso LFO2" value="0"/>
+        <param name="Layer 1 HPF Frequency" value="0"/>
+        <param name="Layer 1 Bender VCO Up" value="2"/>
+        <param name="Layer 1 Bender VCO Down" value="2"/>
+        <param name="Layer 1 Bender VCF Up" value="0"/>
+        <param name="Layer 1 Bender VCF Down" value="0"/>
+        <param name="Layer 1 Modulation VCO" value="3.708"/>
+        <param name="Layer 1 Modulation VCF" value="3.708"/>
+        <param name="Layer 1 VCA Source" value="ENV1"/>
+        <param name="Layer 1 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 1 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 1 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 1 ENV1 Invert" value="Off"/>
+        <param name="Layer 1 ENV1 Attack" value="0.212478"/>
+        <param name="Layer 1 ENV1 Decay" value="3.19105"/>
+        <param name="Layer 1 ENV1 Sustain" value="0"/>
+        <param name="Layer 1 ENV1 Release" value="3.34375"/>
+        <param name="Layer 1 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 1 ENV2 Invert" value="Off"/>
+        <param name="Layer 1 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 1 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 1 ENV2 Sustain" value="50"/>
+        <param name="Layer 1 ENV2 Release" value="0.01"/>
+        <param name="Layer 1 LFO1 Reset" value="Gate"/>
+        <param name="Layer 1 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 1 LFO1 Mono" value="Off"/>
+        <param name="Layer 1 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 1 LFO1 Rate" value="1/16"/>
+        <param name="Layer 1 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 1 LFO1 Sync" value="Off"/>
+        <param name="Layer 1 LFO1 Invert" value="Off"/>
+        <param name="Layer 1 LFO1 Phase" value="0"/>
+        <param name="Layer 1 LFO2 Reset" value="None"/>
+        <param name="Layer 1 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 1 LFO2 Mono" value="Off"/>
+        <param name="Layer 1 LFO2 Freq" value="1.68752"/>
+        <param name="Layer 1 LFO2 Rate" value="1/16"/>
+        <param name="Layer 1 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 1 LFO2 Sync" value="Off"/>
+        <param name="Layer 1 LFO2 Invert" value="Off"/>
+        <param name="Layer 1 LFO2 Phase" value="0"/>
+        <param name="Layer 1 Arp Preset Name" value="Default"/>
+        <param name="Layer 1 Arp Rate Value" value="1/4"/>
+        <param name="Layer 1 Arp Rate Scale" value="Full"/>
+        <param name="Layer 1 Arp Gate" value="50"/>
+        <param name="Layer 1 Arp Shuffle" value="0"/>
+        <param name="Layer 1 Arp Mode" value="Off"/>
+        <param name="Layer 1 Arp Chord Mode" value="Off"/>
+        <param name="Layer 1 Arp Octaves Rng." value="1"/>
+        <param name="Layer 1 Arp Repeat" value="1"/>
+        <param name="Layer 1 Arp Length" value="16"/>
+        <param name="Layer 1 Arp Hold Mode" value="Off"/>
+        <param name="Layer 1 Arp Gate Step 1" value="true"/>
+        <param name="Layer 1 Arp Gate Step 2" value="true"/>
+        <param name="Layer 1 Arp Gate Step 3" value="true"/>
+        <param name="Layer 1 Arp Gate Step 4" value="true"/>
+        <param name="Layer 1 Arp Gate Step 5" value="true"/>
+        <param name="Layer 1 Arp Gate Step 6" value="true"/>
+        <param name="Layer 1 Arp Gate Step 7" value="true"/>
+        <param name="Layer 1 Arp Gate Step 8" value="true"/>
+        <param name="Layer 1 Arp Gate Step 9" value="true"/>
+        <param name="Layer 1 Arp Gate Step 10" value="true"/>
+        <param name="Layer 1 Arp Gate Step 11" value="true"/>
+        <param name="Layer 1 Arp Gate Step 12" value="true"/>
+        <param name="Layer 1 Arp Gate Step 13" value="true"/>
+        <param name="Layer 1 Arp Gate Step 14" value="true"/>
+        <param name="Layer 1 Arp Gate Step 15" value="true"/>
+        <param name="Layer 1 Arp Gate Step 16" value="true"/>
+        <param name="Layer 1 Arp Tie Step 1" value="false"/>
+        <param name="Layer 1 Arp Tie Step 2" value="false"/>
+        <param name="Layer 1 Arp Tie Step 3" value="false"/>
+        <param name="Layer 1 Arp Tie Step 4" value="false"/>
+        <param name="Layer 1 Arp Tie Step 5" value="false"/>
+        <param name="Layer 1 Arp Tie Step 6" value="false"/>
+        <param name="Layer 1 Arp Tie Step 7" value="false"/>
+        <param name="Layer 1 Arp Tie Step 8" value="false"/>
+        <param name="Layer 1 Arp Tie Step 9" value="false"/>
+        <param name="Layer 1 Arp Tie Step 10" value="false"/>
+        <param name="Layer 1 Arp Tie Step 11" value="false"/>
+        <param name="Layer 1 Arp Tie Step 12" value="false"/>
+        <param name="Layer 1 Arp Tie Step 13" value="false"/>
+        <param name="Layer 1 Arp Tie Step 14" value="false"/>
+        <param name="Layer 1 Arp Tie Step 15" value="false"/>
+        <param name="Layer 1 Arp Tie Step 16" value="false"/>
+        <param name="Layer 1 Fine Tune" value="0"/>
+        <param name="Layer 1 Volume" value="100"/>
+        <param name="Layer 1 Velocity Curve" value="Linear"/>
+        <param name="Layer 1 SusPedal Enabled" value="true"/>
+        <param name="Layer 1 Panning" value="0"/>
+        <param name="Layer 1 Level" value="-320"/>
+        <param name="Layer 1 Comp" value="Off"/>
+        <param name="Layer 1 Comp Envelope" value="Mid"/>
+        <param name="Layer 1 Comp Ratio" value="1:2"/>
+        <param name="Layer 1 Comp Threshold" value="-12"/>
+        <param name="Layer 1 EQ" value="On"/>
+        <param name="Layer 1 EQ Pre Comp" value="Off"/>
+        <param name="Layer 1 EQ Low" value="-3.072"/>
+        <param name="Layer 1 EQ Mid Frq" value="5248.07"/>
+        <param name="Layer 1 EQ Mid" value="6.336"/>
+        <param name="Layer 1 EQ Hi" value="4.8"/>
+        <param name="Layer 1 Pre Level" value="On"/>
+        <param name="Layer 1 Reverb Send" value="-2.06948"/>
+        <param name="Layer 1 Delay Send" value="-3.82228"/>
+        <param name="Layer 1 Chorus Send" value="-320"/>
+        <param name="Layer 2 Enable" value="On"/>
+        <param name="Layer 2 Mute" value="Off"/>
+        <param name="Layer 2 Transpose" value="0"/>
+        <param name="Layer 2 Zone Beg" value="C-0"/>
+        <param name="Layer 2 Zone End" value="G-H"/>
+        <param name="Layer 2 Timbre Name" value="Square Pluck"/>
+        <param name="Layer 2 Polyphony Voices" value="8"/>
+        <param name="Layer 2 Polyphony Mode" value="Queue"/>
+        <param name="Layer 2 Portamento Time" value="0"/>
+        <param name="Layer 2 Portamento Mode" value="Legato"/>
+        <param name="Layer 2 Unison Voices" value="1"/>
+        <param name="Layer 2 Unison Tune Spr" value="0"/>
+        <param name="Layer 2 Unison Pan Spr" value="0"/>
+        <param name="Layer 2 Unison Flt Spr" value="0"/>
+        <param name="Layer 2 Insert Effect 1" value="Chorus"/>
+        <param name="Layer 2 Insert Effect 2" value="None"/>
+        <param name="Layer 2 Insert Effect 1 FX" value="50"/>
+        <param name="Layer 2 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 2 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 2 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 2 Chorus 1 Fat" value="On"/>
+        <param name="Layer 2 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 2 Flanger 1 Rate" value="0.112533"/>
+        <param name="Layer 2 Flanger 1 Depth" value="1"/>
+        <param name="Layer 2 Flanger 1 Fdbck" value="80"/>
+        <param name="Layer 2 Flanger 1 Invert" value="Off"/>
+        <param name="Layer 2 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 2 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 2 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 2 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 2 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 2 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 2 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 2 Phaser 1 Depth" value="70"/>
+        <param name="Layer 2 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 2 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 2 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 2 Vowel 1 Rate" value="0.5"/>
+        <param name="Layer 2 Vowel 1 Depth" value="0"/>
+        <param name="Layer 2 Vowel 1 Reso" value="50"/>
+        <param name="Layer 2 Vowel 1 1st" value="A"/>
+        <param name="Layer 2 Vowel 1 2nd" value="E"/>
+        <param name="Layer 2 Vowel 1 3rd" value="I"/>
+        <param name="Layer 2 Vowel 1 4th" value="O"/>
+        <param name="Layer 2 Vowel 1 5th" value="U"/>
+        <param name="Layer 2 Vowel 1 Position" value="0"/>
+        <param name="Layer 2 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 2 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 2 Dist 1 Preamp" value="24"/>
+        <param name="Layer 2 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 2 Dist 1 Shape" value="100"/>
+        <param name="Layer 2 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 2 BitCrsh 1 Freq" value="8955.08"/>
+        <param name="Layer 2 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 2 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 2 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 2 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 2 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 2 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 2 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 2 Chorus 2 Depth" value="10"/>
+        <param name="Layer 2 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 2 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 2 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 2 Flanger 2 Depth" value="10"/>
+        <param name="Layer 2 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 2 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 2 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 2 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 2 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 2 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 2 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 2 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 2 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 2 Phaser 2 Depth" value="10"/>
+        <param name="Layer 2 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 2 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 2 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 2 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 2 Vowel 2 Depth" value="0"/>
+        <param name="Layer 2 Vowel 2 Reso" value="50"/>
+        <param name="Layer 2 Vowel 2 1st" value="A"/>
+        <param name="Layer 2 Vowel 2 2nd" value="E"/>
+        <param name="Layer 2 Vowel 2 3rd" value="I"/>
+        <param name="Layer 2 Vowel 2 4th" value="O"/>
+        <param name="Layer 2 Vowel 2 5th" value="U"/>
+        <param name="Layer 2 Vowel 2 Position" value="0"/>
+        <param name="Layer 2 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 2 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 2 Dist 2 Preamp" value="24"/>
+        <param name="Layer 2 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 2 Dist 2 Shape" value="100"/>
+        <param name="Layer 2 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 2 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 2 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 2 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 2 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 2 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 2 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 2 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 2 Pitch Tracking" value="On"/>
+        <param name="Layer 2 Pitch Frequency" value="89.4427"/>
+        <param name="Layer 2 Pitch Range" value="8'"/>
+        <param name="Layer 2 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 2 Pitch Mod" value="0"/>
+        <param name="Layer 2 Pitch Mod Source" value="LFO1"/>
+        <param name="Layer 2 Hard Sync" value="Off"/>
+        <param name="Layer 2 Hard Sync Offset" value="0"/>
+        <param name="Layer 2 Hard Sync Mix" value="0"/>
+        <param name="Layer 2 Pulse Width" value="50"/>
+        <param name="Layer 2 Pulse Mod" value="0"/>
+        <param name="Layer 2 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 2 VCO Pulse Volume" value="100"/>
+        <param name="Layer 2 VCO Saw Volume" value="0"/>
+        <param name="Layer 2 VCO Sub Volume" value="0"/>
+        <param name="Layer 2 VCO Noise Volume" value="0"/>
+        <param name="Layer 2 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 2 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 2 VCO Saw Mod" value="Off"/>
+        <param name="Layer 2 VCO Sub Mod" value="Off"/>
+        <param name="Layer 2 VCO Noise Mod" value="Off"/>
+        <param name="Layer 2 VCO Osc Restart" value="Off"/>
+        <param name="Layer 2 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 2 VCO Noise Type" value="White"/>
+        <param name="Layer 2 VCO SupSaw" value="Off"/>
+        <param name="Layer 2 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 2 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 2 VCO Pitch Drift" value="0"/>
+        <param name="Layer 2 Flt Type" value="LP"/>
+        <param name="Layer 2 Flt 101 Mode" value="Off"/>
+        <param name="Layer 2 Flt Frequency" value="13.441"/>
+        <param name="Layer 2 Flt ENV1" value="82.8"/>
+        <param name="Layer 2 Flt ENV2" value="0"/>
+        <param name="Layer 2 Flt LFO1" value="0"/>
+        <param name="Layer 2 Flt LFO2" value="0"/>
+        <param name="Layer 2 Flt Keyboard" value="55.2"/>
+        <param name="Layer 2 Flt Reso" value="0"/>
+        <param name="Layer 2 Flt Reso ENV2" value="0"/>
+        <param name="Layer 2 Flt Reso LFO2" value="0"/>
+        <param name="Layer 2 HPF Frequency" value="0"/>
+        <param name="Layer 2 Bender VCO Up" value="2"/>
+        <param name="Layer 2 Bender VCO Down" value="2"/>
+        <param name="Layer 2 Bender VCF Up" value="0"/>
+        <param name="Layer 2 Bender VCF Down" value="0"/>
+        <param name="Layer 2 Modulation VCO" value="3.708"/>
+        <param name="Layer 2 Modulation VCF" value="3.708"/>
+        <param name="Layer 2 VCA Source" value="ENV1"/>
+        <param name="Layer 2 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 2 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 2 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 2 ENV1 Invert" value="Off"/>
+        <param name="Layer 2 ENV1 Attack" value="0.0339377"/>
+        <param name="Layer 2 ENV1 Decay" value="3.72045"/>
+        <param name="Layer 2 ENV1 Sustain" value="0"/>
+        <param name="Layer 2 ENV1 Release" value="3.44841"/>
+        <param name="Layer 2 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 2 ENV2 Invert" value="Off"/>
+        <param name="Layer 2 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 2 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 2 ENV2 Sustain" value="50"/>
+        <param name="Layer 2 ENV2 Release" value="0.01"/>
+        <param name="Layer 2 LFO1 Reset" value="Gate"/>
+        <param name="Layer 2 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 2 LFO1 Mono" value="Off"/>
+        <param name="Layer 2 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 2 LFO1 Rate" value="1/16"/>
+        <param name="Layer 2 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 2 LFO1 Sync" value="Off"/>
+        <param name="Layer 2 LFO1 Invert" value="Off"/>
+        <param name="Layer 2 LFO1 Phase" value="0"/>
+        <param name="Layer 2 LFO2 Reset" value="Gate"/>
+        <param name="Layer 2 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 2 LFO2 Mono" value="Off"/>
+        <param name="Layer 2 LFO2 Freq" value="6.96442"/>
+        <param name="Layer 2 LFO2 Rate" value="1/16"/>
+        <param name="Layer 2 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 2 LFO2 Sync" value="Off"/>
+        <param name="Layer 2 LFO2 Invert" value="Off"/>
+        <param name="Layer 2 LFO2 Phase" value="0"/>
+        <param name="Layer 2 Arp Preset Name" value="Default"/>
+        <param name="Layer 2 Arp Rate Value" value="1/4"/>
+        <param name="Layer 2 Arp Rate Scale" value="Full"/>
+        <param name="Layer 2 Arp Gate" value="50"/>
+        <param name="Layer 2 Arp Shuffle" value="0"/>
+        <param name="Layer 2 Arp Mode" value="Off"/>
+        <param name="Layer 2 Arp Chord Mode" value="Off"/>
+        <param name="Layer 2 Arp Octaves Rng." value="1"/>
+        <param name="Layer 2 Arp Repeat" value="1"/>
+        <param name="Layer 2 Arp Length" value="16"/>
+        <param name="Layer 2 Arp Hold Mode" value="Off"/>
+        <param name="Layer 2 Arp Gate Step 1" value="true"/>
+        <param name="Layer 2 Arp Gate Step 2" value="true"/>
+        <param name="Layer 2 Arp Gate Step 3" value="true"/>
+        <param name="Layer 2 Arp Gate Step 4" value="true"/>
+        <param name="Layer 2 Arp Gate Step 5" value="true"/>
+        <param name="Layer 2 Arp Gate Step 6" value="true"/>
+        <param name="Layer 2 Arp Gate Step 7" value="true"/>
+        <param name="Layer 2 Arp Gate Step 8" value="true"/>
+        <param name="Layer 2 Arp Gate Step 9" value="true"/>
+        <param name="Layer 2 Arp Gate Step 10" value="true"/>
+        <param name="Layer 2 Arp Gate Step 11" value="true"/>
+        <param name="Layer 2 Arp Gate Step 12" value="true"/>
+        <param name="Layer 2 Arp Gate Step 13" value="true"/>
+        <param name="Layer 2 Arp Gate Step 14" value="true"/>
+        <param name="Layer 2 Arp Gate Step 15" value="true"/>
+        <param name="Layer 2 Arp Gate Step 16" value="true"/>
+        <param name="Layer 2 Arp Tie Step 1" value="false"/>
+        <param name="Layer 2 Arp Tie Step 2" value="false"/>
+        <param name="Layer 2 Arp Tie Step 3" value="false"/>
+        <param name="Layer 2 Arp Tie Step 4" value="false"/>
+        <param name="Layer 2 Arp Tie Step 5" value="false"/>
+        <param name="Layer 2 Arp Tie Step 6" value="false"/>
+        <param name="Layer 2 Arp Tie Step 7" value="false"/>
+        <param name="Layer 2 Arp Tie Step 8" value="false"/>
+        <param name="Layer 2 Arp Tie Step 9" value="false"/>
+        <param name="Layer 2 Arp Tie Step 10" value="false"/>
+        <param name="Layer 2 Arp Tie Step 11" value="false"/>
+        <param name="Layer 2 Arp Tie Step 12" value="false"/>
+        <param name="Layer 2 Arp Tie Step 13" value="false"/>
+        <param name="Layer 2 Arp Tie Step 14" value="false"/>
+        <param name="Layer 2 Arp Tie Step 15" value="false"/>
+        <param name="Layer 2 Arp Tie Step 16" value="false"/>
+        <param name="Layer 2 Fine Tune" value="0"/>
+        <param name="Layer 2 Volume" value="81.6"/>
+        <param name="Layer 2 Velocity Curve" value="Linear"/>
+        <param name="Layer 2 SusPedal Enabled" value="true"/>
+        <param name="Layer 2 Panning" value="0"/>
+        <param name="Layer 2 Level" value="5.88041"/>
+        <param name="Layer 2 Comp" value="On"/>
+        <param name="Layer 2 Comp Envelope" value="Fast"/>
+        <param name="Layer 2 Comp Ratio" value="1:2"/>
+        <param name="Layer 2 Comp Threshold" value="-25.056"/>
+        <param name="Layer 2 EQ" value="On"/>
+        <param name="Layer 2 EQ Pre Comp" value="Off"/>
+        <param name="Layer 2 EQ Low" value="-4.992"/>
+        <param name="Layer 2 EQ Mid Frq" value="194.089"/>
+        <param name="Layer 2 EQ Mid" value="-11.712"/>
+        <param name="Layer 2 EQ Hi" value="3.072"/>
+        <param name="Layer 2 Pre Level" value="Off"/>
+        <param name="Layer 2 Reverb Send" value="-12.3958"/>
+        <param name="Layer 2 Delay Send" value="-320"/>
+        <param name="Layer 2 Chorus Send" value="-41.9382"/>
+        <param name="Layer 3 Enable" value="Off"/>
+        <param name="Layer 3 Mute" value="Off"/>
+        <param name="Layer 3 Transpose" value="0"/>
+        <param name="Layer 3 Zone Beg" value="C-0"/>
+        <param name="Layer 3 Zone End" value="G-H"/>
+        <param name="Layer 3 Timbre Name" value="Default"/>
+        <param name="Layer 3 Polyphony Voices" value="1"/>
+        <param name="Layer 3 Polyphony Mode" value="Queue"/>
+        <param name="Layer 3 Portamento Time" value="0"/>
+        <param name="Layer 3 Portamento Mode" value="Legato"/>
+        <param name="Layer 3 Unison Voices" value="1"/>
+        <param name="Layer 3 Unison Tune Spr" value="0"/>
+        <param name="Layer 3 Unison Pan Spr" value="0"/>
+        <param name="Layer 3 Unison Flt Spr" value="0"/>
+        <param name="Layer 3 Insert Effect 1" value="None"/>
+        <param name="Layer 3 Insert Effect 2" value="None"/>
+        <param name="Layer 3 Insert Effect 1 FX" value="100"/>
+        <param name="Layer 3 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 3 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 3 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 3 Chorus 1 Fat" value="On"/>
+        <param name="Layer 3 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 3 Flanger 1 Rate" value="0.112533"/>
+        <param name="Layer 3 Flanger 1 Depth" value="1"/>
+        <param name="Layer 3 Flanger 1 Fdbck" value="80"/>
+        <param name="Layer 3 Flanger 1 Invert" value="Off"/>
+        <param name="Layer 3 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 3 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 3 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 3 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 3 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 3 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 3 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 3 Phaser 1 Depth" value="70"/>
+        <param name="Layer 3 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 3 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 3 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 3 Vowel 1 Rate" value="0.5"/>
+        <param name="Layer 3 Vowel 1 Depth" value="0"/>
+        <param name="Layer 3 Vowel 1 Reso" value="50"/>
+        <param name="Layer 3 Vowel 1 1st" value="A"/>
+        <param name="Layer 3 Vowel 1 2nd" value="E"/>
+        <param name="Layer 3 Vowel 1 3rd" value="I"/>
+        <param name="Layer 3 Vowel 1 4th" value="O"/>
+        <param name="Layer 3 Vowel 1 5th" value="U"/>
+        <param name="Layer 3 Vowel 1 Position" value="0"/>
+        <param name="Layer 3 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 3 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 3 Dist 1 Preamp" value="24"/>
+        <param name="Layer 3 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 3 Dist 1 Shape" value="100"/>
+        <param name="Layer 3 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 3 BitCrsh 1 Freq" value="44100"/>
+        <param name="Layer 3 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 3 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 3 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 3 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 3 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 3 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 3 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 3 Chorus 2 Depth" value="10"/>
+        <param name="Layer 3 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 3 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 3 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 3 Flanger 2 Depth" value="10"/>
+        <param name="Layer 3 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 3 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 3 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 3 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 3 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 3 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 3 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 3 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 3 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 3 Phaser 2 Depth" value="10"/>
+        <param name="Layer 3 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 3 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 3 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 3 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 3 Vowel 2 Depth" value="0"/>
+        <param name="Layer 3 Vowel 2 Reso" value="50"/>
+        <param name="Layer 3 Vowel 2 1st" value="A"/>
+        <param name="Layer 3 Vowel 2 2nd" value="E"/>
+        <param name="Layer 3 Vowel 2 3rd" value="I"/>
+        <param name="Layer 3 Vowel 2 4th" value="O"/>
+        <param name="Layer 3 Vowel 2 5th" value="U"/>
+        <param name="Layer 3 Vowel 2 Position" value="0"/>
+        <param name="Layer 3 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 3 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 3 Dist 2 Preamp" value="24"/>
+        <param name="Layer 3 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 3 Dist 2 Shape" value="100"/>
+        <param name="Layer 3 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 3 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 3 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 3 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 3 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 3 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 3 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 3 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 3 Pitch Tracking" value="On"/>
+        <param name="Layer 3 Pitch Frequency" value="89.4427"/>
+        <param name="Layer 3 Pitch Range" value="16'"/>
+        <param name="Layer 3 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 3 Pitch Mod" value="0"/>
+        <param name="Layer 3 Pitch Mod Source" value="LFO1"/>
+        <param name="Layer 3 Hard Sync" value="Off"/>
+        <param name="Layer 3 Hard Sync Offset" value="0"/>
+        <param name="Layer 3 Hard Sync Mix" value="0"/>
+        <param name="Layer 3 Pulse Width" value="50"/>
+        <param name="Layer 3 Pulse Mod" value="0"/>
+        <param name="Layer 3 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 3 VCO Pulse Volume" value="0"/>
+        <param name="Layer 3 VCO Saw Volume" value="100"/>
+        <param name="Layer 3 VCO Sub Volume" value="0"/>
+        <param name="Layer 3 VCO Noise Volume" value="0"/>
+        <param name="Layer 3 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 3 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 3 VCO Saw Mod" value="Off"/>
+        <param name="Layer 3 VCO Sub Mod" value="Off"/>
+        <param name="Layer 3 VCO Noise Mod" value="Off"/>
+        <param name="Layer 3 VCO Osc Restart" value="Off"/>
+        <param name="Layer 3 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 3 VCO Noise Type" value="White"/>
+        <param name="Layer 3 VCO SupSaw" value="Off"/>
+        <param name="Layer 3 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 3 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 3 VCO Pitch Drift" value="0"/>
+        <param name="Layer 3 Flt Type" value="LP"/>
+        <param name="Layer 3 Flt 101 Mode" value="Off"/>
+        <param name="Layer 3 Flt Frequency" value="14975.1"/>
+        <param name="Layer 3 Flt ENV1" value="0"/>
+        <param name="Layer 3 Flt ENV2" value="0"/>
+        <param name="Layer 3 Flt LFO1" value="0"/>
+        <param name="Layer 3 Flt LFO2" value="0"/>
+        <param name="Layer 3 Flt Keyboard" value="100"/>
+        <param name="Layer 3 Flt Reso" value="0"/>
+        <param name="Layer 3 Flt Reso ENV2" value="0"/>
+        <param name="Layer 3 Flt Reso LFO2" value="0"/>
+        <param name="Layer 3 HPF Frequency" value="0"/>
+        <param name="Layer 3 Bender VCO Up" value="2"/>
+        <param name="Layer 3 Bender VCO Down" value="2"/>
+        <param name="Layer 3 Bender VCF Up" value="0"/>
+        <param name="Layer 3 Bender VCF Down" value="0"/>
+        <param name="Layer 3 Modulation VCO" value="3.708"/>
+        <param name="Layer 3 Modulation VCF" value="3.708"/>
+        <param name="Layer 3 VCA Source" value="Gate"/>
+        <param name="Layer 3 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 3 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 3 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 3 ENV1 Invert" value="Off"/>
+        <param name="Layer 3 ENV1 Attack" value="0.114346"/>
+        <param name="Layer 3 ENV1 Decay" value="1.26978"/>
+        <param name="Layer 3 ENV1 Sustain" value="50"/>
+        <param name="Layer 3 ENV1 Release" value="0.01"/>
+        <param name="Layer 3 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 3 ENV2 Invert" value="Off"/>
+        <param name="Layer 3 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 3 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 3 ENV2 Sustain" value="50"/>
+        <param name="Layer 3 ENV2 Release" value="0.01"/>
+        <param name="Layer 3 LFO1 Reset" value="Gate"/>
+        <param name="Layer 3 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 3 LFO1 Mono" value="Off"/>
+        <param name="Layer 3 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 3 LFO1 Rate" value="1/16"/>
+        <param name="Layer 3 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 3 LFO1 Sync" value="Off"/>
+        <param name="Layer 3 LFO1 Invert" value="Off"/>
+        <param name="Layer 3 LFO1 Phase" value="0"/>
+        <param name="Layer 3 LFO2 Reset" value="Gate"/>
+        <param name="Layer 3 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 3 LFO2 Mono" value="Off"/>
+        <param name="Layer 3 LFO2 Freq" value="6.96442"/>
+        <param name="Layer 3 LFO2 Rate" value="1/16"/>
+        <param name="Layer 3 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 3 LFO2 Sync" value="Off"/>
+        <param name="Layer 3 LFO2 Invert" value="Off"/>
+        <param name="Layer 3 LFO2 Phase" value="0"/>
+        <param name="Layer 3 Arp Preset Name" value="Default"/>
+        <param name="Layer 3 Arp Rate Value" value="1/16"/>
+        <param name="Layer 3 Arp Rate Scale" value="Full"/>
+        <param name="Layer 3 Arp Gate" value="50"/>
+        <param name="Layer 3 Arp Shuffle" value="0"/>
+        <param name="Layer 3 Arp Mode" value="Off"/>
+        <param name="Layer 3 Arp Chord Mode" value="Off"/>
+        <param name="Layer 3 Arp Octaves Rng." value="1"/>
+        <param name="Layer 3 Arp Repeat" value="1"/>
+        <param name="Layer 3 Arp Length" value="16"/>
+        <param name="Layer 3 Arp Hold Mode" value="Off"/>
+        <param name="Layer 3 Arp Gate Step 1" value="true"/>
+        <param name="Layer 3 Arp Gate Step 2" value="true"/>
+        <param name="Layer 3 Arp Gate Step 3" value="true"/>
+        <param name="Layer 3 Arp Gate Step 4" value="true"/>
+        <param name="Layer 3 Arp Gate Step 5" value="true"/>
+        <param name="Layer 3 Arp Gate Step 6" value="true"/>
+        <param name="Layer 3 Arp Gate Step 7" value="true"/>
+        <param name="Layer 3 Arp Gate Step 8" value="true"/>
+        <param name="Layer 3 Arp Gate Step 9" value="true"/>
+        <param name="Layer 3 Arp Gate Step 10" value="true"/>
+        <param name="Layer 3 Arp Gate Step 11" value="true"/>
+        <param name="Layer 3 Arp Gate Step 12" value="true"/>
+        <param name="Layer 3 Arp Gate Step 13" value="true"/>
+        <param name="Layer 3 Arp Gate Step 14" value="true"/>
+        <param name="Layer 3 Arp Gate Step 15" value="true"/>
+        <param name="Layer 3 Arp Gate Step 16" value="true"/>
+        <param name="Layer 3 Arp Tie Step 1" value="false"/>
+        <param name="Layer 3 Arp Tie Step 2" value="false"/>
+        <param name="Layer 3 Arp Tie Step 3" value="false"/>
+        <param name="Layer 3 Arp Tie Step 4" value="false"/>
+        <param name="Layer 3 Arp Tie Step 5" value="false"/>
+        <param name="Layer 3 Arp Tie Step 6" value="false"/>
+        <param name="Layer 3 Arp Tie Step 7" value="false"/>
+        <param name="Layer 3 Arp Tie Step 8" value="false"/>
+        <param name="Layer 3 Arp Tie Step 9" value="false"/>
+        <param name="Layer 3 Arp Tie Step 10" value="false"/>
+        <param name="Layer 3 Arp Tie Step 11" value="false"/>
+        <param name="Layer 3 Arp Tie Step 12" value="false"/>
+        <param name="Layer 3 Arp Tie Step 13" value="false"/>
+        <param name="Layer 3 Arp Tie Step 14" value="false"/>
+        <param name="Layer 3 Arp Tie Step 15" value="false"/>
+        <param name="Layer 3 Arp Tie Step 16" value="false"/>
+        <param name="Layer 3 Fine Tune" value="0"/>
+        <param name="Layer 3 Volume" value="50"/>
+        <param name="Layer 3 Velocity Curve" value="Linear"/>
+        <param name="Layer 3 SusPedal Enabled" value="true"/>
+        <param name="Layer 3 Panning" value="0"/>
+        <param name="Layer 3 Level" value="5.93775e-07"/>
+        <param name="Layer 3 Comp" value="Off"/>
+        <param name="Layer 3 Comp Envelope" value="Mid"/>
+        <param name="Layer 3 Comp Ratio" value="1:2"/>
+        <param name="Layer 3 Comp Threshold" value="-12"/>
+        <param name="Layer 3 EQ" value="Off"/>
+        <param name="Layer 3 EQ Pre Comp" value="Off"/>
+        <param name="Layer 3 EQ Low" value="0"/>
+        <param name="Layer 3 EQ Mid Frq" value="1000"/>
+        <param name="Layer 3 EQ Mid" value="0"/>
+        <param name="Layer 3 EQ Hi" value="0"/>
+        <param name="Layer 3 Pre Level" value="Off"/>
+        <param name="Layer 3 Reverb Send" value="-320"/>
+        <param name="Layer 3 Delay Send" value="-320"/>
+        <param name="Layer 3 Chorus Send" value="-320"/>
+        <param name="Layer 4 Enable" value="Off"/>
+        <param name="Layer 4 Mute" value="Off"/>
+        <param name="Layer 4 Transpose" value="0"/>
+        <param name="Layer 4 Zone Beg" value="C-0"/>
+        <param name="Layer 4 Zone End" value="G-H"/>
+        <param name="Layer 4 Timbre Name" value="Default"/>
+        <param name="Layer 4 Polyphony Voices" value="1"/>
+        <param name="Layer 4 Polyphony Mode" value="Queue"/>
+        <param name="Layer 4 Portamento Time" value="0"/>
+        <param name="Layer 4 Portamento Mode" value="Legato"/>
+        <param name="Layer 4 Unison Voices" value="1"/>
+        <param name="Layer 4 Unison Tune Spr" value="0"/>
+        <param name="Layer 4 Unison Pan Spr" value="0"/>
+        <param name="Layer 4 Unison Flt Spr" value="0"/>
+        <param name="Layer 4 Insert Effect 1" value="None"/>
+        <param name="Layer 4 Insert Effect 2" value="None"/>
+        <param name="Layer 4 Insert Effect 1 FX" value="100"/>
+        <param name="Layer 4 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 4 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 4 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 4 Chorus 1 Fat" value="On"/>
+        <param name="Layer 4 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 4 Flanger 1 Rate" value="0.112533"/>
+        <param name="Layer 4 Flanger 1 Depth" value="1"/>
+        <param name="Layer 4 Flanger 1 Fdbck" value="80"/>
+        <param name="Layer 4 Flanger 1 Invert" value="Off"/>
+        <param name="Layer 4 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 4 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 4 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 4 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 4 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 4 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 4 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 4 Phaser 1 Depth" value="70"/>
+        <param name="Layer 4 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 4 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 4 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 4 Vowel 1 Rate" value="0.5"/>
+        <param name="Layer 4 Vowel 1 Depth" value="0"/>
+        <param name="Layer 4 Vowel 1 Reso" value="50"/>
+        <param name="Layer 4 Vowel 1 1st" value="A"/>
+        <param name="Layer 4 Vowel 1 2nd" value="E"/>
+        <param name="Layer 4 Vowel 1 3rd" value="I"/>
+        <param name="Layer 4 Vowel 1 4th" value="O"/>
+        <param name="Layer 4 Vowel 1 5th" value="U"/>
+        <param name="Layer 4 Vowel 1 Position" value="0"/>
+        <param name="Layer 4 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 4 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 4 Dist 1 Preamp" value="24"/>
+        <param name="Layer 4 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 4 Dist 1 Shape" value="100"/>
+        <param name="Layer 4 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 4 BitCrsh 1 Freq" value="44100"/>
+        <param name="Layer 4 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 4 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 4 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 4 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 4 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 4 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 4 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 4 Chorus 2 Depth" value="10"/>
+        <param name="Layer 4 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 4 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 4 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 4 Flanger 2 Depth" value="10"/>
+        <param name="Layer 4 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 4 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 4 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 4 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 4 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 4 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 4 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 4 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 4 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 4 Phaser 2 Depth" value="10"/>
+        <param name="Layer 4 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 4 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 4 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 4 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 4 Vowel 2 Depth" value="0"/>
+        <param name="Layer 4 Vowel 2 Reso" value="50"/>
+        <param name="Layer 4 Vowel 2 1st" value="A"/>
+        <param name="Layer 4 Vowel 2 2nd" value="E"/>
+        <param name="Layer 4 Vowel 2 3rd" value="I"/>
+        <param name="Layer 4 Vowel 2 4th" value="O"/>
+        <param name="Layer 4 Vowel 2 5th" value="U"/>
+        <param name="Layer 4 Vowel 2 Position" value="0"/>
+        <param name="Layer 4 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 4 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 4 Dist 2 Preamp" value="24"/>
+        <param name="Layer 4 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 4 Dist 2 Shape" value="100"/>
+        <param name="Layer 4 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 4 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 4 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 4 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 4 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 4 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 4 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 4 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 4 Pitch Tracking" value="On"/>
+        <param name="Layer 4 Pitch Frequency" value="89.4427"/>
+        <param name="Layer 4 Pitch Range" value="16'"/>
+        <param name="Layer 4 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 4 Pitch Mod" value="0"/>
+        <param name="Layer 4 Pitch Mod Source" value="LFO1"/>
+        <param name="Layer 4 Hard Sync" value="Off"/>
+        <param name="Layer 4 Hard Sync Offset" value="0"/>
+        <param name="Layer 4 Hard Sync Mix" value="0"/>
+        <param name="Layer 4 Pulse Width" value="50"/>
+        <param name="Layer 4 Pulse Mod" value="0"/>
+        <param name="Layer 4 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 4 VCO Pulse Volume" value="0"/>
+        <param name="Layer 4 VCO Saw Volume" value="100"/>
+        <param name="Layer 4 VCO Sub Volume" value="0"/>
+        <param name="Layer 4 VCO Noise Volume" value="0"/>
+        <param name="Layer 4 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 4 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 4 VCO Saw Mod" value="Off"/>
+        <param name="Layer 4 VCO Sub Mod" value="Off"/>
+        <param name="Layer 4 VCO Noise Mod" value="Off"/>
+        <param name="Layer 4 VCO Osc Restart" value="Off"/>
+        <param name="Layer 4 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 4 VCO Noise Type" value="White"/>
+        <param name="Layer 4 VCO SupSaw" value="Off"/>
+        <param name="Layer 4 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 4 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 4 VCO Pitch Drift" value="0"/>
+        <param name="Layer 4 Flt Type" value="LP"/>
+        <param name="Layer 4 Flt 101 Mode" value="Off"/>
+        <param name="Layer 4 Flt Frequency" value="14975.1"/>
+        <param name="Layer 4 Flt ENV1" value="0"/>
+        <param name="Layer 4 Flt ENV2" value="0"/>
+        <param name="Layer 4 Flt LFO1" value="0"/>
+        <param name="Layer 4 Flt LFO2" value="0"/>
+        <param name="Layer 4 Flt Keyboard" value="100"/>
+        <param name="Layer 4 Flt Reso" value="0"/>
+        <param name="Layer 4 Flt Reso ENV2" value="0"/>
+        <param name="Layer 4 Flt Reso LFO2" value="0"/>
+        <param name="Layer 4 HPF Frequency" value="0"/>
+        <param name="Layer 4 Bender VCO Up" value="2"/>
+        <param name="Layer 4 Bender VCO Down" value="2"/>
+        <param name="Layer 4 Bender VCF Up" value="0"/>
+        <param name="Layer 4 Bender VCF Down" value="0"/>
+        <param name="Layer 4 Modulation VCO" value="3.708"/>
+        <param name="Layer 4 Modulation VCF" value="3.708"/>
+        <param name="Layer 4 VCA Source" value="Gate"/>
+        <param name="Layer 4 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 4 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 4 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 4 ENV1 Invert" value="Off"/>
+        <param name="Layer 4 ENV1 Attack" value="0.114346"/>
+        <param name="Layer 4 ENV1 Decay" value="1.26978"/>
+        <param name="Layer 4 ENV1 Sustain" value="50"/>
+        <param name="Layer 4 ENV1 Release" value="0.01"/>
+        <param name="Layer 4 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 4 ENV2 Invert" value="Off"/>
+        <param name="Layer 4 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 4 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 4 ENV2 Sustain" value="50"/>
+        <param name="Layer 4 ENV2 Release" value="0.01"/>
+        <param name="Layer 4 LFO1 Reset" value="Gate"/>
+        <param name="Layer 4 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 4 LFO1 Mono" value="Off"/>
+        <param name="Layer 4 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 4 LFO1 Rate" value="1/16"/>
+        <param name="Layer 4 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 4 LFO1 Sync" value="Off"/>
+        <param name="Layer 4 LFO1 Invert" value="Off"/>
+        <param name="Layer 4 LFO1 Phase" value="0"/>
+        <param name="Layer 4 LFO2 Reset" value="Gate"/>
+        <param name="Layer 4 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 4 LFO2 Mono" value="Off"/>
+        <param name="Layer 4 LFO2 Freq" value="6.96442"/>
+        <param name="Layer 4 LFO2 Rate" value="1/16"/>
+        <param name="Layer 4 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 4 LFO2 Sync" value="Off"/>
+        <param name="Layer 4 LFO2 Invert" value="Off"/>
+        <param name="Layer 4 LFO2 Phase" value="0"/>
+        <param name="Layer 4 Arp Preset Name" value="Default"/>
+        <param name="Layer 4 Arp Rate Value" value="1/16"/>
+        <param name="Layer 4 Arp Rate Scale" value="Full"/>
+        <param name="Layer 4 Arp Gate" value="50"/>
+        <param name="Layer 4 Arp Shuffle" value="0"/>
+        <param name="Layer 4 Arp Mode" value="Off"/>
+        <param name="Layer 4 Arp Chord Mode" value="Off"/>
+        <param name="Layer 4 Arp Octaves Rng." value="1"/>
+        <param name="Layer 4 Arp Repeat" value="1"/>
+        <param name="Layer 4 Arp Length" value="16"/>
+        <param name="Layer 4 Arp Hold Mode" value="Off"/>
+        <param name="Layer 4 Arp Gate Step 1" value="true"/>
+        <param name="Layer 4 Arp Gate Step 2" value="true"/>
+        <param name="Layer 4 Arp Gate Step 3" value="true"/>
+        <param name="Layer 4 Arp Gate Step 4" value="true"/>
+        <param name="Layer 4 Arp Gate Step 5" value="true"/>
+        <param name="Layer 4 Arp Gate Step 6" value="true"/>
+        <param name="Layer 4 Arp Gate Step 7" value="true"/>
+        <param name="Layer 4 Arp Gate Step 8" value="true"/>
+        <param name="Layer 4 Arp Gate Step 9" value="true"/>
+        <param name="Layer 4 Arp Gate Step 10" value="true"/>
+        <param name="Layer 4 Arp Gate Step 11" value="true"/>
+        <param name="Layer 4 Arp Gate Step 12" value="true"/>
+        <param name="Layer 4 Arp Gate Step 13" value="true"/>
+        <param name="Layer 4 Arp Gate Step 14" value="true"/>
+        <param name="Layer 4 Arp Gate Step 15" value="true"/>
+        <param name="Layer 4 Arp Gate Step 16" value="true"/>
+        <param name="Layer 4 Arp Tie Step 1" value="false"/>
+        <param name="Layer 4 Arp Tie Step 2" value="false"/>
+        <param name="Layer 4 Arp Tie Step 3" value="false"/>
+        <param name="Layer 4 Arp Tie Step 4" value="false"/>
+        <param name="Layer 4 Arp Tie Step 5" value="false"/>
+        <param name="Layer 4 Arp Tie Step 6" value="false"/>
+        <param name="Layer 4 Arp Tie Step 7" value="false"/>
+        <param name="Layer 4 Arp Tie Step 8" value="false"/>
+        <param name="Layer 4 Arp Tie Step 9" value="false"/>
+        <param name="Layer 4 Arp Tie Step 10" value="false"/>
+        <param name="Layer 4 Arp Tie Step 11" value="false"/>
+        <param name="Layer 4 Arp Tie Step 12" value="false"/>
+        <param name="Layer 4 Arp Tie Step 13" value="false"/>
+        <param name="Layer 4 Arp Tie Step 14" value="false"/>
+        <param name="Layer 4 Arp Tie Step 15" value="false"/>
+        <param name="Layer 4 Arp Tie Step 16" value="false"/>
+        <param name="Layer 4 Fine Tune" value="0"/>
+        <param name="Layer 4 Volume" value="50"/>
+        <param name="Layer 4 Velocity Curve" value="Linear"/>
+        <param name="Layer 4 SusPedal Enabled" value="true"/>
+        <param name="Layer 4 Panning" value="0"/>
+        <param name="Layer 4 Level" value="5.93775e-07"/>
+        <param name="Layer 4 Comp" value="Off"/>
+        <param name="Layer 4 Comp Envelope" value="Mid"/>
+        <param name="Layer 4 Comp Ratio" value="1:2"/>
+        <param name="Layer 4 Comp Threshold" value="-12"/>
+        <param name="Layer 4 EQ" value="Off"/>
+        <param name="Layer 4 EQ Pre Comp" value="Off"/>
+        <param name="Layer 4 EQ Low" value="0"/>
+        <param name="Layer 4 EQ Mid Frq" value="1000"/>
+        <param name="Layer 4 EQ Mid" value="0"/>
+        <param name="Layer 4 EQ Hi" value="0"/>
+        <param name="Layer 4 Pre Level" value="Off"/>
+        <param name="Layer 4 Reverb Send" value="-320"/>
+        <param name="Layer 4 Delay Send" value="-320"/>
+        <param name="Layer 4 Chorus Send" value="-320"/>
+        <param name="Layer 5 Enable" value="Off"/>
+        <param name="Layer 5 Mute" value="Off"/>
+        <param name="Layer 5 Transpose" value="0"/>
+        <param name="Layer 5 Zone Beg" value="C-0"/>
+        <param name="Layer 5 Zone End" value="G-H"/>
+        <param name="Layer 5 Timbre Name" value="Default"/>
+        <param name="Layer 5 Polyphony Voices" value="1"/>
+        <param name="Layer 5 Polyphony Mode" value="Queue"/>
+        <param name="Layer 5 Portamento Time" value="0"/>
+        <param name="Layer 5 Portamento Mode" value="Legato"/>
+        <param name="Layer 5 Unison Voices" value="1"/>
+        <param name="Layer 5 Unison Tune Spr" value="0"/>
+        <param name="Layer 5 Unison Pan Spr" value="0"/>
+        <param name="Layer 5 Unison Flt Spr" value="0"/>
+        <param name="Layer 5 Insert Effect 1" value="None"/>
+        <param name="Layer 5 Insert Effect 2" value="None"/>
+        <param name="Layer 5 Insert Effect 1 FX" value="100"/>
+        <param name="Layer 5 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 5 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 5 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 5 Chorus 1 Fat" value="On"/>
+        <param name="Layer 5 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 5 Flanger 1 Rate" value="0.112533"/>
+        <param name="Layer 5 Flanger 1 Depth" value="1"/>
+        <param name="Layer 5 Flanger 1 Fdbck" value="80"/>
+        <param name="Layer 5 Flanger 1 Invert" value="Off"/>
+        <param name="Layer 5 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 5 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 5 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 5 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 5 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 5 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 5 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 5 Phaser 1 Depth" value="70"/>
+        <param name="Layer 5 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 5 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 5 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 5 Vowel 1 Rate" value="0.5"/>
+        <param name="Layer 5 Vowel 1 Depth" value="0"/>
+        <param name="Layer 5 Vowel 1 Reso" value="50"/>
+        <param name="Layer 5 Vowel 1 1st" value="A"/>
+        <param name="Layer 5 Vowel 1 2nd" value="E"/>
+        <param name="Layer 5 Vowel 1 3rd" value="I"/>
+        <param name="Layer 5 Vowel 1 4th" value="O"/>
+        <param name="Layer 5 Vowel 1 5th" value="U"/>
+        <param name="Layer 5 Vowel 1 Position" value="0"/>
+        <param name="Layer 5 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 5 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 5 Dist 1 Preamp" value="24"/>
+        <param name="Layer 5 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 5 Dist 1 Shape" value="100"/>
+        <param name="Layer 5 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 5 BitCrsh 1 Freq" value="44100"/>
+        <param name="Layer 5 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 5 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 5 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 5 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 5 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 5 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 5 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 5 Chorus 2 Depth" value="10"/>
+        <param name="Layer 5 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 5 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 5 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 5 Flanger 2 Depth" value="10"/>
+        <param name="Layer 5 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 5 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 5 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 5 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 5 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 5 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 5 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 5 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 5 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 5 Phaser 2 Depth" value="10"/>
+        <param name="Layer 5 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 5 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 5 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 5 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 5 Vowel 2 Depth" value="0"/>
+        <param name="Layer 5 Vowel 2 Reso" value="50"/>
+        <param name="Layer 5 Vowel 2 1st" value="A"/>
+        <param name="Layer 5 Vowel 2 2nd" value="E"/>
+        <param name="Layer 5 Vowel 2 3rd" value="I"/>
+        <param name="Layer 5 Vowel 2 4th" value="O"/>
+        <param name="Layer 5 Vowel 2 5th" value="U"/>
+        <param name="Layer 5 Vowel 2 Position" value="0"/>
+        <param name="Layer 5 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 5 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 5 Dist 2 Preamp" value="24"/>
+        <param name="Layer 5 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 5 Dist 2 Shape" value="100"/>
+        <param name="Layer 5 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 5 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 5 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 5 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 5 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 5 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 5 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 5 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 5 Pitch Tracking" value="On"/>
+        <param name="Layer 5 Pitch Frequency" value="89.4427"/>
+        <param name="Layer 5 Pitch Range" value="16'"/>
+        <param name="Layer 5 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 5 Pitch Mod" value="0"/>
+        <param name="Layer 5 Pitch Mod Source" value="LFO1"/>
+        <param name="Layer 5 Hard Sync" value="Off"/>
+        <param name="Layer 5 Hard Sync Offset" value="0"/>
+        <param name="Layer 5 Hard Sync Mix" value="0"/>
+        <param name="Layer 5 Pulse Width" value="50"/>
+        <param name="Layer 5 Pulse Mod" value="0"/>
+        <param name="Layer 5 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 5 VCO Pulse Volume" value="0"/>
+        <param name="Layer 5 VCO Saw Volume" value="100"/>
+        <param name="Layer 5 VCO Sub Volume" value="0"/>
+        <param name="Layer 5 VCO Noise Volume" value="0"/>
+        <param name="Layer 5 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 5 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 5 VCO Saw Mod" value="Off"/>
+        <param name="Layer 5 VCO Sub Mod" value="Off"/>
+        <param name="Layer 5 VCO Noise Mod" value="Off"/>
+        <param name="Layer 5 VCO Osc Restart" value="Off"/>
+        <param name="Layer 5 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 5 VCO Noise Type" value="White"/>
+        <param name="Layer 5 VCO SupSaw" value="Off"/>
+        <param name="Layer 5 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 5 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 5 VCO Pitch Drift" value="0"/>
+        <param name="Layer 5 Flt Type" value="LP"/>
+        <param name="Layer 5 Flt 101 Mode" value="Off"/>
+        <param name="Layer 5 Flt Frequency" value="14975.1"/>
+        <param name="Layer 5 Flt ENV1" value="0"/>
+        <param name="Layer 5 Flt ENV2" value="0"/>
+        <param name="Layer 5 Flt LFO1" value="0"/>
+        <param name="Layer 5 Flt LFO2" value="0"/>
+        <param name="Layer 5 Flt Keyboard" value="100"/>
+        <param name="Layer 5 Flt Reso" value="0"/>
+        <param name="Layer 5 Flt Reso ENV2" value="0"/>
+        <param name="Layer 5 Flt Reso LFO2" value="0"/>
+        <param name="Layer 5 HPF Frequency" value="0"/>
+        <param name="Layer 5 Bender VCO Up" value="2"/>
+        <param name="Layer 5 Bender VCO Down" value="2"/>
+        <param name="Layer 5 Bender VCF Up" value="0"/>
+        <param name="Layer 5 Bender VCF Down" value="0"/>
+        <param name="Layer 5 Modulation VCO" value="3.708"/>
+        <param name="Layer 5 Modulation VCF" value="3.708"/>
+        <param name="Layer 5 VCA Source" value="Gate"/>
+        <param name="Layer 5 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 5 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 5 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 5 ENV1 Invert" value="Off"/>
+        <param name="Layer 5 ENV1 Attack" value="0.114346"/>
+        <param name="Layer 5 ENV1 Decay" value="1.26978"/>
+        <param name="Layer 5 ENV1 Sustain" value="50"/>
+        <param name="Layer 5 ENV1 Release" value="0.01"/>
+        <param name="Layer 5 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 5 ENV2 Invert" value="Off"/>
+        <param name="Layer 5 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 5 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 5 ENV2 Sustain" value="50"/>
+        <param name="Layer 5 ENV2 Release" value="0.01"/>
+        <param name="Layer 5 LFO1 Reset" value="Gate"/>
+        <param name="Layer 5 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 5 LFO1 Mono" value="Off"/>
+        <param name="Layer 5 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 5 LFO1 Rate" value="1/16"/>
+        <param name="Layer 5 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 5 LFO1 Sync" value="Off"/>
+        <param name="Layer 5 LFO1 Invert" value="Off"/>
+        <param name="Layer 5 LFO1 Phase" value="0"/>
+        <param name="Layer 5 LFO2 Reset" value="Gate"/>
+        <param name="Layer 5 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 5 LFO2 Mono" value="Off"/>
+        <param name="Layer 5 LFO2 Freq" value="6.96442"/>
+        <param name="Layer 5 LFO2 Rate" value="1/16"/>
+        <param name="Layer 5 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 5 LFO2 Sync" value="Off"/>
+        <param name="Layer 5 LFO2 Invert" value="Off"/>
+        <param name="Layer 5 LFO2 Phase" value="0"/>
+        <param name="Layer 5 Arp Preset Name" value="Default"/>
+        <param name="Layer 5 Arp Rate Value" value="1/16"/>
+        <param name="Layer 5 Arp Rate Scale" value="Full"/>
+        <param name="Layer 5 Arp Gate" value="50"/>
+        <param name="Layer 5 Arp Shuffle" value="0"/>
+        <param name="Layer 5 Arp Mode" value="Off"/>
+        <param name="Layer 5 Arp Chord Mode" value="Off"/>
+        <param name="Layer 5 Arp Octaves Rng." value="1"/>
+        <param name="Layer 5 Arp Repeat" value="1"/>
+        <param name="Layer 5 Arp Length" value="16"/>
+        <param name="Layer 5 Arp Hold Mode" value="Off"/>
+        <param name="Layer 5 Arp Gate Step 1" value="true"/>
+        <param name="Layer 5 Arp Gate Step 2" value="true"/>
+        <param name="Layer 5 Arp Gate Step 3" value="true"/>
+        <param name="Layer 5 Arp Gate Step 4" value="true"/>
+        <param name="Layer 5 Arp Gate Step 5" value="true"/>
+        <param name="Layer 5 Arp Gate Step 6" value="true"/>
+        <param name="Layer 5 Arp Gate Step 7" value="true"/>
+        <param name="Layer 5 Arp Gate Step 8" value="true"/>
+        <param name="Layer 5 Arp Gate Step 9" value="true"/>
+        <param name="Layer 5 Arp Gate Step 10" value="true"/>
+        <param name="Layer 5 Arp Gate Step 11" value="true"/>
+        <param name="Layer 5 Arp Gate Step 12" value="true"/>
+        <param name="Layer 5 Arp Gate Step 13" value="true"/>
+        <param name="Layer 5 Arp Gate Step 14" value="true"/>
+        <param name="Layer 5 Arp Gate Step 15" value="true"/>
+        <param name="Layer 5 Arp Gate Step 16" value="true"/>
+        <param name="Layer 5 Arp Tie Step 1" value="false"/>
+        <param name="Layer 5 Arp Tie Step 2" value="false"/>
+        <param name="Layer 5 Arp Tie Step 3" value="false"/>
+        <param name="Layer 5 Arp Tie Step 4" value="false"/>
+        <param name="Layer 5 Arp Tie Step 5" value="false"/>
+        <param name="Layer 5 Arp Tie Step 6" value="false"/>
+        <param name="Layer 5 Arp Tie Step 7" value="false"/>
+        <param name="Layer 5 Arp Tie Step 8" value="false"/>
+        <param name="Layer 5 Arp Tie Step 9" value="false"/>
+        <param name="Layer 5 Arp Tie Step 10" value="false"/>
+        <param name="Layer 5 Arp Tie Step 11" value="false"/>
+        <param name="Layer 5 Arp Tie Step 12" value="false"/>
+        <param name="Layer 5 Arp Tie Step 13" value="false"/>
+        <param name="Layer 5 Arp Tie Step 14" value="false"/>
+        <param name="Layer 5 Arp Tie Step 15" value="false"/>
+        <param name="Layer 5 Arp Tie Step 16" value="false"/>
+        <param name="Layer 5 Fine Tune" value="0"/>
+        <param name="Layer 5 Volume" value="50"/>
+        <param name="Layer 5 Velocity Curve" value="Linear"/>
+        <param name="Layer 5 SusPedal Enabled" value="true"/>
+        <param name="Layer 5 Panning" value="0"/>
+        <param name="Layer 5 Level" value="5.93775e-07"/>
+        <param name="Layer 5 Comp" value="Off"/>
+        <param name="Layer 5 Comp Envelope" value="Mid"/>
+        <param name="Layer 5 Comp Ratio" value="1:2"/>
+        <param name="Layer 5 Comp Threshold" value="-12"/>
+        <param name="Layer 5 EQ" value="Off"/>
+        <param name="Layer 5 EQ Pre Comp" value="Off"/>
+        <param name="Layer 5 EQ Low" value="0"/>
+        <param name="Layer 5 EQ Mid Frq" value="1000"/>
+        <param name="Layer 5 EQ Mid" value="0"/>
+        <param name="Layer 5 EQ Hi" value="0"/>
+        <param name="Layer 5 Pre Level" value="Off"/>
+        <param name="Layer 5 Reverb Send" value="-320"/>
+        <param name="Layer 5 Delay Send" value="-320"/>
+        <param name="Layer 5 Chorus Send" value="-320"/>
+        <param name="Layer 6 Enable" value="Off"/>
+        <param name="Layer 6 Mute" value="Off"/>
+        <param name="Layer 6 Transpose" value="0"/>
+        <param name="Layer 6 Zone Beg" value="C-0"/>
+        <param name="Layer 6 Zone End" value="G-H"/>
+        <param name="Layer 6 Timbre Name" value="Default"/>
+        <param name="Layer 6 Polyphony Voices" value="1"/>
+        <param name="Layer 6 Polyphony Mode" value="Queue"/>
+        <param name="Layer 6 Portamento Time" value="0"/>
+        <param name="Layer 6 Portamento Mode" value="Legato"/>
+        <param name="Layer 6 Unison Voices" value="1"/>
+        <param name="Layer 6 Unison Tune Spr" value="0"/>
+        <param name="Layer 6 Unison Pan Spr" value="0"/>
+        <param name="Layer 6 Unison Flt Spr" value="0"/>
+        <param name="Layer 6 Insert Effect 1" value="None"/>
+        <param name="Layer 6 Insert Effect 2" value="None"/>
+        <param name="Layer 6 Insert Effect 1 FX" value="100"/>
+        <param name="Layer 6 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 6 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 6 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 6 Chorus 1 Fat" value="On"/>
+        <param name="Layer 6 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 6 Flanger 1 Rate" value="0.112533"/>
+        <param name="Layer 6 Flanger 1 Depth" value="1"/>
+        <param name="Layer 6 Flanger 1 Fdbck" value="80"/>
+        <param name="Layer 6 Flanger 1 Invert" value="Off"/>
+        <param name="Layer 6 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 6 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 6 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 6 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 6 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 6 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 6 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 6 Phaser 1 Depth" value="70"/>
+        <param name="Layer 6 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 6 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 6 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 6 Vowel 1 Rate" value="0.5"/>
+        <param name="Layer 6 Vowel 1 Depth" value="0"/>
+        <param name="Layer 6 Vowel 1 Reso" value="50"/>
+        <param name="Layer 6 Vowel 1 1st" value="A"/>
+        <param name="Layer 6 Vowel 1 2nd" value="E"/>
+        <param name="Layer 6 Vowel 1 3rd" value="I"/>
+        <param name="Layer 6 Vowel 1 4th" value="O"/>
+        <param name="Layer 6 Vowel 1 5th" value="U"/>
+        <param name="Layer 6 Vowel 1 Position" value="0"/>
+        <param name="Layer 6 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 6 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 6 Dist 1 Preamp" value="24"/>
+        <param name="Layer 6 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 6 Dist 1 Shape" value="100"/>
+        <param name="Layer 6 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 6 BitCrsh 1 Freq" value="44100"/>
+        <param name="Layer 6 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 6 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 6 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 6 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 6 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 6 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 6 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 6 Chorus 2 Depth" value="10"/>
+        <param name="Layer 6 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 6 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 6 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 6 Flanger 2 Depth" value="10"/>
+        <param name="Layer 6 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 6 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 6 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 6 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 6 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 6 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 6 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 6 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 6 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 6 Phaser 2 Depth" value="10"/>
+        <param name="Layer 6 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 6 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 6 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 6 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 6 Vowel 2 Depth" value="0"/>
+        <param name="Layer 6 Vowel 2 Reso" value="50"/>
+        <param name="Layer 6 Vowel 2 1st" value="A"/>
+        <param name="Layer 6 Vowel 2 2nd" value="E"/>
+        <param name="Layer 6 Vowel 2 3rd" value="I"/>
+        <param name="Layer 6 Vowel 2 4th" value="O"/>
+        <param name="Layer 6 Vowel 2 5th" value="U"/>
+        <param name="Layer 6 Vowel 2 Position" value="0"/>
+        <param name="Layer 6 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 6 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 6 Dist 2 Preamp" value="24"/>
+        <param name="Layer 6 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 6 Dist 2 Shape" value="100"/>
+        <param name="Layer 6 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 6 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 6 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 6 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 6 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 6 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 6 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 6 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 6 Pitch Tracking" value="On"/>
+        <param name="Layer 6 Pitch Frequency" value="89.4427"/>
+        <param name="Layer 6 Pitch Range" value="16'"/>
+        <param name="Layer 6 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 6 Pitch Mod" value="0"/>
+        <param name="Layer 6 Pitch Mod Source" value="LFO1"/>
+        <param name="Layer 6 Hard Sync" value="Off"/>
+        <param name="Layer 6 Hard Sync Offset" value="0"/>
+        <param name="Layer 6 Hard Sync Mix" value="0"/>
+        <param name="Layer 6 Pulse Width" value="50"/>
+        <param name="Layer 6 Pulse Mod" value="0"/>
+        <param name="Layer 6 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 6 VCO Pulse Volume" value="0"/>
+        <param name="Layer 6 VCO Saw Volume" value="100"/>
+        <param name="Layer 6 VCO Sub Volume" value="0"/>
+        <param name="Layer 6 VCO Noise Volume" value="0"/>
+        <param name="Layer 6 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 6 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 6 VCO Saw Mod" value="Off"/>
+        <param name="Layer 6 VCO Sub Mod" value="Off"/>
+        <param name="Layer 6 VCO Noise Mod" value="Off"/>
+        <param name="Layer 6 VCO Osc Restart" value="Off"/>
+        <param name="Layer 6 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 6 VCO Noise Type" value="White"/>
+        <param name="Layer 6 VCO SupSaw" value="Off"/>
+        <param name="Layer 6 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 6 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 6 VCO Pitch Drift" value="0"/>
+        <param name="Layer 6 Flt Type" value="LP"/>
+        <param name="Layer 6 Flt 101 Mode" value="Off"/>
+        <param name="Layer 6 Flt Frequency" value="14975.1"/>
+        <param name="Layer 6 Flt ENV1" value="0"/>
+        <param name="Layer 6 Flt ENV2" value="0"/>
+        <param name="Layer 6 Flt LFO1" value="0"/>
+        <param name="Layer 6 Flt LFO2" value="0"/>
+        <param name="Layer 6 Flt Keyboard" value="100"/>
+        <param name="Layer 6 Flt Reso" value="0"/>
+        <param name="Layer 6 Flt Reso ENV2" value="0"/>
+        <param name="Layer 6 Flt Reso LFO2" value="0"/>
+        <param name="Layer 6 HPF Frequency" value="0"/>
+        <param name="Layer 6 Bender VCO Up" value="2"/>
+        <param name="Layer 6 Bender VCO Down" value="2"/>
+        <param name="Layer 6 Bender VCF Up" value="0"/>
+        <param name="Layer 6 Bender VCF Down" value="0"/>
+        <param name="Layer 6 Modulation VCO" value="3.708"/>
+        <param name="Layer 6 Modulation VCF" value="3.708"/>
+        <param name="Layer 6 VCA Source" value="Gate"/>
+        <param name="Layer 6 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 6 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 6 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 6 ENV1 Invert" value="Off"/>
+        <param name="Layer 6 ENV1 Attack" value="0.114346"/>
+        <param name="Layer 6 ENV1 Decay" value="1.26978"/>
+        <param name="Layer 6 ENV1 Sustain" value="50"/>
+        <param name="Layer 6 ENV1 Release" value="0.01"/>
+        <param name="Layer 6 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 6 ENV2 Invert" value="Off"/>
+        <param name="Layer 6 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 6 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 6 ENV2 Sustain" value="50"/>
+        <param name="Layer 6 ENV2 Release" value="0.01"/>
+        <param name="Layer 6 LFO1 Reset" value="Gate"/>
+        <param name="Layer 6 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 6 LFO1 Mono" value="Off"/>
+        <param name="Layer 6 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 6 LFO1 Rate" value="1/16"/>
+        <param name="Layer 6 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 6 LFO1 Sync" value="Off"/>
+        <param name="Layer 6 LFO1 Invert" value="Off"/>
+        <param name="Layer 6 LFO1 Phase" value="0"/>
+        <param name="Layer 6 LFO2 Reset" value="Gate"/>
+        <param name="Layer 6 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 6 LFO2 Mono" value="Off"/>
+        <param name="Layer 6 LFO2 Freq" value="6.96442"/>
+        <param name="Layer 6 LFO2 Rate" value="1/16"/>
+        <param name="Layer 6 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 6 LFO2 Sync" value="Off"/>
+        <param name="Layer 6 LFO2 Invert" value="Off"/>
+        <param name="Layer 6 LFO2 Phase" value="0"/>
+        <param name="Layer 6 Arp Preset Name" value="Default"/>
+        <param name="Layer 6 Arp Rate Value" value="1/16"/>
+        <param name="Layer 6 Arp Rate Scale" value="Full"/>
+        <param name="Layer 6 Arp Gate" value="50"/>
+        <param name="Layer 6 Arp Shuffle" value="0"/>
+        <param name="Layer 6 Arp Mode" value="Off"/>
+        <param name="Layer 6 Arp Chord Mode" value="Off"/>
+        <param name="Layer 6 Arp Octaves Rng." value="1"/>
+        <param name="Layer 6 Arp Repeat" value="1"/>
+        <param name="Layer 6 Arp Length" value="16"/>
+        <param name="Layer 6 Arp Hold Mode" value="Off"/>
+        <param name="Layer 6 Arp Gate Step 1" value="true"/>
+        <param name="Layer 6 Arp Gate Step 2" value="true"/>
+        <param name="Layer 6 Arp Gate Step 3" value="true"/>
+        <param name="Layer 6 Arp Gate Step 4" value="true"/>
+        <param name="Layer 6 Arp Gate Step 5" value="true"/>
+        <param name="Layer 6 Arp Gate Step 6" value="true"/>
+        <param name="Layer 6 Arp Gate Step 7" value="true"/>
+        <param name="Layer 6 Arp Gate Step 8" value="true"/>
+        <param name="Layer 6 Arp Gate Step 9" value="true"/>
+        <param name="Layer 6 Arp Gate Step 10" value="true"/>
+        <param name="Layer 6 Arp Gate Step 11" value="true"/>
+        <param name="Layer 6 Arp Gate Step 12" value="true"/>
+        <param name="Layer 6 Arp Gate Step 13" value="true"/>
+        <param name="Layer 6 Arp Gate Step 14" value="true"/>
+        <param name="Layer 6 Arp Gate Step 15" value="true"/>
+        <param name="Layer 6 Arp Gate Step 16" value="true"/>
+        <param name="Layer 6 Arp Tie Step 1" value="false"/>
+        <param name="Layer 6 Arp Tie Step 2" value="false"/>
+        <param name="Layer 6 Arp Tie Step 3" value="false"/>
+        <param name="Layer 6 Arp Tie Step 4" value="false"/>
+        <param name="Layer 6 Arp Tie Step 5" value="false"/>
+        <param name="Layer 6 Arp Tie Step 6" value="false"/>
+        <param name="Layer 6 Arp Tie Step 7" value="false"/>
+        <param name="Layer 6 Arp Tie Step 8" value="false"/>
+        <param name="Layer 6 Arp Tie Step 9" value="false"/>
+        <param name="Layer 6 Arp Tie Step 10" value="false"/>
+        <param name="Layer 6 Arp Tie Step 11" value="false"/>
+        <param name="Layer 6 Arp Tie Step 12" value="false"/>
+        <param name="Layer 6 Arp Tie Step 13" value="false"/>
+        <param name="Layer 6 Arp Tie Step 14" value="false"/>
+        <param name="Layer 6 Arp Tie Step 15" value="false"/>
+        <param name="Layer 6 Arp Tie Step 16" value="false"/>
+        <param name="Layer 6 Fine Tune" value="0"/>
+        <param name="Layer 6 Volume" value="50"/>
+        <param name="Layer 6 Velocity Curve" value="Linear"/>
+        <param name="Layer 6 SusPedal Enabled" value="true"/>
+        <param name="Layer 6 Panning" value="0"/>
+        <param name="Layer 6 Level" value="5.93775e-07"/>
+        <param name="Layer 6 Comp" value="Off"/>
+        <param name="Layer 6 Comp Envelope" value="Mid"/>
+        <param name="Layer 6 Comp Ratio" value="1:2"/>
+        <param name="Layer 6 Comp Threshold" value="-12"/>
+        <param name="Layer 6 EQ" value="Off"/>
+        <param name="Layer 6 EQ Pre Comp" value="Off"/>
+        <param name="Layer 6 EQ Low" value="0"/>
+        <param name="Layer 6 EQ Mid Frq" value="1000"/>
+        <param name="Layer 6 EQ Mid" value="0"/>
+        <param name="Layer 6 EQ Hi" value="0"/>
+        <param name="Layer 6 Pre Level" value="Off"/>
+        <param name="Layer 6 Reverb Send" value="-320"/>
+        <param name="Layer 6 Delay Send" value="-320"/>
+        <param name="Layer 6 Chorus Send" value="-320"/>
+        <param name="Layer 7 Enable" value="Off"/>
+        <param name="Layer 7 Mute" value="Off"/>
+        <param name="Layer 7 Transpose" value="0"/>
+        <param name="Layer 7 Zone Beg" value="C-0"/>
+        <param name="Layer 7 Zone End" value="G-H"/>
+        <param name="Layer 7 Timbre Name" value="Default"/>
+        <param name="Layer 7 Polyphony Voices" value="1"/>
+        <param name="Layer 7 Polyphony Mode" value="Queue"/>
+        <param name="Layer 7 Portamento Time" value="0"/>
+        <param name="Layer 7 Portamento Mode" value="Legato"/>
+        <param name="Layer 7 Unison Voices" value="1"/>
+        <param name="Layer 7 Unison Tune Spr" value="0"/>
+        <param name="Layer 7 Unison Pan Spr" value="0"/>
+        <param name="Layer 7 Unison Flt Spr" value="0"/>
+        <param name="Layer 7 Insert Effect 1" value="None"/>
+        <param name="Layer 7 Insert Effect 2" value="None"/>
+        <param name="Layer 7 Insert Effect 1 FX" value="100"/>
+        <param name="Layer 7 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 7 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 7 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 7 Chorus 1 Fat" value="On"/>
+        <param name="Layer 7 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 7 Flanger 1 Rate" value="0.112533"/>
+        <param name="Layer 7 Flanger 1 Depth" value="1"/>
+        <param name="Layer 7 Flanger 1 Fdbck" value="80"/>
+        <param name="Layer 7 Flanger 1 Invert" value="Off"/>
+        <param name="Layer 7 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 7 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 7 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 7 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 7 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 7 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 7 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 7 Phaser 1 Depth" value="70"/>
+        <param name="Layer 7 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 7 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 7 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 7 Vowel 1 Rate" value="0.5"/>
+        <param name="Layer 7 Vowel 1 Depth" value="0"/>
+        <param name="Layer 7 Vowel 1 Reso" value="50"/>
+        <param name="Layer 7 Vowel 1 1st" value="A"/>
+        <param name="Layer 7 Vowel 1 2nd" value="E"/>
+        <param name="Layer 7 Vowel 1 3rd" value="I"/>
+        <param name="Layer 7 Vowel 1 4th" value="O"/>
+        <param name="Layer 7 Vowel 1 5th" value="U"/>
+        <param name="Layer 7 Vowel 1 Position" value="0"/>
+        <param name="Layer 7 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 7 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 7 Dist 1 Preamp" value="24"/>
+        <param name="Layer 7 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 7 Dist 1 Shape" value="100"/>
+        <param name="Layer 7 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 7 BitCrsh 1 Freq" value="44100"/>
+        <param name="Layer 7 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 7 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 7 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 7 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 7 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 7 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 7 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 7 Chorus 2 Depth" value="10"/>
+        <param name="Layer 7 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 7 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 7 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 7 Flanger 2 Depth" value="10"/>
+        <param name="Layer 7 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 7 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 7 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 7 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 7 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 7 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 7 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 7 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 7 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 7 Phaser 2 Depth" value="10"/>
+        <param name="Layer 7 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 7 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 7 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 7 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 7 Vowel 2 Depth" value="0"/>
+        <param name="Layer 7 Vowel 2 Reso" value="50"/>
+        <param name="Layer 7 Vowel 2 1st" value="A"/>
+        <param name="Layer 7 Vowel 2 2nd" value="E"/>
+        <param name="Layer 7 Vowel 2 3rd" value="I"/>
+        <param name="Layer 7 Vowel 2 4th" value="O"/>
+        <param name="Layer 7 Vowel 2 5th" value="U"/>
+        <param name="Layer 7 Vowel 2 Position" value="0"/>
+        <param name="Layer 7 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 7 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 7 Dist 2 Preamp" value="24"/>
+        <param name="Layer 7 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 7 Dist 2 Shape" value="100"/>
+        <param name="Layer 7 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 7 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 7 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 7 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 7 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 7 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 7 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 7 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 7 Pitch Tracking" value="On"/>
+        <param name="Layer 7 Pitch Frequency" value="89.4427"/>
+        <param name="Layer 7 Pitch Range" value="16'"/>
+        <param name="Layer 7 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 7 Pitch Mod" value="0"/>
+        <param name="Layer 7 Pitch Mod Source" value="LFO1"/>
+        <param name="Layer 7 Hard Sync" value="Off"/>
+        <param name="Layer 7 Hard Sync Offset" value="0"/>
+        <param name="Layer 7 Hard Sync Mix" value="0"/>
+        <param name="Layer 7 Pulse Width" value="50"/>
+        <param name="Layer 7 Pulse Mod" value="0"/>
+        <param name="Layer 7 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 7 VCO Pulse Volume" value="0"/>
+        <param name="Layer 7 VCO Saw Volume" value="100"/>
+        <param name="Layer 7 VCO Sub Volume" value="0"/>
+        <param name="Layer 7 VCO Noise Volume" value="0"/>
+        <param name="Layer 7 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 7 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 7 VCO Saw Mod" value="Off"/>
+        <param name="Layer 7 VCO Sub Mod" value="Off"/>
+        <param name="Layer 7 VCO Noise Mod" value="Off"/>
+        <param name="Layer 7 VCO Osc Restart" value="Off"/>
+        <param name="Layer 7 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 7 VCO Noise Type" value="White"/>
+        <param name="Layer 7 VCO SupSaw" value="Off"/>
+        <param name="Layer 7 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 7 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 7 VCO Pitch Drift" value="0"/>
+        <param name="Layer 7 Flt Type" value="LP"/>
+        <param name="Layer 7 Flt 101 Mode" value="Off"/>
+        <param name="Layer 7 Flt Frequency" value="14975.1"/>
+        <param name="Layer 7 Flt ENV1" value="0"/>
+        <param name="Layer 7 Flt ENV2" value="0"/>
+        <param name="Layer 7 Flt LFO1" value="0"/>
+        <param name="Layer 7 Flt LFO2" value="0"/>
+        <param name="Layer 7 Flt Keyboard" value="100"/>
+        <param name="Layer 7 Flt Reso" value="0"/>
+        <param name="Layer 7 Flt Reso ENV2" value="0"/>
+        <param name="Layer 7 Flt Reso LFO2" value="0"/>
+        <param name="Layer 7 HPF Frequency" value="0"/>
+        <param name="Layer 7 Bender VCO Up" value="2"/>
+        <param name="Layer 7 Bender VCO Down" value="2"/>
+        <param name="Layer 7 Bender VCF Up" value="0"/>
+        <param name="Layer 7 Bender VCF Down" value="0"/>
+        <param name="Layer 7 Modulation VCO" value="3.708"/>
+        <param name="Layer 7 Modulation VCF" value="3.708"/>
+        <param name="Layer 7 VCA Source" value="Gate"/>
+        <param name="Layer 7 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 7 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 7 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 7 ENV1 Invert" value="Off"/>
+        <param name="Layer 7 ENV1 Attack" value="0.114346"/>
+        <param name="Layer 7 ENV1 Decay" value="1.26978"/>
+        <param name="Layer 7 ENV1 Sustain" value="50"/>
+        <param name="Layer 7 ENV1 Release" value="0.01"/>
+        <param name="Layer 7 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 7 ENV2 Invert" value="Off"/>
+        <param name="Layer 7 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 7 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 7 ENV2 Sustain" value="50"/>
+        <param name="Layer 7 ENV2 Release" value="0.01"/>
+        <param name="Layer 7 LFO1 Reset" value="Gate"/>
+        <param name="Layer 7 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 7 LFO1 Mono" value="Off"/>
+        <param name="Layer 7 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 7 LFO1 Rate" value="1/16"/>
+        <param name="Layer 7 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 7 LFO1 Sync" value="Off"/>
+        <param name="Layer 7 LFO1 Invert" value="Off"/>
+        <param name="Layer 7 LFO1 Phase" value="0"/>
+        <param name="Layer 7 LFO2 Reset" value="Gate"/>
+        <param name="Layer 7 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 7 LFO2 Mono" value="Off"/>
+        <param name="Layer 7 LFO2 Freq" value="6.96442"/>
+        <param name="Layer 7 LFO2 Rate" value="1/16"/>
+        <param name="Layer 7 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 7 LFO2 Sync" value="Off"/>
+        <param name="Layer 7 LFO2 Invert" value="Off"/>
+        <param name="Layer 7 LFO2 Phase" value="0"/>
+        <param name="Layer 7 Arp Preset Name" value="Default"/>
+        <param name="Layer 7 Arp Rate Value" value="1/16"/>
+        <param name="Layer 7 Arp Rate Scale" value="Full"/>
+        <param name="Layer 7 Arp Gate" value="50"/>
+        <param name="Layer 7 Arp Shuffle" value="0"/>
+        <param name="Layer 7 Arp Mode" value="Off"/>
+        <param name="Layer 7 Arp Chord Mode" value="Off"/>
+        <param name="Layer 7 Arp Octaves Rng." value="1"/>
+        <param name="Layer 7 Arp Repeat" value="1"/>
+        <param name="Layer 7 Arp Length" value="16"/>
+        <param name="Layer 7 Arp Hold Mode" value="Off"/>
+        <param name="Layer 7 Arp Gate Step 1" value="true"/>
+        <param name="Layer 7 Arp Gate Step 2" value="true"/>
+        <param name="Layer 7 Arp Gate Step 3" value="true"/>
+        <param name="Layer 7 Arp Gate Step 4" value="true"/>
+        <param name="Layer 7 Arp Gate Step 5" value="true"/>
+        <param name="Layer 7 Arp Gate Step 6" value="true"/>
+        <param name="Layer 7 Arp Gate Step 7" value="true"/>
+        <param name="Layer 7 Arp Gate Step 8" value="true"/>
+        <param name="Layer 7 Arp Gate Step 9" value="true"/>
+        <param name="Layer 7 Arp Gate Step 10" value="true"/>
+        <param name="Layer 7 Arp Gate Step 11" value="true"/>
+        <param name="Layer 7 Arp Gate Step 12" value="true"/>
+        <param name="Layer 7 Arp Gate Step 13" value="true"/>
+        <param name="Layer 7 Arp Gate Step 14" value="true"/>
+        <param name="Layer 7 Arp Gate Step 15" value="true"/>
+        <param name="Layer 7 Arp Gate Step 16" value="true"/>
+        <param name="Layer 7 Arp Tie Step 1" value="false"/>
+        <param name="Layer 7 Arp Tie Step 2" value="false"/>
+        <param name="Layer 7 Arp Tie Step 3" value="false"/>
+        <param name="Layer 7 Arp Tie Step 4" value="false"/>
+        <param name="Layer 7 Arp Tie Step 5" value="false"/>
+        <param name="Layer 7 Arp Tie Step 6" value="false"/>
+        <param name="Layer 7 Arp Tie Step 7" value="false"/>
+        <param name="Layer 7 Arp Tie Step 8" value="false"/>
+        <param name="Layer 7 Arp Tie Step 9" value="false"/>
+        <param name="Layer 7 Arp Tie Step 10" value="false"/>
+        <param name="Layer 7 Arp Tie Step 11" value="false"/>
+        <param name="Layer 7 Arp Tie Step 12" value="false"/>
+        <param name="Layer 7 Arp Tie Step 13" value="false"/>
+        <param name="Layer 7 Arp Tie Step 14" value="false"/>
+        <param name="Layer 7 Arp Tie Step 15" value="false"/>
+        <param name="Layer 7 Arp Tie Step 16" value="false"/>
+        <param name="Layer 7 Fine Tune" value="0"/>
+        <param name="Layer 7 Volume" value="50"/>
+        <param name="Layer 7 Velocity Curve" value="Linear"/>
+        <param name="Layer 7 SusPedal Enabled" value="true"/>
+        <param name="Layer 7 Panning" value="0"/>
+        <param name="Layer 7 Level" value="5.93775e-07"/>
+        <param name="Layer 7 Comp" value="Off"/>
+        <param name="Layer 7 Comp Envelope" value="Mid"/>
+        <param name="Layer 7 Comp Ratio" value="1:2"/>
+        <param name="Layer 7 Comp Threshold" value="-12"/>
+        <param name="Layer 7 EQ" value="Off"/>
+        <param name="Layer 7 EQ Pre Comp" value="Off"/>
+        <param name="Layer 7 EQ Low" value="0"/>
+        <param name="Layer 7 EQ Mid Frq" value="1000"/>
+        <param name="Layer 7 EQ Mid" value="0"/>
+        <param name="Layer 7 EQ Hi" value="0"/>
+        <param name="Layer 7 Pre Level" value="Off"/>
+        <param name="Layer 7 Reverb Send" value="-320"/>
+        <param name="Layer 7 Delay Send" value="-320"/>
+        <param name="Layer 7 Chorus Send" value="-320"/>
+        <param name="Layer 8 Enable" value="Off"/>
+        <param name="Layer 8 Mute" value="Off"/>
+        <param name="Layer 8 Transpose" value="0"/>
+        <param name="Layer 8 Zone Beg" value="C-0"/>
+        <param name="Layer 8 Zone End" value="G-H"/>
+        <param name="Layer 8 Timbre Name" value="Default"/>
+        <param name="Layer 8 Polyphony Voices" value="1"/>
+        <param name="Layer 8 Polyphony Mode" value="Queue"/>
+        <param name="Layer 8 Portamento Time" value="0"/>
+        <param name="Layer 8 Portamento Mode" value="Legato"/>
+        <param name="Layer 8 Unison Voices" value="1"/>
+        <param name="Layer 8 Unison Tune Spr" value="0"/>
+        <param name="Layer 8 Unison Pan Spr" value="0"/>
+        <param name="Layer 8 Unison Flt Spr" value="0"/>
+        <param name="Layer 8 Insert Effect 1" value="None"/>
+        <param name="Layer 8 Insert Effect 2" value="None"/>
+        <param name="Layer 8 Insert Effect 1 FX" value="100"/>
+        <param name="Layer 8 Insert Effect 2 FX" value="100"/>
+        <param name="Layer 8 Chorus 1 Rate" value="0.35028"/>
+        <param name="Layer 8 Chorus 1 Depth" value="96.4"/>
+        <param name="Layer 8 Chorus 1 Fat" value="On"/>
+        <param name="Layer 8 Chorus 1 Stereo" value="50"/>
+        <param name="Layer 8 Flanger 1 Rate" value="0.112533"/>
+        <param name="Layer 8 Flanger 1 Depth" value="1"/>
+        <param name="Layer 8 Flanger 1 Fdbck" value="80"/>
+        <param name="Layer 8 Flanger 1 Invert" value="Off"/>
+        <param name="Layer 8 Str.Ens 1 Mode" value="Light"/>
+        <param name="Layer 8 Str.Ens 1 Stereo" value="30"/>
+        <param name="Layer 8 Str.Ens 1 Phaser" value="Off"/>
+        <param name="Layer 8 Str.Ens 1 Color" value="On"/>
+        <param name="Layer 8 Str.Ens 1 Phs.Rt" value="0.0524944"/>
+        <param name="Layer 8 Str.Ens 1 Phs.Dp" value="1"/>
+        <param name="Layer 8 Phaser 1 Rate" value="0.0524944"/>
+        <param name="Layer 8 Phaser 1 Depth" value="70"/>
+        <param name="Layer 8 Phaser 1 Dbl.LFO" value="Off"/>
+        <param name="Layer 8 Phaser 1 Stereo" value="10"/>
+        <param name="Layer 8 Phaser 1 Fdbck" value="90"/>
+        <param name="Layer 8 Vowel 1 Rate" value="0.5"/>
+        <param name="Layer 8 Vowel 1 Depth" value="0"/>
+        <param name="Layer 8 Vowel 1 Reso" value="50"/>
+        <param name="Layer 8 Vowel 1 1st" value="A"/>
+        <param name="Layer 8 Vowel 1 2nd" value="E"/>
+        <param name="Layer 8 Vowel 1 3rd" value="I"/>
+        <param name="Layer 8 Vowel 1 4th" value="O"/>
+        <param name="Layer 8 Vowel 1 5th" value="U"/>
+        <param name="Layer 8 Vowel 1 Position" value="0"/>
+        <param name="Layer 8 Vowel 1 Vocal" value="Robotic"/>
+        <param name="Layer 8 Dist 1 Dynamics" value="100"/>
+        <param name="Layer 8 Dist 1 Preamp" value="24"/>
+        <param name="Layer 8 Dist 1 Threshold" value="-24"/>
+        <param name="Layer 8 Dist 1 Shape" value="100"/>
+        <param name="Layer 8 BitCrsh 1 Preamp" value="0"/>
+        <param name="Layer 8 BitCrsh 1 Freq" value="44100"/>
+        <param name="Layer 8 BitCrsh 1 Resol." value="--"/>
+        <param name="Layer 8 BitCrsh 1 AA Flt" value="Off"/>
+        <param name="Layer 8 Tremolo 1 Rate" value="0.01"/>
+        <param name="Layer 8 Tremolo 1 Depth" value="50"/>
+        <param name="Layer 8 Tremolo 1 Wave" value="Sinus"/>
+        <param name="Layer 8 Tremolo 1 Stereo" value="10"/>
+        <param name="Layer 8 Chorus 2 Rate" value="0.05"/>
+        <param name="Layer 8 Chorus 2 Depth" value="10"/>
+        <param name="Layer 8 Chorus 2 Fat" value="Off"/>
+        <param name="Layer 8 Chorus 2 Stereo" value="50"/>
+        <param name="Layer 8 Flanger 2 Rate" value="0.05"/>
+        <param name="Layer 8 Flanger 2 Depth" value="10"/>
+        <param name="Layer 8 Flanger 2 Fdbck" value="80"/>
+        <param name="Layer 8 Flanger 2 Invert" value="Off"/>
+        <param name="Layer 8 Str.Ens 2 Mode" value="Light"/>
+        <param name="Layer 8 Str.Ens 2 Stereo" value="30"/>
+        <param name="Layer 8 Str.Ens 2 Phaser" value="Off"/>
+        <param name="Layer 8 Str.Ens 2 Color" value="On"/>
+        <param name="Layer 8 Str.Ens 2 Phs.Rt" value="0.05"/>
+        <param name="Layer 8 Str.Ens 2 Phs.Dp" value="1"/>
+        <param name="Layer 8 Phaser 2 Rate" value="0.05"/>
+        <param name="Layer 8 Phaser 2 Depth" value="10"/>
+        <param name="Layer 8 Phaser 2 Dbl.LFO" value="Off"/>
+        <param name="Layer 8 Phaser 2 Stereo" value="10"/>
+        <param name="Layer 8 Phaser 2 Fdbck" value="90"/>
+        <param name="Layer 8 Vowel 2 Rate" value="0.5"/>
+        <param name="Layer 8 Vowel 2 Depth" value="0"/>
+        <param name="Layer 8 Vowel 2 Reso" value="50"/>
+        <param name="Layer 8 Vowel 2 1st" value="A"/>
+        <param name="Layer 8 Vowel 2 2nd" value="E"/>
+        <param name="Layer 8 Vowel 2 3rd" value="I"/>
+        <param name="Layer 8 Vowel 2 4th" value="O"/>
+        <param name="Layer 8 Vowel 2 5th" value="U"/>
+        <param name="Layer 8 Vowel 2 Position" value="0"/>
+        <param name="Layer 8 Vowel 2 Vocal" value="Robotic"/>
+        <param name="Layer 8 Dist 2 Dynamics" value="100"/>
+        <param name="Layer 8 Dist 2 Preamp" value="24"/>
+        <param name="Layer 8 Dist 2 Threshold" value="-24"/>
+        <param name="Layer 8 Dist 2 Shape" value="100"/>
+        <param name="Layer 8 BitCrsh 2 Preamp" value="0"/>
+        <param name="Layer 8 BitCrsh 2 Freq" value="44100"/>
+        <param name="Layer 8 BitCrsh 2 Resol." value="--"/>
+        <param name="Layer 8 BitCrsh 2 AA Flt" value="Off"/>
+        <param name="Layer 8 Tremolo 2 Rate" value="0.05"/>
+        <param name="Layer 8 Tremolo 2 Depth" value="50"/>
+        <param name="Layer 8 Tremolo 2 Wave" value="Sinus"/>
+        <param name="Layer 8 Tremolo 2 Stereo" value="10"/>
+        <param name="Layer 8 Pitch Tracking" value="On"/>
+        <param name="Layer 8 Pitch Frequency" value="89.4427"/>
+        <param name="Layer 8 Pitch Range" value="16'"/>
+        <param name="Layer 8 Pitch Rng.Flt.Tr" value="On"/>
+        <param name="Layer 8 Pitch Mod" value="0"/>
+        <param name="Layer 8 Pitch Mod Source" value="LFO1"/>
+        <param name="Layer 8 Hard Sync" value="Off"/>
+        <param name="Layer 8 Hard Sync Offset" value="0"/>
+        <param name="Layer 8 Hard Sync Mix" value="0"/>
+        <param name="Layer 8 Pulse Width" value="50"/>
+        <param name="Layer 8 Pulse Mod" value="0"/>
+        <param name="Layer 8 Pulse Mod Source" value="LFO1"/>
+        <param name="Layer 8 VCO Pulse Volume" value="0"/>
+        <param name="Layer 8 VCO Saw Volume" value="100"/>
+        <param name="Layer 8 VCO Sub Volume" value="0"/>
+        <param name="Layer 8 VCO Noise Volume" value="0"/>
+        <param name="Layer 8 VCO Vol Mod Src" value="ENV1"/>
+        <param name="Layer 8 VCO Pulse Mod" value="Off"/>
+        <param name="Layer 8 VCO Saw Mod" value="Off"/>
+        <param name="Layer 8 VCO Sub Mod" value="Off"/>
+        <param name="Layer 8 VCO Noise Mod" value="Off"/>
+        <param name="Layer 8 VCO Osc Restart" value="Off"/>
+        <param name="Layer 8 VCO Sub Wave" value="Pulse 2 Oct"/>
+        <param name="Layer 8 VCO Noise Type" value="White"/>
+        <param name="Layer 8 VCO SupSaw" value="Off"/>
+        <param name="Layer 8 VCO SupSaw Detun" value="0.001"/>
+        <param name="Layer 8 VCO SupSaw Amnt" value="0"/>
+        <param name="Layer 8 VCO Pitch Drift" value="0"/>
+        <param name="Layer 8 Flt Type" value="LP"/>
+        <param name="Layer 8 Flt 101 Mode" value="Off"/>
+        <param name="Layer 8 Flt Frequency" value="14975.1"/>
+        <param name="Layer 8 Flt ENV1" value="0"/>
+        <param name="Layer 8 Flt ENV2" value="0"/>
+        <param name="Layer 8 Flt LFO1" value="0"/>
+        <param name="Layer 8 Flt LFO2" value="0"/>
+        <param name="Layer 8 Flt Keyboard" value="100"/>
+        <param name="Layer 8 Flt Reso" value="0"/>
+        <param name="Layer 8 Flt Reso ENV2" value="0"/>
+        <param name="Layer 8 Flt Reso LFO2" value="0"/>
+        <param name="Layer 8 HPF Frequency" value="0"/>
+        <param name="Layer 8 Bender VCO Up" value="2"/>
+        <param name="Layer 8 Bender VCO Down" value="2"/>
+        <param name="Layer 8 Bender VCF Up" value="0"/>
+        <param name="Layer 8 Bender VCF Down" value="0"/>
+        <param name="Layer 8 Modulation VCO" value="3.708"/>
+        <param name="Layer 8 Modulation VCF" value="3.708"/>
+        <param name="Layer 8 VCA Source" value="Gate"/>
+        <param name="Layer 8 VCA Prod Factor1" value="LFO2"/>
+        <param name="Layer 8 VCA Prod Factor2" value="ENV2"/>
+        <param name="Layer 8 ENV1 Trigger Src" value="Gate"/>
+        <param name="Layer 8 ENV1 Invert" value="Off"/>
+        <param name="Layer 8 ENV1 Attack" value="0.114346"/>
+        <param name="Layer 8 ENV1 Decay" value="1.26978"/>
+        <param name="Layer 8 ENV1 Sustain" value="50"/>
+        <param name="Layer 8 ENV1 Release" value="0.01"/>
+        <param name="Layer 8 ENV2 Trigger Src" value="Gate"/>
+        <param name="Layer 8 ENV2 Invert" value="Off"/>
+        <param name="Layer 8 ENV2 Attack" value="0.114346"/>
+        <param name="Layer 8 ENV2 Decay" value="1.26978"/>
+        <param name="Layer 8 ENV2 Sustain" value="50"/>
+        <param name="Layer 8 ENV2 Release" value="0.01"/>
+        <param name="Layer 8 LFO1 Reset" value="Gate"/>
+        <param name="Layer 8 LFO1 Keytrack" value="Off"/>
+        <param name="Layer 8 LFO1 Mono" value="Off"/>
+        <param name="Layer 8 LFO1 Freq" value="6.96442"/>
+        <param name="Layer 8 LFO1 Rate" value="1/16"/>
+        <param name="Layer 8 LFO1 Waveform" value="Triangle"/>
+        <param name="Layer 8 LFO1 Sync" value="Off"/>
+        <param name="Layer 8 LFO1 Invert" value="Off"/>
+        <param name="Layer 8 LFO1 Phase" value="0"/>
+        <param name="Layer 8 LFO2 Reset" value="Gate"/>
+        <param name="Layer 8 LFO2 Keytrack" value="Off"/>
+        <param name="Layer 8 LFO2 Mono" value="Off"/>
+        <param name="Layer 8 LFO2 Freq" value="6.96442"/>
+        <param name="Layer 8 LFO2 Rate" value="1/16"/>
+        <param name="Layer 8 LFO2 Waveform" value="Triangle"/>
+        <param name="Layer 8 LFO2 Sync" value="Off"/>
+        <param name="Layer 8 LFO2 Invert" value="Off"/>
+        <param name="Layer 8 LFO2 Phase" value="0"/>
+        <param name="Layer 8 Arp Preset Name" value="Default"/>
+        <param name="Layer 8 Arp Rate Value" value="1/16"/>
+        <param name="Layer 8 Arp Rate Scale" value="Full"/>
+        <param name="Layer 8 Arp Gate" value="50"/>
+        <param name="Layer 8 Arp Shuffle" value="0"/>
+        <param name="Layer 8 Arp Mode" value="Off"/>
+        <param name="Layer 8 Arp Chord Mode" value="Off"/>
+        <param name="Layer 8 Arp Octaves Rng." value="1"/>
+        <param name="Layer 8 Arp Repeat" value="1"/>
+        <param name="Layer 8 Arp Length" value="16"/>
+        <param name="Layer 8 Arp Hold Mode" value="Off"/>
+        <param name="Layer 8 Arp Gate Step 1" value="true"/>
+        <param name="Layer 8 Arp Gate Step 2" value="true"/>
+        <param name="Layer 8 Arp Gate Step 3" value="true"/>
+        <param name="Layer 8 Arp Gate Step 4" value="true"/>
+        <param name="Layer 8 Arp Gate Step 5" value="true"/>
+        <param name="Layer 8 Arp Gate Step 6" value="true"/>
+        <param name="Layer 8 Arp Gate Step 7" value="true"/>
+        <param name="Layer 8 Arp Gate Step 8" value="true"/>
+        <param name="Layer 8 Arp Gate Step 9" value="true"/>
+        <param name="Layer 8 Arp Gate Step 10" value="true"/>
+        <param name="Layer 8 Arp Gate Step 11" value="true"/>
+        <param name="Layer 8 Arp Gate Step 12" value="true"/>
+        <param name="Layer 8 Arp Gate Step 13" value="true"/>
+        <param name="Layer 8 Arp Gate Step 14" value="true"/>
+        <param name="Layer 8 Arp Gate Step 15" value="true"/>
+        <param name="Layer 8 Arp Gate Step 16" value="true"/>
+        <param name="Layer 8 Arp Tie Step 1" value="false"/>
+        <param name="Layer 8 Arp Tie Step 2" value="false"/>
+        <param name="Layer 8 Arp Tie Step 3" value="false"/>
+        <param name="Layer 8 Arp Tie Step 4" value="false"/>
+        <param name="Layer 8 Arp Tie Step 5" value="false"/>
+        <param name="Layer 8 Arp Tie Step 6" value="false"/>
+        <param name="Layer 8 Arp Tie Step 7" value="false"/>
+        <param name="Layer 8 Arp Tie Step 8" value="false"/>
+        <param name="Layer 8 Arp Tie Step 9" value="false"/>
+        <param name="Layer 8 Arp Tie Step 10" value="false"/>
+        <param name="Layer 8 Arp Tie Step 11" value="false"/>
+        <param name="Layer 8 Arp Tie Step 12" value="false"/>
+        <param name="Layer 8 Arp Tie Step 13" value="false"/>
+        <param name="Layer 8 Arp Tie Step 14" value="false"/>
+        <param name="Layer 8 Arp Tie Step 15" value="false"/>
+        <param name="Layer 8 Arp Tie Step 16" value="false"/>
+        <param name="Layer 8 Fine Tune" value="0"/>
+        <param name="Layer 8 Volume" value="50"/>
+        <param name="Layer 8 Velocity Curve" value="Linear"/>
+        <param name="Layer 8 SusPedal Enabled" value="true"/>
+        <param name="Layer 8 Panning" value="0"/>
+        <param name="Layer 8 Level" value="5.93775e-07"/>
+        <param name="Layer 8 Comp" value="Off"/>
+        <param name="Layer 8 Comp Envelope" value="Mid"/>
+        <param name="Layer 8 Comp Ratio" value="1:2"/>
+        <param name="Layer 8 Comp Threshold" value="-12"/>
+        <param name="Layer 8 EQ" value="Off"/>
+        <param name="Layer 8 EQ Pre Comp" value="Off"/>
+        <param name="Layer 8 EQ Low" value="0"/>
+        <param name="Layer 8 EQ Mid Frq" value="1000"/>
+        <param name="Layer 8 EQ Mid" value="0"/>
+        <param name="Layer 8 EQ Hi" value="0"/>
+        <param name="Layer 8 Pre Level" value="Off"/>
+        <param name="Layer 8 Reverb Send" value="-320"/>
+        <param name="Layer 8 Delay Send" value="-320"/>
+        <param name="Layer 8 Chorus Send" value="-320"/>
+      </Parameters>
+      <ExtraData>
+        <ModMatrixes>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="0"/>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="1"/>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="2"/>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="3"/>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="4"/>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="5"/>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="6"/>
+          <ModMatrix PitchScale="0|0.00787402|0.015748|0.023622|0.0314961|0.0393701|0.0472441|0.0551181|0.0629921|0.0708661|0.0787402|0.0866142|0.0944882|0.102362|0.110236|0.11811|0.125984|0.133858|0.141732|0.149606|0.15748|0.165354|0.173228|0.181102|0.188976|0.19685|0.204724|0.212598|0.220472|0.228346|0.23622|0.244094|0.251969|0.259843|0.267717|0.275591|0.283465|0.291339|0.299213|0.307087|0.314961|0.322835|0.330709|0.338583|0.346457|0.354331|0.362205|0.370079|0.377953|0.385827|0.393701|0.401575|0.409449|0.417323|0.425197|0.433071|0.440945|0.448819|0.456693|0.464567|0.472441|0.480315|0.488189|0.496063|0.503937|0.511811|0.519685|0.527559|0.535433|0.543307|0.551181|0.559055|0.566929|0.574803|0.582677|0.590551|0.598425|0.606299|0.614173|0.622047|0.629921|0.637795|0.645669|0.653543|0.661417|0.669291|0.677165|0.685039|0.692913|0.700787|0.708661|0.716535|0.724409|0.732283|0.740157|0.748031|0.755906|0.76378|0.771654|0.779528|0.787402|0.795276|0.80315|0.811024|0.818898|0.826772|0.834646|0.84252|0.850394|0.858268|0.866142|0.874016|0.88189|0.889764|0.897638|0.905512|0.913386|0.92126|0.929134|0.937008|0.944882|0.952756|0.96063|0.968504|0.976378|0.984252|0.992126|1"
+                     layer="7"/>
+        </ModMatrixes>
+      </ExtraData>
+    </Preset>
+  </ParametersState>
+  <NotPresetableParams>
+    <Preset version="1.0">
+      <Parameters>
+        <param name="Reverb Audio Out" value="1"/>
+        <param name="Delay Audio Out" value="1"/>
+        <param name="Chorus Audio Out" value="1"/>
+        <param name="MultiCore Support" value="On"/>
+        <param name="Retrigger Mode" value="Normal"/>
+        <param name="Enable Midi Out" value="true"/>
+        <param name="Layer 1 Audio Output" value="1"/>
+        <param name="Layer 1 Midi Channel" value="ALL"/>
+        <param name="Layer 1 Padlock" value="false"/>
+        <param name="Layer 1 Arp Padlock" value="false"/>
+        <param name="Layer 2 Audio Output" value="1"/>
+        <param name="Layer 2 Midi Channel" value="ALL"/>
+        <param name="Layer 2 Padlock" value="false"/>
+        <param name="Layer 2 Arp Padlock" value="false"/>
+        <param name="Layer 3 Audio Output" value="1"/>
+        <param name="Layer 3 Midi Channel" value="ALL"/>
+        <param name="Layer 3 Padlock" value="false"/>
+        <param name="Layer 3 Arp Padlock" value="false"/>
+        <param name="Layer 4 Audio Output" value="1"/>
+        <param name="Layer 4 Midi Channel" value="ALL"/>
+        <param name="Layer 4 Padlock" value="false"/>
+        <param name="Layer 4 Arp Padlock" value="false"/>
+        <param name="Layer 5 Audio Output" value="1"/>
+        <param name="Layer 5 Midi Channel" value="ALL"/>
+        <param name="Layer 5 Padlock" value="false"/>
+        <param name="Layer 5 Arp Padlock" value="false"/>
+        <param name="Layer 6 Audio Output" value="1"/>
+        <param name="Layer 6 Midi Channel" value="ALL"/>
+        <param name="Layer 6 Padlock" value="false"/>
+        <param name="Layer 6 Arp Padlock" value="false"/>
+        <param name="Layer 7 Audio Output" value="1"/>
+        <param name="Layer 7 Midi Channel" value="ALL"/>
+        <param name="Layer 7 Padlock" value="false"/>
+        <param name="Layer 7 Arp Padlock" value="false"/>
+        <param name="Layer 8 Audio Output" value="1"/>
+        <param name="Layer 8 Midi Channel" value="ALL"/>
+        <param name="Layer 8 Padlock" value="false"/>
+        <param name="Layer 8 Arp Padlock" value="false"/>
+        <param name="Preset Name" value="Back to the 80s"/>
+      </Parameters>
+    </Preset>
+  </NotPresetableParams>
+  <MidiControlMap name="Lush 2"/>
+  <HostAutomationMap name="Lush 2" ver="2.0.1"/>
+  <Editor systemScale="1.0">
+    <Evaluation infoTime="20240227T000000.000-0400"/>
+    <Skin theme="Light Grey" name="1550"/>
+    <Preset version="1.0">
+      <Parameters>
+        <param name="Main View" value="Synthesis"/>
+        <param name="Selected Layer" value="0"/>
+        <param name="Mod Matrix View" value="Modulation"/>
+        <param name="Hide Keyboard" value="false"/>
+      </Parameters>
+    </Preset>
+    <Browsers>
+      <ContentBrowser name="Global Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="0">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="2">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="3">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="4">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="5">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="6">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Layer Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="7">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="0">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="2">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="3">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="4">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="5">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="6">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Arpeggio Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1"
+                      layer="7">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+      <ContentBrowser name="Reverb Presets" leftPane="200" rightPane="200" sourcesExpanded="1"
+                      filtersExpanded="1" tagsExpanded="1" authorExpanded="1" descExpanded="1">
+        <SourcesManager activeSources="Factory;User">
+          <Sources>
+            <ContentSource name="Factory">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+            <ContentSource name="User">
+              <UserAttributes name="pinned"/>
+            </ContentSource>
+          </Sources>
+        </SourcesManager>
+        <FiltersEditor active="1">
+          <Filter name="State"/>
+        </FiltersEditor>
+      </ContentBrowser>
+    </Browsers>
+  </Editor>
+</PluginState>
