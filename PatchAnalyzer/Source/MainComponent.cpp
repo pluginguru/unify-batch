@@ -6,7 +6,7 @@ MainComponent::MainComponent()
 {
     Colour darkText = getLookAndFeel().findColour(ComboBox::textColourId).withMultipliedAlpha(0.5f);
 
-    message = "Edit settings below, then drag .sfz/.gsd files or folders here";
+    message = "Choose output folder if desired, then drag .unify files or folders here";
 	chooser = std::make_unique<FileChooser>("Select output folder", File::getSpecialLocation(File::userDocumentsDirectory));
 
 	outputPathLabel.setJustificationType(Justification::topLeft);
