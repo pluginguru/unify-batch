@@ -5,7 +5,7 @@
 #define PLUGIN_TYPE "VST"
 #define PLUGIN_MFR "Rob Papen"
 
-#define PRESET_CHANGE_TIME_MILLISECONDS 500
+#define PRESET_CHANGE_TIME_MILLISECONDS 400
 
 AudioProcessor* JUCE_CALLTYPE createPluginFilter()
 {

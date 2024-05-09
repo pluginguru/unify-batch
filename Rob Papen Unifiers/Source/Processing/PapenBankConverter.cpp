@@ -1,28 +1,129 @@
 #include "PapenBankConverter.h"
 
-//#define LIBRARY_NAME "Unified - Rob Papen BIT2"
-//#define AUTHOR "Factory voicing"
-//#define PREFIX "Synth 01"
-//#define CATEGORY "Synth"
-//#define TAGS ""
-//#define COMMENT "BIT2 Factory presets"
+struct CategoryBits
+{
+	bool isLead;
+	bool isBass;
+	bool isSubBass;
+	bool isSynth;
+	bool isKey;
+	bool isArpSeq;
+	bool isArp;
+	bool isArpChord;
+	bool isSFX;
+	bool isDrum;
+	bool isPercussion;
+	bool isMelodicPercussion;
+	bool isBrass;
+	bool isPad;
+	bool isChord;
+	bool isScreech;
+	bool isWobble;
+	bool isMisc;
+
+	CategoryBits(String mask)
+	{
+		isLead =				(mask[0] == '1');
+		isBass =				(mask[1] == '1');
+		isSubBass =				(mask[2] == '1');
+		isSynth =				(mask[3] == '1');
+		isKey =					(mask[4] == '1');
+		isArpSeq =				(mask[5] == '1');
+		isArp =					(mask[6] == '1');
+		isArpChord =			(mask[7] == '1');
+		isSFX =					(mask[8] == '1');
+		isDrum =				(mask[9] == '1');
+		isPercussion =			(mask[10] == '1');
+		isMelodicPercussion =	(mask[11] == '1');
+		isBrass =				(mask[12] == '1');
+		isPad =					(mask[13] == '1');
+		isChord =				(mask[14] == '1');
+		isScreech =				(mask[15] == '1');
+		isWobble =				(mask[16] == '1');
+		isMisc =				(mask[17] == '1');
+	}
+
+	String getPrefix()
+	{
+		if (isLead) return "LEAD";
+		if (isBass || isSubBass) return "BASS";
+		if (isSFX) return "SFX";
+		if (isDrum) return "DRUM";
+		if (isPad) return "PAD";
+		if (isPercussion) return "PERC";
+		if (isMelodicPercussion) return "MPERC";
+		if (isBrass) return "BRASS";
+		if (isChord) return "CHORD";
+		if (isKey) return "KEY";
+		if (isSynth) return "SYNTH";
+		if (isArpSeq) return "SEQ";
+		if (isArp || isArpChord) return "ARP";
+		if (isScreech) return "SCRCH";
+		if (isWobble) return "WOB";
+		if (isMisc) return "MISC";
+		return "UNKOWN";
+	}
+
+	String getCategories()
+	{
+		StringArray cats;
+		if (isLead) cats.add("Lead");
+		if (isBass || isSubBass) cats.add("Bass");
+		if (isSFX) cats.add("SFX");
+		if (isDrum) cats.add("Drum");
+		if (isPad) cats.add("Pad");
+		if (isPercussion) cats.add("Perc");
+		if (isMelodicPercussion) cats.add("Melodic Perc");
+		if (isBrass) cats.add("Brass");
+		if (isChord) cats.add("Chord");
+		if (isKey) cats.add("Key");
+		if (isSynth) cats.add("Synth");
+		if (isArpSeq) cats.add("Sequence");
+		if (isArp || isArpChord) cats.add("Arp");
+		if (isScreech) cats.add("Screech");
+		if (isWobble) cats.add("Wobble");
+		if (isMisc) cats.add("Misc");
+
+		return cats.joinIntoString(",");
+	}
+};
 
 PapenBankConverter::PapenBankConverter()
+	: Thread("ConvertThread")
+	, fileCount(0)
 {
 	unifyPatchXml = parseXML(BinaryData::patchTemplate_xml);
 }
 
-int PapenBankConverter::convertBank(File bankIndexFile, File outputFolder)
+void PapenBankConverter::run()
 {
 	auto bank = StringArray::fromLines(bankIndexFile.loadFileAsString());
-	int fileCount = 0;
+	fileCount = 0;
 
+	String patchName;
 	for (auto& line : bank)
 	{
+		if (threadShouldExit()) break;
+
+		line = line.trimEnd();
+		if (line.isEmpty()) break;
+
 		if (line.contains("||"))
 		{
-			String patchName = line.fromLastOccurrenceOf("||", false, false);
+			// first line of a pair: contains preset name
+			patchName = line.fromLastOccurrenceOf("||", false, false);
 			DBG(patchName);
+		}
+		else
+		{
+			// second line of a pair: contains 66-bit binary mask for categories
+			CategoryBits cbits(line);
+
+			// interpret category mask
+			prefix = cbits.getPrefix();
+			category = cbits.getCategories();
+
+			// convert the patch
 			if (prefix.isNotEmpty()) patchName = prefix + " - " + patchName;
 			if (selectPreset) selectPreset(fileCount);
 			std::unique_ptr<XmlElement> patchXml(convertPreset(patchName));
@@ -33,8 +134,6 @@ int PapenBankConverter::convertBank(File bankIndexFile, File outputFolder)
 			}
 		}
 	}
-
-	return fileCount;
 }
 
 XmlElement* PapenBankConverter::convertPreset(String patchName)

@@ -6,6 +6,7 @@
 class PapenUnifierEditor    : public AudioProcessorEditor
                             , protected ChangeListener
                             , public FileDragAndDropTarget
+                            , protected Timer
 {
 public:
     PapenUnifierEditor (WrapperProcessor&);
@@ -21,7 +22,11 @@ public:
     void filesDropped(const StringArray&, int, int) override;
 
 protected:
+    // ChangeListener
     void changeListenerCallback(ChangeBroadcaster*) override;
+
+    // Timer
+    void timerCallback() override;
 
 private:
     WrapperProcessor& processor;
@@ -33,13 +38,10 @@ private:
 
     Label libraryNameLabel; TextEditor libraryName;
     Label authorLabel; TextEditor author;
-    Label prefixLabel; TextEditor prefix;
-    Label categoryLabel; TextEditor category;
     Label tagsLabel; TextEditor tags;
     Label commentLabel; TextEditor comment;
 
     String message;
-
     File outputFolder;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PapenUnifierEditor)

@@ -32,6 +32,8 @@ PapenUnifierEditor::PapenUnifierEditor (WrapperProcessor& p)
                 outputFolder = chooser.getResult();
                 String path = chooser.getResult().getFullPathName();
                 outputFolderPath.setButtonText(path);
+
+                libraryName.setText(outputFolder.getParentDirectory().getFileName());
             }
         };
 
@@ -42,14 +44,6 @@ PapenUnifierEditor::PapenUnifierEditor (WrapperProcessor& p)
     authorLabel.setText("Author", dontSendNotification);
     authorLabel.attachToComponent(&author, true);
     addAndMakeVisible(author);
-
-    prefixLabel.setText("Prefix", dontSendNotification);
-    prefixLabel.attachToComponent(&prefix, true);
-    addAndMakeVisible(prefix);
-
-    categoryLabel.setText("Category", dontSendNotification);
-    categoryLabel.attachToComponent(&category, true);
-    addAndMakeVisible(category);
 
     tagsLabel.setText("Tags", dontSendNotification);
     tagsLabel.attachToComponent(&tags, true);
@@ -84,10 +78,6 @@ void PapenUnifierEditor::resized()
     libraryName.setBounds(bounds.removeFromTop(24));
     bounds.removeFromTop(10);
     author.setBounds(bounds.removeFromTop(24));
-    bounds.removeFromTop(10);
-    prefix.setBounds(bounds.removeFromTop(24));
-    bounds.removeFromTop(10);
-    category.setBounds(bounds.removeFromTop(24));
     bounds.removeFromTop(10);
     tags.setBounds(bounds.removeFromTop(24));
     bounds.removeFromTop(10);
@@ -137,16 +127,30 @@ void PapenUnifierEditor::filesDropped(const StringArray& paths, int, int)
     }
     else
     {
+        message = "0 files processed";
+
         processor.libraryName = libraryName.getText();
         processor.author = author.getText();
-        processor.prefix = prefix.getText();
-        processor.category = category.getText();
         processor.tags = tags.getText();
         processor.comment = comment.getText();
 
-        File catIndex(paths[0]);
-        int fileCount = processor.convertBank(catIndex, outputFolder);
-        message = String(fileCount) + " files processed.";
+        processor.bankIndexFile = File(paths[0]);
+        processor.outputFolder = outputFolder;
+        processor.startThread();
+        startTimer(250);
     }
+    repaint();
+}
+
+void PapenUnifierEditor::timerCallback()
+{
+    message = String(processor.getCount()) + " files processed.";
+
+    if (!processor.isThreadRunning())
+    {
+        message = "DONE: " + message;
+        stopTimer();
+    }
+
     repaint();
 }
