@@ -1,6 +1,8 @@
 #pragma once
 #include <JuceHeader.h>
 
+// This code is adapted from parts of the VST wrapper code in JUCE
+
 struct MyVstConv
 {
     static const int fxbVersionNum = 1;
