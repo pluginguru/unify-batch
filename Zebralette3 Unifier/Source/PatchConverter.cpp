@@ -32,7 +32,7 @@ wordPrefixCategory[] =
 
 PatchConverter::PatchConverter()
 {
-    unifyPatchXml = parseXML(BinaryData::One_Z3_Layer_xml);
+    unifyPatchXml = parseXML(BinaryData::One_ACE_Layer_xml);
 
     //test();
 }

@@ -9,7 +9,7 @@ public:
     bool setLayerTitle = true;
 
 #if 1
-    String libraryName = "Unified - u-he Zebralette 3 Beta";
+    String libraryName = "Unified - u-he ACE";
 #else
     String libraryName;
 #endif

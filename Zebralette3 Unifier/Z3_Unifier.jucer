@@ -7,6 +7,8 @@
     <GROUP id="{405A2C30-01AE-93EA-EB3E-1D7D4BB5A2CF}" name="Assets">
       <FILE id="nK05aK" name="One Z3 Layer.xml" compile="0" resource="1"
             file="Assets/One Z3 Layer.xml"/>
+      <FILE id="qTtLhC" name="One ACE Layer.xml" compile="0" resource="1"
+            file="Assets/One ACE Layer.xml"/>
     </GROUP>
     <GROUP id="{0444BDA6-8ED0-8B92-C3D3-D2AFB445879D}" name="Source">
       <FILE id="BLSL3z" name="PatchConverter.cpp" compile="1" resource="0"
