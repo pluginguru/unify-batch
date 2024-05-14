@@ -336,7 +336,7 @@ void encodeVstPluginState(MemoryBlock& stateInformation, AudioPluginInstance* in
     set->byteSize = 0;
     set->fxMagic = fxbName("FPCh");
     set->version = fxbSwap(MyVstConv::fxbVersionNum);
-    set->fxID = fxbSwap(instance->getPluginDescription().uid);
+    set->fxID = fxbSwap(instance->getPluginDescription().deprecatedUid);
     set->fxVersion = fxbSwap(MyVstConv::fxbVersionNum);
     set->numPrograms = fxbSwap(instance->getNumPrograms());
     String progName("default");
@@ -434,7 +434,7 @@ void setVstPluginState(AudioPluginInstance* instance, XmlElement* xml, String& e
             set->byteSize = 0;
             set->fxMagic = fxbName("FPCh");
             set->version = fxbSwap(MyVstConv::fxbVersionNum);
-            set->fxID = fxbSwap(instance->getPluginDescription().uid);
+            set->fxID = fxbSwap(instance->getPluginDescription().deprecatedUid);
             set->fxVersion = fxbSwap(MyVstConv::fxbVersionNum);
             set->numPrograms = fxbSwap(instance->getNumPrograms());
             progName.copyToUTF8(set->name, sizeof(set->name) - 1);
