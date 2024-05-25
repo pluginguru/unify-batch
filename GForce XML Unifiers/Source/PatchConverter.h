@@ -1,6 +1,18 @@
 #pragma once
 #include <JuceHeader.h>
 
+// Uncomment only one of these
+//#define PLUGIN_IS_IMPOSCAR3
+#define PLUGIN_IS_AXXESS
+
+#if defined(PLUGIN_IN_IMPOSCAR3)
+    #define LIBRARY_NAME "Unified - GForce impOSCar3"
+#elif defined(PLUGIN_IS_AXXESS)
+    #define LIBRARY_NAME "Unified - GForce AXXESS"
+#endif
+
+//#define CHECK_CATEGORIES
+
 class PatchConverter
 {
 public:
@@ -9,7 +21,7 @@ public:
     bool setLayerTitle = true;
 
 #if 1
-    String libraryName = "Unified - GForce impOSCar3";
+    String libraryName = LIBRARY_NAME;
 #else
     String libraryName;
 #endif
@@ -32,8 +44,9 @@ private:
     File outputFolder;
     std::unique_ptr<XmlElement> unifyPatchXml;
 
-    // used when determining which distinct category names are used
-    //StringArray categories;
+#ifdef CHECK_CATEGORIES
+    StringArray categories;
+#endif
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PatchConverter)
 };
