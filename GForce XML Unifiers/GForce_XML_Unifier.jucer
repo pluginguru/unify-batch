@@ -5,11 +5,7 @@
               defines="JUCE_MODAL_LOOPS_PERMITTED" version="1.0.0">
   <MAINGROUP id="F7NPr8" name="GForce_XML_Unifier">
     <GROUP id="{405A2C30-01AE-93EA-EB3E-1D7D4BB5A2CF}" name="Assets">
-      <FILE id="S3Hd6Y" name="Plugin State.xml" compile="0" resource="1"
-            file="Assets/Plugin State.xml"/>
       <FILE id="VF9CoQ" name="Unify patch.xml" compile="0" resource="1" file="Assets/Unify patch.xml"/>
-      <FILE id="yt6dPb" name="head.bin" compile="0" resource="1" file="Assets/head.bin"/>
-      <FILE id="Obk6ip" name="tail.bin" compile="0" resource="1" file="Assets/tail.bin"/>
     </GROUP>
     <GROUP id="{0444BDA6-8ED0-8B92-C3D3-D2AFB445879D}" name="Source">
       <FILE id="BLSL3z" name="PatchConverter.cpp" compile="1" resource="0"

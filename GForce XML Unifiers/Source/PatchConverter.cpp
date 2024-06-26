@@ -29,8 +29,8 @@ void PatchConverter::test()
     assetsDir.getChildFile("ic.txt").replaceWithData(mb.getData(), mb.getSize());
 
     // the state XML file is only needed to observe how it differs from preset XML files
-    //auto presetXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
-    //presetXml->writeTo(assetsDir.getChildFile("Plugin State.xml"));
+    auto presetXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
+    presetXml->writeTo(assetsDir.getChildFile("Plugin State.xml"));
 #endif
 }
 
@@ -92,7 +92,7 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     presetXml->setTagName("STATE");
 
     auto metadataXml = presetXml->getChildByName("metadata");
-#if defined(PLUGIN_IN_IMPOSCAR3)
+#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE)
     metadataXml->setAttribute("path", inFile.getFullPathName());
 #endif
     String presetName = metadataXml->getStringAttribute("name");
@@ -115,7 +115,7 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
         .trimCharactersAtEnd(",").trimCharactersAtStart(",")
         .replace(",,", ",");
 
-#if defined(PLUGIN_IN_IMPOSCAR3)
+#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE)
     // at this point, presetXml is the state XML
     // convert state XML to binary and convert to base64
     MemoryBlock mb;
@@ -200,6 +200,7 @@ static struct { String catFromPreset, category, prefix; } categoryTable[] =
 {
     { "Arpegs", "Arpeggio", "BPM ARP" },
     { "Sequences", "Sequence", "BPM SEQ" },
+    { "Textures", "Texture", "TEXT" },
     { "Basses", "Bass", "BASS" },
     { "Bells", "Bell", "BELL" },
     { "Chords", "Chord", "CHORD" },

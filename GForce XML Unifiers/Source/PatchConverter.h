@@ -3,12 +3,15 @@
 
 // Uncomment only one of these
 //#define PLUGIN_IS_IMPOSCAR3
-#define PLUGIN_IS_AXXESS
+//#define PLUGIN_IS_AXXESS
+#define PLUGIN_IS_OBONE
 
-#if defined(PLUGIN_IN_IMPOSCAR3)
+#if defined(PLUGIN_IS_IMPOSCAR3)
     #define LIBRARY_NAME "Unified - GForce impOSCar3"
 #elif defined(PLUGIN_IS_AXXESS)
     #define LIBRARY_NAME "Unified - GForce AXXESS"
+#elif defined(PLUGIN_IS_OBONE)
+    #define LIBRARY_NAME "Unified - GForce OB-1"
 #endif
 
 //#define CHECK_CATEGORIES
