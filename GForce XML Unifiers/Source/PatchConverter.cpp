@@ -5,7 +5,7 @@ PatchConverter::PatchConverter()
 {
     unifyPatchXml = parseXML(BinaryData::Unify_patch_xml);
 
-    //test();
+    test();
 }
 
 void PatchConverter::test()
