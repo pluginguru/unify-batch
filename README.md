@@ -30,3 +30,4 @@ Another common issue which arises in preparing "unified" libraries is ensuring t
 
 "Unified" libraries are most commonly made using Unify itself, either fully manually, or using software tools like [AutoHotKey](https://www.autohotkey.com/) for partial automation. For some plug-ins, a completely different approach is feasible: processing the plug-in's own preset files to generate corresponding .unify files. [TAL Unifier](TAL%20Unifier/) is a template JUCE/C++ app for applying this approach for plug-ins from [TAL Software GmbH](https://tal-software.com).
 
+To learn more about creating such "unifier" programs, see [this document](Documents/About-unifiers.md).
