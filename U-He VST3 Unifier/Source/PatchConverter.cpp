@@ -3,6 +3,26 @@
 
 static struct
 {
+    String presetPrefix;
+    String patchPrefix;
+    String patchCategory;
+}
+prefixPrefixCategory[] =
+{
+    { "BS - ", "BASS", "Bass" },
+    { "CH - ", "CHORD", "Chord" },
+    { "DR - ", "DRUM", "Drum" },
+    { "FX - ", "SFX", "SFX" },
+    { "KY - ", "KEY", "Keyboard" },
+    { "LD - ", "LEAD", "Lead" },
+    { "PD - ", "PAD", "Pad" },
+    { "PL - ", "PLUCK", "Pluck" },
+    { "SQ - ", "BPM SEQ", "Sequence" },
+    { "SY - ", "SYNTH", "Synth" },
+};
+
+static struct
+{
     String word;
     String prefix;
     String category;
@@ -34,7 +54,7 @@ PatchConverter::PatchConverter()
 {
     unifyPatchXml = parseXML(BinaryData::One_Diva_Layer_xml);
 
-    test();
+    //test();
 }
 
 void PatchConverter::test()
@@ -134,13 +154,36 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     // load preset file as text and parse the metadata
     String presetStr = inFile.loadFileAsString();
     String author = presetStr.fromFirstOccurrenceOf("Author:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
-    String comment = presetStr.fromFirstOccurrenceOf("Usage:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
-    String tags = presetStr.fromFirstOccurrenceOf("Categories:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
+    String comment = presetStr.fromFirstOccurrenceOf("Description:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
+    String usage = presetStr.fromFirstOccurrenceOf("Usage:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
+    if (usage.isNotEmpty()) comment += "\n" + usage;
+    comment = comment.replace("\\r\\n", "\n");
+    String categories = presetStr.fromFirstOccurrenceOf("Categories:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
+    String tags = categories;
+    String features = presetStr.fromFirstOccurrenceOf("Features:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
+    if (features.isNotEmpty()) tags += ", " + features;
+    String character = presetStr.fromFirstOccurrenceOf("Character:\n'", false, false).upToFirstOccurrenceOf("'", false, false);
+    if (character.isNotEmpty()) tags += ", " + character;
     String prefix = "UNKNOWN";
     String category = "UNKNOWN";
+#if 1
+    // Saif Sameer uses 2-character prefixes for categories
+    int numPrefixCharsToRemove = 0;
+    for (auto& ppc : prefixPrefixCategory)
+    {
+        if (presetName.startsWith(ppc.presetPrefix))
+        {
+            prefix = ppc.patchPrefix;
+            category = ppc.patchCategory;
+            numPrefixCharsToRemove = ppc.presetPrefix.length();
+            break;
+        }
+    }
+    newPatchNameOrErrorMessage = prefix + " - " + presetName.substring(numPrefixCharsToRemove);
+#else
     for (auto& wpc : wordPrefixCategory)
     {
-        if (tags.containsIgnoreCase(wpc.word))
+        if (categories.containsIgnoreCase(wpc.word))
         {
             prefix = wpc.prefix;
             category = wpc.category;
@@ -148,10 +191,21 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
         }
     }
     newPatchNameOrErrorMessage = prefix + " - " + presetName;
+#endif
 
     // load preset file as data and convert to base64
     MemoryBlock mb;
+#if 1
+    // Diva requires a prefix identifying the preset file
+    String prefixString = "#pgm=" + inFile.getFileName() + "\n";
+    MemoryBlock prefixBlock(prefixString.toUTF8(), prefixString.getNumBytesAsUTF8());
+    MemoryBlock presetBlock;
+    inFile.loadFileAsData(presetBlock);
+    mb.append(prefixBlock.getData(), prefixBlock.getSize());
+    mb.append(presetBlock.getData(), presetBlock.getSize());
+#else
     inFile.loadFileAsData(mb);
+#endif
     auto b64state = mb.toBase64Encoding();
 
     // assemble a VST3PluginState XML structure, with this base64 state-string
@@ -170,7 +224,7 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     // assemble new Unify patch XML
     auto patchXml = new XmlElement(*unifyPatchXml); // deep copy
     auto layerXml = patchXml->getChildByName("Layer");
-    layerXml->setAttribute("layerTitle", newPatchNameOrErrorMessage);
+    layerXml->setAttribute("layerTitle", presetName);
     auto instXml = layerXml->getChildByName("Instrument");
     instXml->setAttribute("stateInformation", b64state);
     auto pmXml = patchXml->getChildByName("PresetMetadata");
@@ -178,7 +232,7 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     pmXml->setAttribute("author", author.isEmpty() ? "U-He" : author);
     pmXml->setAttribute("category", category);
     pmXml->setAttribute("tags", tags);
-    pmXml->setAttribute("comment", "Factory presets by U-He");
+    pmXml->setAttribute("comment", comment);
     if (libraryName.isNotEmpty()) pmXml->setAttribute("library", libraryName);
 
     return patchXml;
