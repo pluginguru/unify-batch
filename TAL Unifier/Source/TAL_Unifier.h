@@ -25,7 +25,12 @@ protected:
     double volumeScaling;
 
     // makeUnifiedPatch() modifies these
-    String prefix, patchName, patchCategory, patchTags, patchComment;
+    String prefix, presetName, patchName, patchCategory, patchTags, patchComment;
+
+#if 0
+    // experimental: U-No-LX extracted parameter values
+    double delayDryWet, reverbDryWet, arpRate;
+#endif
 
 private:
     MyVstConv vstConv;

@@ -53,9 +53,39 @@ void TAL_Unifier::makeUnifiedLibrary()
         metaXml->setAttribute("comment", patchComment);
 
         auto layerXml = patchXml->getChildByName("Layer");
-        layerXml->setAttribute("layerTitle", patchName);
+        layerXml->setAttribute("layerTitle", presetName);
         auto instXml = layerXml->getChildByName("Instrument");
         instXml->setAttribute("stateInformation", vstState.toBase64Encoding());
+
+#if 0
+        // Experimental: transfer U-No-LX parameters to macros 2 and 3
+        for (auto macroXml : patchXml->getChildWithTagNameIterator("MacroParameter"))
+        {
+            int index = macroXml->getIntAttribute("index");
+            if (index == 1)
+            {
+                auto linkXml = macroXml->getChildByName("link");
+                auto curveXml = linkXml->getChildByName("curve");
+                auto segXml = curveXml->getChildByName("Segment");
+                segXml->setAttribute("fyMax", delayDryWet);
+            }
+            else if (index == 2)
+            {
+                auto linkXml = macroXml->getChildByName("link");
+                auto curveXml = linkXml->getChildByName("curve");
+                auto segXml = curveXml->getChildByName("Segment");
+                segXml->setAttribute("fyMax", reverbDryWet);
+            }
+            else if (index == 3)
+            {
+                auto linkXml = macroXml->getChildByName("link");
+                auto curveXml = linkXml->getChildByName("curve");
+                auto segXml = curveXml->getChildByName("Segment");
+                segXml->setAttribute("fyMax", arpRate);
+            }
+            else if (index > 3) break;
+        }
+#endif
 
         MemoryBlock patch;
         AudioProcessor::copyXmlToBinary(*patchXml, patch);
