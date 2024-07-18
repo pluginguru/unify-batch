@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="g6jZQZ" name="Z3_Unifier" projectType="guiapp" projectLineFeed="&#10;"
+<JUCERPROJECT id="g6jZQZ" name="U-He_VST3_Unifier" projectType="guiapp" projectLineFeed="&#10;"
               reportAppUsage="0" jucerFormatVersion="1" companyName="PlugInGuru"
-              defines="JUCE_MODAL_LOOPS_PERMITTED" version="1.1.1">
-  <MAINGROUP id="F7NPr8" name="Z3_Unifier">
+              defines="JUCE_MODAL_LOOPS_PERMITTED" version="1.2.0">
+  <MAINGROUP id="F7NPr8" name="U-He_VST3_Unifier">
     <GROUP id="{405A2C30-01AE-93EA-EB3E-1D7D4BB5A2CF}" name="Assets">
+      <FILE id="h9KKDL" name="One Diva Layer.xml" compile="0" resource="1"
+            file="Assets/One Diva Layer.xml"/>
       <FILE id="nK05aK" name="One Z3 Layer.xml" compile="0" resource="1"
             file="Assets/One Z3 Layer.xml"/>
       <FILE id="qTtLhC" name="One ACE Layer.xml" compile="0" resource="1"

@@ -32,14 +32,15 @@ wordPrefixCategory[] =
 
 PatchConverter::PatchConverter()
 {
-    unifyPatchXml = parseXML(BinaryData::One_ACE_Layer_xml);
+    unifyPatchXml = parseXML(BinaryData::One_Diva_Layer_xml);
 
-    //test();
+    test();
 }
 
 void PatchConverter::test()
 {
-#if 0
+    File assetsFolder("C:\\Users\\owner\\Documents\\GitHub\\unify-batch\\U-He VST3 Unifier\\Assets");
+#if 1
     auto layerXml = unifyPatchXml->getChildByName("Layer");
     auto instXml = layerXml->getChildByName("Instrument");
     auto stateInfoString = instXml->getStringAttribute("stateInformation");
@@ -49,17 +50,17 @@ void PatchConverter::test()
 
     auto vst3stateXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
 
-    //File outFile("C:\\Users\\owner\\Documents\\GitHub\\unify-batch\\Zebralette3 Unifier\\Assets\\test.xml");
+    //File outFile = assetsFolder.getChildFile("test.xml");
     //vst3stateXml->writeTo(outFile);
 
     auto icDataString = vst3stateXml->getChildByName("IComponent")->getAllSubText();
     b64ok = mb.fromBase64Encoding(icDataString);
-    File icDataFile("C:\\Users\\owner\\Documents\\GitHub\\unify-batch\\Zebralette3 Unifier\\Assets\\ic.txt");
+    File icDataFile = assetsFolder.getChildFile("ic.txt");
     icDataFile.replaceWithData(mb.getData(), mb.getSize());
 
     auto ecDataString = vst3stateXml->getChildByName("IEditController")->getAllSubText();
     b64ok = mb.fromBase64Encoding(ecDataString);
-    File ecDataFile("C:\\Users\\owner\\Documents\\GitHub\\unify-batch\\Zebralette3 Unifier\\Assets\\ec.txt");
+    File ecDataFile = assetsFolder.getChildFile("ec.txt");
     ecDataFile.replaceWithData(mb.getData(), mb.getSize());
 #endif
 
