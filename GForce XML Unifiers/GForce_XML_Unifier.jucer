@@ -6,6 +6,7 @@
   <MAINGROUP id="F7NPr8" name="GForce_XML_Unifier">
     <GROUP id="{405A2C30-01AE-93EA-EB3E-1D7D4BB5A2CF}" name="Assets">
       <FILE id="VF9CoQ" name="Unify patch.xml" compile="0" resource="1" file="Assets/Unify patch.xml"/>
+      <FILE id="IA9vaB" name="tail.bin" compile="0" resource="1" file="Assets/tail.bin"/>
     </GROUP>
     <GROUP id="{0444BDA6-8ED0-8B92-C3D3-D2AFB445879D}" name="Source">
       <FILE id="BLSL3z" name="PatchConverter.cpp" compile="1" resource="0"
