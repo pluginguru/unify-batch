@@ -7,7 +7,7 @@ public:
     String referencePatchPath;
     String outputFolderPath;
     bool updateLayer1Title;
-    bool saveMidiFx, saveAudioFx;
+    bool saveInstPlugin, saveMidiFx, saveAudioFx;
 
 public:
     PatchConverter();

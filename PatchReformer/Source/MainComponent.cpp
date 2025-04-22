@@ -36,14 +36,26 @@ MainComponent::MainComponent()
 
 	preserveLabel.setText("Preserve:", dontSendNotification);
 	preserveLabel.setJustificationType(Justification::right);
-	preserveLabel.attachToComponent(&saveMidiFxToggle, true);
+	preserveLabel.attachToComponent(&saveInstToggle, true);
+
+	saveInstToggle.setButtonText("INST1 Instrument");
+	saveInstToggle.setToggleState(patchConverter.saveInstPlugin, dontSendNotification);
+	saveInstToggle.onStateChange = [this]()
+		{
+			patchConverter.saveInstPlugin = saveInstToggle.getToggleState();
+		};
+	addAndMakeVisible(saveInstToggle);
+
 	saveMidiFxToggle.setButtonText("INST1 MIDI FX");
+	saveMidiFxToggle.setToggleState(patchConverter.saveMidiFx, dontSendNotification);
 	saveMidiFxToggle.onStateChange = [this]()
 	{
 		patchConverter.saveMidiFx = saveMidiFxToggle.getToggleState();
 	};
 	addAndMakeVisible(saveMidiFxToggle);
+
 	saveAudioFxToggle.setButtonText("INST1 Audio FX");
+	saveAudioFxToggle.setToggleState(patchConverter.saveAudioFx, dontSendNotification);
 	saveAudioFxToggle.onStateChange = [this]()
 	{
 		patchConverter.saveAudioFx = saveAudioFxToggle.getToggleState();
@@ -86,6 +98,7 @@ void MainComponent::resized()
 	updateLayer1TitleToggle.setBounds(bounds.removeFromTop(24));
 	bounds.removeFromTop(8);
 	auto row = bounds.removeFromTop(24);
+	saveInstToggle.setBounds(row.removeFromLeft(180));
 	saveMidiFxToggle.setBounds(row.removeFromLeft(160));
 	saveAudioFxToggle.setBounds(row.removeFromLeft(160));
 	bounds.removeFromTop(30);

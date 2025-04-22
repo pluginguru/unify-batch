@@ -2,6 +2,7 @@
 
 PatchConverter::PatchConverter()
     : updateLayer1Title(false)
+    , saveInstPlugin(true)
     , saveMidiFx(false), saveAudioFx(false)
 {
 }
@@ -65,9 +66,18 @@ void PatchConverter::processFile(File file, int& fileCount)
         auto outInst1Xml = outputPatchXml->getChildByName("Layer")->getChildByName("Instrument");
         outInst1Xml->setAttribute("stateInformation", inst1State);
         outInst1Xml->setAttribute("currentProgram", inst1Program);
+        if (saveInstPlugin)
+        {
+            // overwrite reference patch's INST1 plugin (this is the default)
+            auto inputPluginXml = inputInst1Xml->getChildByName("PLUGIN");
+            std::unique_ptr<XmlElement> pluginXml(new XmlElement(*inputPluginXml));
+            auto refPluginXml = outInst1Xml->getChildByName("PLUGIN");
+            outInst1Xml->replaceChildElement(refPluginXml, pluginXml.release());
+        }
 
         if (saveMidiFx)
         {
+            // overwrite reference patch's INST1 MIDI insert effects (usually NOT wanted)
             XmlElement* inputMidiInsertsXml = inputPatchXml->getChildByName("Layer")->getChildByName("MidiInserts");
             std::unique_ptr<XmlElement> savedMidiInsertsXml(new XmlElement(*inputMidiInsertsXml));  // deep copy
             XmlElement* outputMidiInsertsXml = outputPatchXml->getChildByName("Layer")->getChildByName("MidiInserts");
@@ -76,6 +86,7 @@ void PatchConverter::processFile(File file, int& fileCount)
 
         if (saveAudioFx)
         {
+            // overwrite reference patch's INST1 audio insert effects (usually NOT wanted)
             XmlElement* inputAudioInsertsXml = inputPatchXml->getChildByName("Layer")->getChildByName("AudioInserts");
             std::unique_ptr<XmlElement> savedAudioInsertsXml(new XmlElement(*inputAudioInsertsXml)); // deep copy
             XmlElement* outputAudioInsertsXml = outputPatchXml->getChildByName("Layer")->getChildByName("AudioInserts");

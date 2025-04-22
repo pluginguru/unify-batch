@@ -25,7 +25,7 @@ private:
     Label updateL1Label; ToggleButton updateLayer1TitleToggle;
 
     Label preserveLabel;
-    ToggleButton saveMidiFxToggle, saveAudioFxToggle;
+    ToggleButton saveInstToggle, saveMidiFxToggle, saveAudioFxToggle;
 
     Label outputPathLabel;
     TextButton outputFolderPath;    Label outputFolderPathLabel;
