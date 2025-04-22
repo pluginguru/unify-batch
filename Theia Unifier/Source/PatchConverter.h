@@ -9,12 +9,12 @@ public:
     bool setLayerTitle = true;
 
     // These are experimental, would require changes to GUI
-#if 0
+#if 1
     bool hyperion = true;
-    String libraryName = "Unified - WS Hyperion";
+    String libraryName = "WS Hyperion - Pick n Mix";
 #else
     bool hyperion = false;
-    String libraryName;
+    String libraryName = "WS Theia - Pick n Mix";
 #endif
 
 public:

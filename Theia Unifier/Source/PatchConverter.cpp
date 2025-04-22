@@ -69,7 +69,7 @@ XmlElement* PatchConverter::processTheiaCombi(File inFile, String& newPatchNameO
 {
     newPatchNameOrErrorMessage = inFile.getFileNameWithoutExtension();
 
-    String comment = "Theia factory combi by Wavesequencer";
+    String comment = String(hyperion ? "Hyperion" : "Theia") + " factory combi by Wavesequencer";
     String category, tags, author;
     {
         var json = JSON::parse(inFile);
