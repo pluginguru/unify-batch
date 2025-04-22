@@ -14,6 +14,8 @@ public:
 
 protected:	
     void processFile(String, File, int& fileCount);
+    void getCategoryAndPrefix(String folderName, String& category, String& prefix);
+    XmlElement* convertFxpPresetToVst3PatchXml(String folderName, File inFile, String& newPatchNameOrErrorMessage);
     XmlElement* convertVst2PatchToVst3PatchXml(String folderName, File inFile, String& newPatchNameOrErrorMessage);
     void saveUnifyPatch(File inFile, String patchName, XmlElement* patchXml);
 
