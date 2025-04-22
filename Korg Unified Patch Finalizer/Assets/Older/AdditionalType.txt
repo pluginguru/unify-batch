@@ -1,0 +1,49 @@
+Amp
+Auto Reverse
+Black Chorus/Flanger
+Black Phase
+Chorus
+Compressor
+CX-3 Rotary Speaker
+CX-3 Vibrato/Chorus
+Decimator
+Delay
+Early Reflections
+EP Chorus
+EQ
+Flanger
+Graphic EQ
+Guitar Amp
+Harmonic Chorus
+Iverb
+L/C/R Delay
+Modern Chorus
+Modern Compressor
+Modern Phaser
+Multiband Mod. Delay
+Orange Phase V2
+Overb
+Parametric EQ
+Phaser
+Polysix Ensemble
+Red Compressor
+Reverb
+Reverse Delay
+Ring Modulator
+Shimmer
+Small Phase
+Spring Reverb
+Stereo/Cross Delay
+Talking Modulator
+Tape Echo
+Tremolo
+Unison Ensemble
+Vibrato
+Vintage Chorus
+Vintage Distortion
+Vintage Flanger
+Vintage Screamer
+Vintage/Custom Wah
+VOX Wah
+Wah
+Wave Shaper

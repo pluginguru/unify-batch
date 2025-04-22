@@ -1,0 +1,52 @@
+Ambience
+Amp
+Arpeggio
+Audio Input
+Bass
+Bell/Mallet
+Brass
+Chorus
+Compressor
+Decimator
+Delay
+Distortion
+Drums
+E.Piano
+Eastern
+EQ
+Factory
+Fast Synth
+Flanger
+Gtr/Plucked
+Hall Reverb
+Just 4 Fun
+Lead
+Modern
+None
+Orchestral
+Organ
+Overb
+Pad
+Phaser
+Piano/Keys
+Reverb
+Rhythm Hard
+Rhythm Soft
+Ring Modulator
+Room Reverb
+Rotary Speaker
+Seq
+SFX
+Soundscape
+Strings
+Synth
+Talking Modulator
+Tremolo
+User
+Vibrato
+Vibrato/Chorus
+Vocal/Airy
+Wah
+Waveshaper
+Western
+Woodwind

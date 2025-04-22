@@ -1,0 +1,669 @@
+1551	5tKcXFnfEe+MbXDNYKrNDg==	5	2600 ART-Zoundscape (8v)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723600365	1723679735	1723679735	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = Jet Flanger
+
+AT = Vibrato"	0	0	Arp2600		0
+1552	xfwi/FCREe+B7nDNYKrNDg==	5	2600 ART-Zoundscape				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1722577249	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = Jet Flanger
+
+AT = Vibrato"	0	0	Arp2600		0
+1553	LSNU8FbSEe+nvHDNYKrNDg==	5	A Bit Tense... (MW Beat)				Seq;Rhythm Hard;		"Peter ""Ski"" Schwartz"			1723264617	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW adds beat
+
+AT makes pitch warp even more warped
+
+For an even sicker type of pitch modulation, raise the LFO curve slider to about the 1/2 way point"	0	0	Arp2600		0
+1554	KCQjUEjZEe+B3nDNYKrNDg==	5	Aggro Phase Bass MW Gate				Bass;Lead;		"Peter ""Ski"" Schwartz"			1721728299	1723684353	1723684353	0		0	ART-Z 2600	0	0	0	0	Edgey bass or lead sound with gating effect on MW. Check out the special kind of bend effect programmed for the Pitch Wheel.	0	0	Arp2600		0
+1555	TqzWduZAEe6hvXDNYKrNDg==	5	Air Drops				Vocal/Airy;None;		"Peter ""Ski"" Schwartz"			1710887436	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = turns off delay	0	0	Arp2600		0
+1556	ap0N1FNjEe+Pw3DNYKrNDg==	5	Air/Sonar Pings				Vocal/Airy;None;		"Peter ""Ski"" Schwartz"			1722887192	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = obligatory vibrato	0	0	Arp2600		0
+1557	UDC+8FU+Ee+OpnDNYKrNDg==	5	Alien Speak and Spell				SFX;Soundscape;		"Peter ""Ski"" Schwartz"			1723091159	1723684243	1723684243	0		0	ART-Z 2600	0	0	0	0	"Play a series of fast, short random short notes and you too can speak with aliens! VELOCITY controls attack time. PITCH WHEEL lets you add inflections on longer syllables (just be careful what you say, you don't want to create an intergalactic incident).
+
+Pitch Bend Range adjustable in the Mod Matrix. More...
+
+MW = adds ""chatter"" effect. Speed can be changed by adjusting the patch Tempo or Sequencer Rate knob."	0	0	Arp2600		0
+1558	DkTABlAoEe+1O3DNYKrNDg==	5	Anger Management Failure				Synth;SFX;		"Peter ""Ski"" Schwartz"			1722531844	1723679586	1723679586	0		0	ART-Z 2600	0	0	0	0	"MW = closes Filter (resonant Mode Sweep LPF)
+
+AT = distortion
+
+TOO ANGRY? The pitch waver amount can be reduced or turned off by turning down the top Voltage Processor Slider."	0	0	Arp2600		0
+1559	QmrNSO8XEe63mnDNYKrNDg==	5	Arabesques in Stereo				Seq;Soundscape;		"Peter ""Ski"" Schwartz"			1711859367	1723684312	1723684312	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1560	udOJZE3hEe+tQHDNYKrNDg==	5	ARP Hoover Sweep MW Gate				Lead;Synth;		"Peter ""Ski"" Schwartz"			1722281735	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	Variation of ARP Hoover Sweep where MW = Gated 8ths	0	0	Arp2600		0
+1561	hWNlEkiYEe+//nDNYKrNDg==	5	ARP Hoover Sweep				Lead;Synth;		"Peter ""Ski"" Schwartz"			1721700538	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = vibrato	0	0	Arp2600		0
+1562	G6c+/FFMEe+RIXDNYKrNDg==	5	AtmosWaver				Soundscape;Synth;		"Peter ""Ski"" Schwartz"			1721506500	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = slow the speed of the waver/flutter effect. Waver speed is always random (VCO 2 modulated by S/H) but you can adjust the starting speed by adjusting VCO 2  Initial Tuning.
+
+AT = subtle vibrato
+
+"	0	0	Arp2600		0
+1563	+KK7plnfEe+g/XDNYKrNDg==	5	AtmosWaver (8v)				Soundscape;Synth;		"Peter ""Ski"" Schwartz"			1723600395	1723679737	1723679737	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = slow the speed of the waver/flutter effect. Waver speed is always random (VCO 2 modulated by S/H) but you can adjust the starting speed by adjusting VCO 2  Initial Tuning.
+
+AT = subtle vibrato
+
+"	0	0	Arp2600		0
+1564	iw3I+kfPEe+563DNYKrNDg==	5	AtmosWaver Atmospheres				Soundscape;Synth;		"Peter ""Ski"" Schwartz"			1721614218	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Slower attack and more washy than ""AtmosWaver""
+
+MW = reduces volume of higher octave
+
+AT = vibrato"	0	0	Arp2600		0
+1565	CbLcKFngEe+ggnDNYKrNDg==	5	AtmosWaver Atmosphr. 8v				Soundscape;Synth;		"Peter ""Ski"" Schwartz"			1723600424	1723680887	1723680887	0		0	ART-Z 2600 (8v)	0	0	0	0	"Slower attack and more washy than ""AtmosWaver""
+
+MW = reduces volume of higher octave
+
+AT = vibrato"	0	0	Arp2600		0
+1566	kkirLlbgEe+0qnDNYKrNDg==	5	AtmosWaver Wash (Hold)				Soundscape;Synth;		"Peter ""Ski"" Schwartz"			1723270799	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = vibrato
+
+AT = vibrato"	0	0	Arp2600		0
+1567	FeP6LFngEe+gEnDNYKrNDg==	5	AtmosWaver Wash Hold 8v				Soundscape;Synth;		"Peter ""Ski"" Schwartz"			1723600444	1723681102	1723681102	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = vibrato
+
+AT = vibrato"	0	0	Arp2600		0
+1568	vSOczlODEe+Ea3DNYKrNDg==	5	Auto HH				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722901075	1723671504	1723671504	0		0	ART-Z 2600 Drums	0	0	0	0	"MW adds phase shifter and delay
+AT = lengthens decay of closed hat
+
+ADSR controls closed hat
+AUX ENV controls open hat"	0	0	Arp2600		0
+1569	0soZglIGEe+xhHDNYKrNDg==	5	AutoShaker				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722737473	1723687665	1723687665	0		0	ART-Z 2600 Drums	0	0	0	0	MW = stereo delay	0	0	Arp2600		0
+1570	cfjvklHaEe+D3HDNYKrNDg==	5	AutoShaker More Rand				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722718412	1723687667	1723687667	0		0	ART-Z 2600 Drums	0	0	0	0	MW = stereo delay	0	0	Arp2600		0
+1571	3M0iRu4JEe6heHDNYKrNDg==	5	Bao Sync Bass				Bass;Synth;		"Peter ""Ski"" Schwartz"			1711743662	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1572	8dgsWFbhEe+mhnDNYKrNDg==	5	Bao Sync Bass (Growly)				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723271389	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1573	e6/rRPC5Ee6mpHDNYKrNDg==	5	Bao Veloc Bass 2-Oct				Bass;Synth;		"Peter ""Ski"" Schwartz"			1712038992	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1574	vGH0GFbEEe+QWXDNYKrNDg==	5	Bass Froggg				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723258844	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"** Single Trigger**
+
+Very velocity sensitive. The most froggy fun is in the bass.
+
+MW = frequency modulation whackiness
+
+AT = vibrato"	0	0	Arp2600		0
+1575	uJBDhFboEe+alHDNYKrNDg==	5	Bass: Boww Attack 2-Oct				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723274300	1723678985	1723678985	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW & AT = vibrato"	0	0	Arp2600		0
+1576	s1WsEFboEe+boHDNYKrNDg==	5	Bass: Boww Attack 3-Oct				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723274291	1723679069	1723679069	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW & AT = vibrato"	0	0	Arp2600		0
+1577	E9yBkk18Ee+AzXDNYKrNDg==	5	Bass: Classic 2oct Bs/Ld				Bass;Synth;		"Peter ""Ski"" Schwartz"			1722238077	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW & AT = vibrato"	0	0	Arp2600		0
+1578	q6+38Fk+Ee+8/HDNYKrNDg==	5	Bass: Deep Saw Thump				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723531117	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW = vibrato"	0	0	Arp2600		0
+1579	FpK/Qk5SEe+ub3DNYKrNDg==	5	Bass: Deep Square Thump				Bass;Synth;		"Peter ""Ski"" Schwartz"			1722329994	1723678668	1723678668	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW = vibrato"	0	0	Arp2600		0
+1580	MMo9GFg0Ee+qAXDNYKrNDg==	5	Bass: Deeper Saw Thump				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723416665	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW = vibrato"	0	0	Arp2600		0
+1581	Cov1Ilk/Ee+SFXDNYKrNDg==	5	Bass: Deeper Squ Thump				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723531276	1723678857	1723678857	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW = vibrato"	0	0	Arp2600		0
+1582	l0fV/FN4Ee+LAnDNYKrNDg==	5	Bass: Medium Moog				Bass;Synth;		"Peter ""Ski"" Schwartz"			1722896287	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW = vibrato"	0	0	Arp2600		0
+1583	j6+BYE1uEe+fbXDNYKrNDg==	5	Bass: Moog Snap				Bass;Synth;		"Peter ""Ski"" Schwartz"			1722232272	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Classic Analog Bass
+
+MW & AT = vibrato"	0	0	Arp2600		0
+1584	HuuN6E1uEe+Ty3DNYKrNDg==	5	Bass: Take My Breath MW				Bass;Synth;		"Peter ""Ski"" Schwartz"			1722232083	1723679110	1723679110	0		0	ART-Z 2600	0	0	0	0	ModWheel reduces EG > VCF Cutoff for rounder tone	0	0	Arp2600		0
+1585	OunZME4kEe+rnXDNYKrNDg==	5	Bella Bells				Bell/Mallet;Soundscape;		"Peter ""Ski"" Schwartz"			1722310298	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1586	QSLEtlngEe+1AXDNYKrNDg==	5	Bella Bells (8v)				Bell/Mallet;Soundscape;		"Peter ""Ski"" Schwartz"			1723600517	1723620322	1723620322	0		0	ART-Z 2600 (8v)	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1587	ZQtWPFR7Ee+EBXDNYKrNDg==	5	Bellscape				Bell/Mallet;Pad;		"Peter ""Ski"" Schwartz"			1723007442	1723680827	1723680827	0		0	ART-Z 2600	0	0	0	0	"MW = harmonic sweep (Multi-Mode Filter)
+
+AT = vibrato"	0	0	Arp2600		0
+1588	UcomGFniEe+XMHDNYKrNDg==	5	Bellscape (8v)				Bell/Mallet;Pad;		"Peter ""Ski"" Schwartz"			1723601404	1723680837	1723680837	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = harmonic sweep (Multi-Mode Filter)
+
+AT = vibrato"	0	0	Arp2600		0
+1589	YXmkPlqSEe+i1XDNYKrNDg==	5	Bong Hits				Bell/Mallet;Soundscape;		"Peter ""Ski"" Schwartz"			1723677021	1723678197	1723678197	0		0	ART-Z 2600	0	0	0	0	"MW = Close LPF
+
+For shorter ring-out, reduce AR release time and Reverb FX time"	0	0	Arp2600		0
+1590	n+4WUOb3Ee6aTXDNYKrNDg==	5	BP Stutter Down				Rhythm Hard;Synth;		"Peter ""Ski"" Schwartz"			1710966170	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = adds synth string-like sub octave	0	0	Arp2600		0
+1591	YP75bOTsEe6O7HDNYKrNDg==	5	BP Stutter Up (No Pan)				Rhythm Hard;Synth;		"Peter ""Ski"" Schwartz"			1710741438	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = longer EG attack time (slower upward sweep)	0	0	Arp2600		0
+1592	BzZuWOibEe6EFHDNYKrNDg==	5	BP Stutter Up, Noise+Pan				Rhythm Hard;Synth;		"Peter ""Ski"" Schwartz"			1711146303	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = longer EG attack time for filter sweep	0	0	Arp2600		0
+1593	ZaJypFUdEe+qW3DNYKrNDg==	5	Bubbles MW Flutter				Bell/Mallet;SFX;		"Peter ""Ski"" Schwartz"			1723077021	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW controls frequency (speed) of VCO2 which is used as square wave LFO to create the stutter/flutter effect. 	0	0	Arp2600		0
+1594	XpWVglngEe+pEHDNYKrNDg==	5	Bubbles MW Flutter (8v)				Bell/Mallet;SFX;		"Peter ""Ski"" Schwartz"			1723600566	1723620328	1723620328	0		0	ART-Z 2600 (8v)	0	0	0	0	MW controls frequency (speed) of VCO2 which is used as square wave LFO to create the stutter/flutter effect. 	0	0	Arp2600		0
+1595	JPpybE19Ee+lfnDNYKrNDg==	5	Bubbly Harmonics Dance				Seq;Rhythm Soft;		"Peter ""Ski"" Schwartz"			1722238535	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = LFO > Filter Mod  :)	0	0	Arp2600		0
+1596	GV9KmFeOEe+Aj3DNYKrNDg==	5	Cathedral 4' Lead				Organ;None;		"Peter ""Ski"" Schwartz"			1723345329	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = fades out lower-pitched pipes	0	0	Arp2600		0
+1597	bUN8XFngEe+wUnDNYKrNDg==	5	Cathedral 4' Lead (8v)				Organ;None;		"Peter ""Ski"" Schwartz"			1723600591	1723620331	1723620331	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = fades out lower-pitched pipes	0	0	Arp2600		0
+1598	THQ1zFX2Ee+eAHDNYKrNDg==	5	Cathedral Full				Organ;None;		"Peter ""Ski"" Schwartz"			1723170180	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW changes registration, drops lowest pipe and changes harmonic mixture	0	0	Arp2600		0
+1599	dthYHlngEe+cRHDNYKrNDg==	5	Cathedral Full (8v)				Organ;None;		"Peter ""Ski"" Schwartz"			1723600607	1723620333	1723620333	0		0	ART-Z 2600 (8v)	0	0	0	0	MW changes registration, drops lowest pipe and changes harmonic mixture	0	0	Arp2600		0
+1600	aCNK+FX+Ee+FVHDNYKrNDg==	5	Cathedral Harmonics				Organ;None;		"Peter ""Ski"" Schwartz"			1723173662	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = fades out lowest octave so that only harmonic pipes are heard	0	0	Arp2600		0
+1601	e8fTVFngEe+e1nDNYKrNDg==	5	Cathedral Harmonics (8v)				Organ;None;		"Peter ""Ski"" Schwartz"			1723600615	1723620335	1723620335	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = fades out lowest octave so that only harmonic pipes are heard	0	0	Arp2600		0
+1602	DpNcXleNEe+gGHDNYKrNDg==	5	Cathedral RIch				Organ;None;		"Peter ""Ski"" Schwartz"			1723344881	1723679804	1723679804	0		0	ART-Z 2600	0	0	0	0	MW = fades out higher pitched pipes	0	0	Arp2600		0
+1603	gsCWMlngEe+idHDNYKrNDg==	5	Cathedral RIch (8v)				Organ;None;		"Peter ""Ski"" Schwartz"			1723600627	1723679788	1723679788	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = fades out higher pitched pipes	0	0	Arp2600		0
+1604	MnRo5Of3Ee6vG3DNYKrNDg==	5	Cathedral Simple				Organ;None;		"Peter ""Ski"" Schwartz"			1711075938	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = darker sound	0	0	Arp2600		0
+1605	h5r10FngEe+6t3DNYKrNDg==	5	Cathedral Simple (8v)				Organ;None;		"Peter ""Ski"" Schwartz"			1723600635	1723620340	1723620340	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = darker sound	0	0	Arp2600		0
+1606	8kqIHleNEe+xN3DNYKrNDg==	5	Cathedral Small				Organ;None;		"Peter ""Ski"" Schwartz"			1723345263	1723679855	1723679855	0		0	ART-Z 2600	0	0	0	0	MW = fades out higher pitched pipes	0	0	Arp2600		0
+1607	jTbVDlngEe+E9XDNYKrNDg==	5	Cathedral Small (8v)				Organ;None;		"Peter ""Ski"" Schwartz"			1723600644	1723679819	1723679819	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = fades out higher pitched pipes	0	0	Arp2600		0
+1608	cRWQwle1Ee+Gr3DNYKrNDg==	5	Cathedral Wash				Pad;None;		"Peter ""Ski"" Schwartz"			1723362226	1723679865	1723679865	0		0	ART-Z 2600	0	0	0	0	"MW = adds VCO3 pulse wave and bends VCO3 up 1 oct
+
+AT = filter swell"	0	0	Arp2600		0
+1609	k9YlQFngEe+19nDNYKrNDg==	5	Cathedral Wash (8v)				Pad;None;		"Peter ""Ski"" Schwartz"			1723600655	1723679870	1723679870	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = adds VCO3 pulse wave and bends VCO3 up 1 oct
+
+AT = filter swell"	0	0	Arp2600		0
+1610	HbWcYllDEe+iv3DNYKrNDg==	5	Choir Gate MW				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1723533026	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = formant
+
+FX1 Reverb (Early Reflections) is only used for ModWheel FX
+"	0	0	Arp2600		0
+1611	quVPNlngEe+pD3DNYKrNDg==	5	Choir Gate MW (8v)				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1723600694	1723620349	1723620349	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = formant
+
+FX1 Reverb (Early Reflections) is only used for ModWheel FX
+"	0	0	Arp2600		0
+1612	os4pYlFwEe+IrnDNYKrNDg==	5	Clap 1 Wide				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722672968	1723687720	1723687720	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1613	0jSUylEgEe+AQ3DNYKrNDg==	5	Clap 2 Bright/Hollow				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722638687	1723687139	1723687139	0		0	ART-Z 2600 Drums	0	0	0	0	MW = shorter decay	0	0	Arp2600		0
+1614	YtPXMFFwEe+LOXDNYKrNDg==	5	Clap 3 Short/Hollow				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722672860	1723687148	1723687148	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1615	V984zFPUEe+8f3DNYKrNDg==	5	Clap 4 High/Bright				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722935694	1723687156	1723687156	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1616	C9st1FEgEe+zrXDNYKrNDg==	5	Clap 5 Classic				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722638355	1723687164	1723687164	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1617	lLSVck4kEe+TLXDNYKrNDg==	5	Classic Saw Comp				Synth;None;		"Peter ""Ski"" Schwartz"			1722310449	1723680166	1723680166	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1618	wGeDGlngEe+7m3DNYKrNDg==	5	Classic Saw Comp (8v)				Synth;None;		"Peter ""Ski"" Schwartz"			1723600730	1723680171	1723680171	0		0	ART-Z 2600 (8v)	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1619	2b3x9FN5Ee+VvnDNYKrNDg==	5	Classic Saw Comp 2				Synth;None;		"Peter ""Ski"" Schwartz"			1722896828	1723680192	1723680192	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1620	ycKqIFngEe+QRXDNYKrNDg==	5	Classic Saw Comp 2 (8v)				Synth;None;		"Peter ""Ski"" Schwartz"			1723600746	1723680187	1723680187	0		0	ART-Z 2600 (8v)	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1621	9Gs0kFYgEe+iEHDNYKrNDg==	5	Compassion Keys				Synth;None;		"Peter ""Ski"" Schwartz"			1723188501	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW & AT = vibrato
+
+Vibrato is being generated by Step Seq 1 with Smooth Output enabled. Change vibrato rate by adjusting the Step Seq Rate knob. You can also change the vibrato rate by changing the Tempo, because the sequencer's clock is based on the BPM setting. Doing this will not affect the timing of the Stereo Delay (FX3)."	0	0	Arp2600		0
+1622	zzMgylngEe+MPHDNYKrNDg==	5	Compassion Keys (8v)				Synth;None;		"Peter ""Ski"" Schwartz"			1723600755	1723620352	1723620352	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW & AT = vibrato
+
+Vibrato is being generated by Step Seq 1 with Smooth Output enabled. Change vibrato rate by adjusting the Step Seq Rate knob. You can also change the vibrato rate by changing the Tempo, because the sequencer's clock is based on the BPM setting. Doing this will not affect the timing of the Stereo Delay (FX3)."	0	0	Arp2600		0
+1623	02XhclYwEe+Io3DNYKrNDg==	5	Crash Trash Long MW				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723195317	1723700406	1723700406	0		0	ART-Z 2600 Drums	0	0	0	0	MW = tremolo + reverb	0	0	Arp2600		0
+1624	dnuzflYwEe+IhHDNYKrNDg==	5	Crash: Trash Bright (C4)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723195161	1723700391	1723700391	0		0	ART-Z 2600 Drums	0	0	0	0	MW = delay	0	0	Arp2600		0
+1625	NgxyhlRhEe+YHXDNYKrNDg==	5	Crystal Bells				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1722996196	1723679292	1723679292	0		0	ART-Z 2600	0	0	0	0	"MW adds Phaser
+
+AT = vibrato"	0	0	Arp2600		0
+1626	Mulj3FngEe+DTHDNYKrNDg==	5	Crystal Bells (8v)				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1723600493	1723679299	1723679299	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW adds Phaser
+
+AT = vibrato"	0	0	Arp2600		0
+1627	dW+4wlCQEe+obnDNYKrNDg==	5	Cumulus Pad (Hold)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1722576684	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = Jet Flanger
+
+AT = Vibrato"	0	0	Arp2600		0
+1628	19SgllngEe+ncHDNYKrNDg==	5	Cumulus Pad (Hold) 8v				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723600770	1723681118	1723681118	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = Jet Flanger
+
+AT = Vibrato"	0	0	Arp2600		0
+1629	YMahTEoUEe+jb3DNYKrNDg==	5	Cyclic BP (ModWhl)				Synth;Rhythm Hard;		"Peter ""Ski"" Schwartz"			1721863685	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = add pulse rhythm	0	0	Arp2600		0
+1630	PA8EBk5SEe+WMXDNYKrNDg==	5	Dark Drone&Pulse (Hold)				Synth;Soundscape;		"Peter ""Ski"" Schwartz"			1722330057	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = turns off pulse & hash in background	0	0	Arp2600		0
+1631	xH7JJk44Ee+vfHDNYKrNDg==	5	Dark Impact Bass				Bass;Synth;		"Peter ""Ski"" Schwartz"			1722319119	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = close LP filter	0	0	Arp2600		0
+1632	3isZGk44Ee+YzXDNYKrNDg==	5	Dark Impact Square Bass				Bass;Synth;		"Peter ""Ski"" Schwartz"			1722319162	1723679436	1723679436	0		0	ART-Z 2600	0	0	0	0	MW = close LP filter	0	0	Arp2600		0
+1633	yY5ASue9Ee6M8XDNYKrNDg==	5	Dirt Simple (MW Gate)				Seq;Lead;		"Peter ""Ski"" Schwartz"			1711051281	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = 1/4 note filter mod
+
+AT = vibrato"	0	0	Arp2600		0
+1634	KW269lSfEe+fGXDNYKrNDg==	5	Dist Rev & MW Pulse				Synth;Seq;		"Peter ""Ski"" Schwartz"			1723022804	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = pattern change
+
+AT = adds filter sweep"	0	0	Arp2600		0
+1635	nwqIfku4Ee+CKHDNYKrNDg==	5	Doom Dive (ModWhl)				Synth;SFX;		"Peter ""Ski"" Schwartz"			1722044178	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW adds extra sizzle	0	0	Arp2600		0
+1636	kLEmmN1oEe6egnDNYKrNDg==	5	Drama Low Octaves				Strings;Synth;		"Peter ""Ski"" Schwartz"			1709915166	1723680055	1723680055	0		0	ART-Z 2600	0	0	0	0	"MW = slower attack time
+
+AT = brightness & subtle vibrato. 
+
+Disable AT vibrato by turning down AT Vibrato Depth. Adjust AT brightness with VCF CV Input #3. "	0	0	Arp2600		0
+1637	+mTL/lngEe+BBHDNYKrNDg==	5	Drama Low Octaves (8v)				Strings;Synth;		"Peter ""Ski"" Schwartz"			1723600828	1723680047	1723680047	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = slower attack time
+
+AT = brightness & subtle vibrato. 
+
+Disable AT vibrato by turning down AT Vibrato Depth. Adjust AT brightness with VCF CV Input #3. "	0	0	Arp2600		0
+1638	uc3VWO+1Ee6BB3DNYKrNDg==	5	Evo Pad AT (Hold)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1711927428	1723680587	1723680587	0		0	ART-Z 2600	0	0	0	0	"MW = vibrato
+
+AT = opens filter for swells"	0	0	Arp2600		0
+1639	A97qtlnhEe+ts3DNYKrNDg==	5	Evo Pad AT (Hold) 8v				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723600843	1723680973	1723680973	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = vibrato
+
+AT = opens filter for swells"	0	0	Arp2600		0
+1640	Kejv/FgmEe+XhnDNYKrNDg==	5	Evolver Pad 1-Oct				Pad;None;		"Peter ""Ski"" Schwartz"			1723410640	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW + AT = vibrato	0	0	Arp2600		0
+1641	ItlZVlnhEe+5MHDNYKrNDg==	5	Evolver Pad 1-Oct (8v)				Pad;None;		"Peter ""Ski"" Schwartz"			1723600895	1723620357	1723620357	0		0	ART-Z 2600 (8v)	0	0	0	0	MW + AT = vibrato	0	0	Arp2600		0
+1642	GXpHsFgmEe+6s3DNYKrNDg==	5	Evolver Pad 2-Oct				Pad;None;		"Peter ""Ski"" Schwartz"			1723410613	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW + AT = vibrato	0	0	Arp2600		0
+1643	J+10DlnhEe+aKXDNYKrNDg==	5	Evolver Pad 2-Oct (8v)				Pad;None;		"Peter ""Ski"" Schwartz"			1723600904	1723620362	1723620362	0		0	ART-Z 2600 (8v)	0	0	0	0	MW + AT = vibrato	0	0	Arp2600		0
+1644	KcWGjFQ7Ee+rXXDNYKrNDg==	5	Fergin Phat Unison Lead				Lead;None;		"Peter ""Ski"" Schwartz"			1722979855	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = phase shifter
+
+AT = vibrato"	0	0	Arp2600		0
+1645	YgGubki0Ee+z7XDNYKrNDg==	5	Fergin Phatness 2-Oct MW				Lead;None;		"Peter ""Ski"" Schwartz"			1721712504	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = phase shifter
+
+AT = vibrato"	0	0	Arp2600		0
+1646	Q/1QwFE5Ee+lrXDNYKrNDg==	5	Flange Shk/Hat 1-Note				Synth;Seq;		"Peter ""Ski"" Schwartz"			1722649186	1723671837	1723671837	0		0	ART-Z 2600	0	0	0	0	MW = Drop	0	0	Arp2600		0
+1647	cdcwXlnTEe+853DNYKrNDg==	5	Fleeting Notescape				Soundscape;None;		"Peter ""Ski"" Schwartz"			1723595015	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW fades out pad
+
+Higher velocities make backward-sounding notes brighter and take longer to attack.
+
+ADSR Attack Time determines overall length of backwards effect
+
+For thicker sound, turn on FX 1 (Harmonic Chorus)"	0	0	Arp2600		0
+1648	Rn8JvlnhEe+TT3DNYKrNDg==	5	Fleeting Notescape (8v)				Soundscape;None;		"Peter ""Ski"" Schwartz"			1723600955	1723680223	1723680223	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW fades out pad
+
+Higher velocities make backward-sounding notes brighter and take longer to attack.
+
+ADSR Attack Time determines overall length of backwards effect
+
+For thicker sound, turn on FX 1 (Harmonic Chorus)"	0	0	Arp2600		0
+1649	pF4DJlFQEe+dYnDNYKrNDg==	5	FM Aggro Dive				SFX;Soundscape;		"Peter ""Ski"" Schwartz"			1722659226	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = Sweep Faster > Off	0	0	Arp2600		0
+1650	WrBD5FnhEe+aWnDNYKrNDg==	5	FMeral E.Gtr Tight (8v)				Gtr/Plucked;None;		"Peter ""Ski"" Schwartz"			1723600989	1723680097	1723680097	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = brightness
+
+AT = subtle vibrato"	0	0	Arp2600		0
+1651	I8dkXlg7Ee+dfXDNYKrNDg==	5	FMeral E.Guit Long				Gtr/Plucked;None;		"Peter ""Ski"" Schwartz"			1723419649	1723680115	1723680115	0		0	ART-Z 2600	0	0	0	0	"MW & AT = vibrato
+
+Sustaining tone can be adjusted with VCO 2 Pulse Width slider"	0	0	Arp2600		0
+1652	VQpAXFnhEe+oEXDNYKrNDg==	5	FMeral E.Guit Long (8v)				Gtr/Plucked;None;		"Peter ""Ski"" Schwartz"			1723600980	1723680085	1723680085	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW & AT = vibrato
+
+Sustaining tone can be adjusted with VCO 2 Pulse Width slider"	0	0	Arp2600		0
+1653	tIEVulRkEe+2XHDNYKrNDg==	5	FMeral E.Guit Tight				Gtr/Plucked;None;		"Peter ""Ski"" Schwartz"			1722997697	1723680119	1723680119	0		0	ART-Z 2600	0	0	0	0	"MW = brightness
+
+AT = subtle vibrato"	0	0	Arp2600		0
+1654	AlNrgla7Ee+Ve3DNYKrNDg==	5	Fusion Lead 4ths				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723254666	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Use aftertouch for expression!
+
+MW = filter swell and vibrato
+
+AT = filter swell"	0	0	Arp2600		0
+1655	UBqngFhCEe+VO3DNYKrNDg==	5	Fusion Lead Maj 7				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723422730	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = filter swell and vibrato
+
+AT = filter swell"	0	0	Arp2600		0
+1656	vOkJOFhCEe+ED3DNYKrNDg==	5	Fusion Lead Maj 7 Inv				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723422913	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = filter swell and vibrato
+
+AT = filter swell"	0	0	Arp2600		0
+1657	QTaACla7Ee+AOHDNYKrNDg==	5	Fusion Lead Minor 7				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723254772	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = filter swell and vibrato
+
+AT = filter swell"	0	0	Arp2600		0
+1658	RdqNBOT2Ee6fFnDNYKrNDg==	5	Fusion Lead Open 9th				Lead;Synth;		"Peter ""Ski"" Schwartz"			1710745688	1723602192	1723602192	0		0	ART-Z 2600	0	0	0	0	"MW = opens filter for realtime swells
+
+AT = vibrato
+
+Sound is very velocity sensitive, producing slower attacks at lower velocities."	0	0	Arp2600		0
+1659	JG5i7krqEe+fQnDNYKrNDg==	5	Fusion Notch Lead 4ths				Lead;Synth;		"Peter ""Ski"" Schwartz"			1721955496	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Use aftertouch for expression! It sweeps the notch filter. 
+
+MW = filter swell & vibrato
+
+AT = notch filter cutoff+"	0	0	Arp2600		0
+1660	/SZCjErWEe+2eHDNYKrNDg==	5	Fusion Notch Lead Sus 2				Lead;Synth;		"Peter ""Ski"" Schwartz"			1721947270	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Use aftertouch for expression! It sweeps the notch filter. 
+
+MW = filter swell & vibrato
+
+AT = notch filter cutoff+"	0	0	Arp2600		0
+1661	wRSL0E/OEe+U3XDNYKrNDg==	5	Get Off My Lawn!				SFX;Synth;		"Peter ""Ski"" Schwartz"			1722493489	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = close Filter (resonant Mode Sweep LPF)	0	0	Arp2600		0
+1662	UFPBLEyzEe+tR3DNYKrNDg==	5	GothicFM-ModWhl Control				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1722151850	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW Controls Formant
+
+Detuning created by FX#2 (Unison Ensemble)
+
+Turn on SEQ ENABLE and then use ModWheel for gating effect
+"	0	0	Arp2600		0
+1663	kmy8wEcjEe+zXHDNYKrNDg==	5	Grate Gate Sample/Hold				Rhythm Hard;Soundscape;		"Peter ""Ski"" Schwartz"			1721540357	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = more percussive pulse	0	0	Arp2600		0
+1664	6LJsJloOEe+2CMoEE03+ZA==	5	Heavenly				Pad;Strings;		John Lehmkuhl			1723620555	1723620555	1723620555	0		0	ART-Z 2600	0	0	0	0	Warm String Pad	0	0	Arp2600		0
+1665	Rt38MloMEe+VAsoEE03+ZA==	5	Heavenly (8v)				Pad;Strings;		John Lehmkuhl			1723619424	1723620237	1723620237	0		0	ART-Z 2600 (8v)	0	0	0	0	Warm String Pad	0	0	Arp2600		0
+1666	x4ZYgkvHEe+nKnDNYKrNDg==	5	Heavy Alert				Synth;SFX;		"Peter ""Ski"" Schwartz"			1722050688	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = Tape Delay time change (warp)
+
+Vibrato LFO = repeat rate
+"	0	0	Arp2600		0
+1667	TrS56lEgEe+HMHDNYKrNDg==	5	HH Closed 1				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722638467	1723687204	1723687204	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed --> open	0	0	Arp2600		0
+1668	XG1izFLXEe+KsXDNYKrNDg==	5	HH Closed 2				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722827039	1723687789	1723687789	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed --> open	0	0	Arp2600		0
+1669	Ew2eolLYEe+SpXDNYKrNDg==	5	HH Closed 3				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722827345	1723687221	1723687221	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed --> open	0	0	Arp2600		0
+1670	OnafIForEe+YlXDNYKrNDg==	5	HH Closed 4				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723632718	1723687229	1723687229	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed --> open	0	0	Arp2600		0
+1671	xyrNAlEfEe+qInDNYKrNDg==	5	HH Open 1				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722638239	1723687235	1723687235	0		0	ART-Z 2600 Drums	0	0	0	0	MW = open --> closed	0	0	Arp2600		0
+1672	2rmRGFLYEe+hcnDNYKrNDg==	5	HH Open 2				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722827680	1723687241	1723687241	0		0	ART-Z 2600 Drums	0	0	0	0	MW = open --> closed	0	0	Arp2600		0
+1673	7ujLdlQtEe+9sXDNYKrNDg==	5	HH Open 3				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722974173	1723687246	1723687246	0		0	ART-Z 2600 Drums	0	0	0	0	MW = open --> closed	0	0	Arp2600		0
+1674	XWoIUForEe+PnnDNYKrNDg==	5	HH Open 4				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723632776	1723687251	1723687251	0		0	ART-Z 2600 Drums	0	0	0	0	MW = open --> closed	0	0	Arp2600		0
+1675	vagKUlE3Ee++K3DNYKrNDg==	5	HH Rev 1/4 Flange				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722648531	1723698969	1723698969	0		0	ART-Z 2600 Drums	0	0	0	0	"MW = adds rhythmic pattern
+
+FLANGER SWEEP:: the flanger's LFO is programmed to start from the same point each time at note on (the high point of the sweep). You can change this to start from the bottom of the sweep or other position clicking the Effects tab, going into the Vintage Flanger, and changing the Reset  Phase parameter. "	0	0	Arp2600		0
+1676	80POSlOJEe+ksHDNYKrNDg==	5	HH Tiny Closed				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722903742	1723698905	1723698905	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed --> open	0	0	Arp2600		0
+1677	QBUL3lOLEe+Vj3DNYKrNDg==	5	HH Tiny Open				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722904301	1723698933	1723698933	0		0	ART-Z 2600 Drums	0	0	0	0	MW = open --> closed	0	0	Arp2600		0
+1678	uLBa3ku8Ee+H6HDNYKrNDg==	5	High Anxiety				Synth;SFX;		"Peter ""Ski"" Schwartz"			1722045939	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW adds distortion
+
+Vibrato LFO = stutter rate
+
+Aux LFO= waver rate (pulse width mod, VCO2)
+"	0	0	Arp2600		0
+1679	01Y+dEuvEe+7mXDNYKrNDg==	5	HiPass Pad				Pad;None;		"Peter ""Ski"" Schwartz"			1722040400	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = add higher octave 
+
+AT = vibrato
+
+Aux ENV Delay & Attack Times determine when the thicker body of the sound (from VCF) starts to fade in."	0	0	Arp2600		0
+1680	af+e9lSiEe+5UHDNYKrNDg==	5	Hummer				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723024201	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Great for low octave drones and open chord voicings. Has a ""humming choir"" vibe. MODWHEEL reduces Vibrato and Pitch EG for a straighter pad sound, and playing LOW OCTAVES produces a cello-like string sound.
+
+AT raises cutoff on VCF. Increase VCF Control Input #3 for more dramatic effect."	0	0	Arp2600		0
+1681	aoD3blnhEe+wdHDNYKrNDg==	5	Hummer (8v)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723601016	1723620365	1723620365	0		0	ART-Z 2600 (8v)	0	0	0	0	"Great for low octave drones and open chord voicings. Has a ""humming choir"" vibe. MODWHEEL reduces Vibrato and Pitch EG for a straighter pad sound, and playing LOW OCTAVES produces a cello-like string sound.
+
+AT raises cutoff on VCF. Increase VCF Control Input #3 for more dramatic effect."	0	0	Arp2600		0
+1682	SsIXLOQhEe61DHDNYKrNDg==	5	HyperSquare				Lead;Bass;		"Peter ""Ski"" Schwartz"			1710654213	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"The squarest of all square waves!
+
+MW & AT = vibrato
+
+PitchBend = FM oscillator modulation"	0	0	Arp2600		0
+1683	DNUZvkdFEe+CUHDNYKrNDg==	5	HyperSquare MW Sweep				Lead;Bass;		"Peter ""Ski"" Schwartz"			1721554736	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW adds filter sweep
+
+AT = vibrato
+
+"	0	0	Arp2600		0
+1684	dJGx8EYlEe+CUnDNYKrNDg==	5	Ice Evolver AT				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1721431215	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = flutter FX (depth and speed)
+
+AT = vibrato and adds lower octave"	0	0	Arp2600		0
+1685	d74Y0FnhEe+FPHDNYKrNDg==	5	Ice Evolver AT (8v)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723601038	1723620369	1723620369	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = flutter FX (depth and speed)
+
+AT = vibrato and adds lower octave"	0	0	Arp2600		0
+1686	fMtCslnhEe+IWnDNYKrNDg==	5	Ice Evolver AT Shim (8v)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723601046	1723680384	1723680384	0		0	ART-Z 2600 (8v)	0	0	0	0	"This version of Ice Evolver uses the Shimmer Reverb to add an extra dimension to the texture.
+
+AT adds lower tone 2 octaves below
+
+MW adds unearthly sidebands when used with AT
+
+"	0	0	Arp2600		0
+1687	dJS6TEa9Ee+qPXDNYKrNDg==	5	Ice Evolver AT w/Shimmer				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1721496499	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"This version of Ice Evolver uses the Shimmer Reverb to add an extra dimension to the texture.
+
+AT adds lower tone 2 octaves below
+
+MW adds unearthly sidebands when used with AT
+
+"	0	0	Arp2600		0
+1688	bwrj2FVqEe+5X3DNYKrNDg==	5	Jubilation Lead				Lead;None;		"Peter ""Ski"" Schwartz"			1723110108	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"** Single Trigger **
+
+MW & AT = vibrato"	0	0	Arp2600		0
+1689	Ao1IJlRsEe+QhHDNYKrNDg==	5	Kick: Deep (Low F)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723000834	1723698600	1723698600	0		0	ART-Z 2600 Drums	0	0	0	0	"MW = shorter decay
+
+Attack ""Tick"" can be raised or lowered with VCF Control Input #3"	0	0	Arp2600		0
+1690	ga/47FRsEe+zMnDNYKrNDg==	5	Kick: Deep MW (Low C)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723001048	1723698592	1723698592	0		0	ART-Z 2600 Drums	0	0	0	0	"After loading, wait a few seconds for resonance to build up.
+
+MW = color"	0	0	Arp2600		0
+1691	ktgsmFRsEe+cLnDNYKrNDg==	5	Kick: Osc #1 (Low C)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723001076	1723698576	1723698576	0		0	ART-Z 2600 Drums	0	0	0	0	"MW = Color
+
+Aux EG Hold = Sustain Time
+
+ADSR EG Decay controls pitch dive"	0	0	Arp2600		0
+1692	bFSOTlRtEe+TEHDNYKrNDg==	5	Kick: Osc #2 (Low F)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723001441	1723698571	1723698571	0		0	ART-Z 2600 Drums	0	0	0	0	"MW = Color
+
+Aux EG Hold = Sustain Time
+
+ADSR EG Decay controls pitch dive"	0	0	Arp2600		0
+1693	+p61dlRtEe+2vnDNYKrNDg==	5	Kick: Osc 3 (Low C)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723001680	1723698609	1723698609	0		0	ART-Z 2600 Drums	0	0	0	0	"MW = Color
+
+Aux EG Hold = Sustain Time
+
+ADSR EG Decay controls pitch dive"	0	0	Arp2600		0
+1694	seXW8FRqEe+zVnDNYKrNDg==	5	Kick: Sine Tone (Low F)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723000269	1723698617	1723698617	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1695	9veHKlCgEe+af3DNYKrNDg==	5	Klang Pattern				Soundscape;Rhythm Hard;		"Peter ""Ski"" Schwartz"			1722583774	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = Jet Flanger
+
+AT = Vibrato"	0	0	Arp2600		0
+1696	L1AiSlYsEe+/M3DNYKrNDg==	5	Latin Bell/Agogo				Percussion;Bell/Mallet;		"Peter ""Ski"" Schwartz"			1723193324	1723687051	1723687051	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed < > open	0	0	Arp2600		0
+1697	+uoNiFgiEe+L2HDNYKrNDg==	5	LFO Melodies 13-9-5				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723409273	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = filter flutter (VCF modulation by Vib LFO, speed and depth controlled by MW)
+
+AT = vibrato"	0	0	Arp2600		0
+1698	F80NflgjEe+m/XDNYKrNDg==	5	LFO Melodies 7-3-6				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723409321	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = filter flutter (VCF modulation by Vib LFO, speed and depth controlled by MW)
+
+AT = vibrato"	0	0	Arp2600		0
+1699	G7+pcFghEe+KxXDNYKrNDg==	5	LFO Melodies 9-5-1				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723408469	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = filter flutter (VCF modulation by Vib LFO)
+
+AT = vibrato"	0	0	Arp2600		0
+1700	MJa1rFCVEe+XY3DNYKrNDg==	5	Lil Brassy Ambient				Brass;Soundscape;		"Peter ""Ski"" Schwartz"			1722578716	1723679274	1723679274	0		0	ART-Z 2600	0	0	0	0	"MW = Increases Attack Time (Aux EG)
+
+AT = Vibrato
+
+For slightly clearer/less doubled sound, turn down VCF slider on VCA"	0	0	Arp2600		0
+1701	j2TeLlnhEe+hwnDNYKrNDg==	5	Lil Brassy Ambient (8v)				Brass;Soundscape;		"Peter ""Ski"" Schwartz"			1723601078	1723679274	1723679274	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = Increases Attack Time (Aux EG)
+
+AT = Vibrato
+
+For slightly clearer/less doubled sound, turn down VCF slider on VCA"	0	0	Arp2600		0
+1702	PW5v5E0rEe+LtXDNYKrNDg==	5	Low & Snarly				Bass;Soundscape;		"Peter ""Ski"" Schwartz"			1722203358	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = increases LPF cutoff (opens filter), response is wide.
+
+AT also increases LFP cutoff, but the range is narrower and it simultaneously increases the amount of Resonance."	0	0	Arp2600		0
+1703	d4Y4cE1mEe+uxXDNYKrNDg==	5	Low Drone Bombast MW				Synth;Bass;		"Peter ""Ski"" Schwartz"			1722228795	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW raises VCF Cutoff	0	0	Arp2600		0
+1704	AX1raFnHEe+finDNYKrNDg==	5	Low Oct Celli				Strings;Orchestral;		"Peter ""Ski"" Schwartz"			1723589673	1723679511	1723679511	0		0	ART-Z 2600	0	0	0	0	"MW = faster attack
+ 
+AT = brightness"	0	0	Arp2600		0
+1705	n3jrolnhEe+yP3DNYKrNDg==	5	Low Oct Celli (8v)				Strings;Orchestral;		"Peter ""Ski"" Schwartz"			1723601104	1723679511	1723679511	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = faster attack
+ 
+AT = brightness"	0	0	Arp2600		0
+1706	fo5nAE1rEe+4CXDNYKrNDg==	5	Lustre Bells				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1722230955	1723679318	1723679318	0		0	ART-Z 2600	0	0	0	0	"MW adds Phaser
+
+AT = vibrato"	0	0	Arp2600		0
+1707	RrWB6FngEe+DhnDNYKrNDg==	5	Lustre Bells (8v)				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1723600526	1723679324	1723679324	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW adds Phaser
+
+AT = vibrato"	0	0	Arp2600		0
+1708	r+O2mFnhEe+jCXDNYKrNDg==	5	Massive Pad (Aggress) 8v				Pad;None;		"Peter ""Ski"" Schwartz"			1723601132	1723680682	1723680682	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = filter close	0	0	Arp2600		0
+1709	6AJHTlFREe+ZuHDNYKrNDg==	5	Massive Pad (Aggressive)				Pad;None;		"Peter ""Ski"" Schwartz"			1722659769	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = filter close	0	0	Arp2600		0
+1710	XGVd2FVnEe+sTXDNYKrNDg==	5	Massive Pad (Tamer)				Pad;None;		"Peter ""Ski"" Schwartz"			1723108789	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = filter close
+
+AT = audio rate filter modulation (growl/opens filter)"	0	0	Arp2600		0
+1711	tJ3vWlnhEe+FvHDNYKrNDg==	5	Massive Pad (Tamer) 8v				Pad;None;		"Peter ""Ski"" Schwartz"			1723601140	1723680691	1723680691	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = filter close
+
+AT = audio rate filter modulation (growl/opens filter)"	0	0	Arp2600		0
+1712	lN1BNEixEe+TGXDNYKrNDg==	5	Mayhem				SFX;None;		"Peter ""Ski"" Schwartz"			1721711301	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = pitch whackiness
+
+Pitch Bend +/- adjusts Filter Cutoff +/-"	0	0	Arp2600		0
+1713	yQeuIErtEe+AvnDNYKrNDg==	5	Moody Minor Seq & Sweep				Lead;Soundscape;		"Peter ""Ski"" Schwartz"			1721957061	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = pulse brightness
+
+AT = vibrato"	0	0	Arp2600		0
+1714	oZkKEE4gEe+b+HDNYKrNDg==	5	Nowhere to Hide **DUO**				Lead;Soundscape;		"Peter ""Ski"" Schwartz"			1722308752	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"DUOPHONIC (Plays 2 Notes). Great for droning a bass note and soloing on top
+
+AT = vibrato. To get vibrato when playing two notes, lean on the *lower* note
+
+MW smooths out pulse pattern
+"	0	0	Arp2600		0
+1715	IQ8dyEe7Ee+kp3DNYKrNDg==	5	Ominosity (AutoBend)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1721605451	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW closes filter (and adds resonance on the way down)
+"	0	0	Arp2600		0
+1716	/Vk+JEf5Ee+BfXDNYKrNDg==	5	Ominosity (No Bend)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1721632449	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = closes LPF (and adds resonance on the way down)
+
+AT = subtle vibrato"	0	0	Arp2600		0
+1717	4VzvjksgEe+M2XDNYKrNDg==	5	Ominus Voxalicus				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1721979006	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = VCF cutoff+
+
+AT = formant"	0	0	Arp2600		0
+1718	yi8O+FnhEe+zdnDNYKrNDg==	5	Ominus Voxalicus (8v)				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1723601176	1723620377	1723620377	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = VCF cutoff+
+
+AT = formant"	0	0	Arp2600		0
+1719	gHuQTlQcEe+3pXDNYKrNDg==	5	Pang/Ride Cymbal				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722966686	1723684919	1723684919	0		0	ART-Z 2600 Drums	0	0	0	0	MW = shorter decay	0	0	Arp2600		0
+1720	zdH+uFrGEe+C3HDNYKrNDg==	5	Pang/Ride Cymbal2				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723699537	1723699537	1723699537	0		0	ART-Z 2600 Drums	0	0	0	0	MW = shorter decay	0	0	Arp2600		0
+1721	KVnE5FefEe+Sc3DNYKrNDg==	5	Percolation Song&Whales				Soundscape;None;		"Peter ""Ski"" Schwartz"			1723352657	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW turns whales off
+
+AT = whale-like vibrato to sequenced sound
+"	0	0	Arp2600		0
+1722	G9z8NlegEe+LIHDNYKrNDg==	5	Percolation Song+Vox				Soundscape;None;		"Peter ""Ski"" Schwartz"			1723353064	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW turns off ""voices"""	0	0	Arp2600		0
+1723	Z7pD0kyyEe+KFnDNYKrNDg==	5	Phase Vox MW				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1722151459	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = formant
+
+AT = vibrato (subtle)
+"	0	0	Arp2600		0
+1724	3MP/QlnhEe+rlXDNYKrNDg==	5	Phase Vox MW (8v)				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1723601207	1723620381	1723620381	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = formant
+
+AT = vibrato (subtle)
+"	0	0	Arp2600		0
+1725	nmXthFCdEe+jDXDNYKrNDg==	5	Pointillism+Pad (MW)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1722582336	1723681071	1723681071	0		0	ART-Z 2600	0	0	0	0	"MW = Jet Flanger
+
+AT = Vibrato"	0	0	Arp2600		0
+1726	+RAbDlnhEe+OFHDNYKrNDg==	5	Pointillism+Pad (MW) 8v				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723601255	1723681065	1723681065	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = Jet Flanger
+
+AT = Vibrato"	0	0	Arp2600		0
+1727	JIEicEs7Ee+0MHDNYKrNDg==	5	Polar Ice Bell				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1721990285	1723679385	1723679385	0		0	ART-Z 2600	0	0	0	0	MW = vibrato	0	0	Arp2600		0
+1728	A1OAflniEe+rcnDNYKrNDg==	5	Polar Ice Bell (8v)				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1723601272	1723679389	1723679389	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = vibrato	0	0	Arp2600		0
+1729	bJcbDks8Ee+og3DNYKrNDg==	5	Polar Ice Bell Dance				Bell/Mallet;Vocal/Airy;		"Peter ""Ski"" Schwartz"			1721990836	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = subtle vibrato	0	0	Arp2600		0
+1730	CPtFelniEe+A83DNYKrNDg==	5	Polar Ice Bell Dance 8v				Bell/Mallet;Vocal/Airy;		"Peter ""Ski"" Schwartz"			1723601281	1723680987	1723680987	0		0	ART-Z 2600 (8v)	0	0	0	0	MW & AT = subtle vibrato	0	0	Arp2600		0
+1731	wGBQbk5UEe+F+XDNYKrNDg==	5	Power Lead In Yo Face				Lead;None;		"Peter ""Ski"" Schwartz"			1722331138	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1732	lFIo7uQjEe65AXDNYKrNDg==	5	Power Rez Sawz VEL				Lead;None;		"Peter ""Ski"" Schwartz"			1710655195	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1733	RIjOKkpUEe+NWHDNYKrNDg==	5	RawSaw Lead Special Vibr				Lead;None;		"Peter ""Ski"" Schwartz"			1721891125	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	Typical sawtooth lead (some square mixed in) with Multimoog-style vibrato affecting only one oscillator.	0	0	Arp2600		0
+1734	6oJJcla3Ee+/2XDNYKrNDg==	5	Reese Raw! MW & AT				Bass;Synth;		"Peter ""Ski"" Schwartz"			1723253338	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW & AT = closes filter
+
+Try aftertouch with VOX Wah enabled (FX2). FX1 and FX3 are optional."	0	0	Arp2600		0
+1735	mJ/w2kyMEe+txXDNYKrNDg==	5	Resonant Stepper				Seq;Rhythm Soft;		"Peter ""Ski"" Schwartz"			1722135221	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = changes tone, increases S/H modulation intensity
+AT = vibrato"	0	0	Arp2600		0
+1736	GBJPDlFPEe+7oXDNYKrNDg==	5	Reverso Poco Whacko				Soundscape;SFX;		"Peter ""Ski"" Schwartz"			1722658561	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = Gated FX + Phaser
+
+AT = Slow Vibrato Depth+
+
+To increase or decrease pitch waver, adjust VCO2's CV Input #3"	0	0	Arp2600		0
+1737	qtudbkfaEe+HZnDNYKrNDg==	5	Reverso Sample/Hold				Soundscape;SFX;		"Peter ""Ski"" Schwartz"			1721618996	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = Twisted FX	0	0	Arp2600		0
+1738	mqYG0EvOEe+jLHDNYKrNDg==	5	Reverso Wha 145 BPM				Seq;Rhythm Hard;		"Peter ""Ski"" Schwartz"			1722053620	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"AT = Detune + Increased Delay
+
+MW = Octave Shift
+
+VCA Ring Mod Input (patched from MS Filter) = Kick Reference. Turn down to kill.
+
+Voltage Procssor 1 Slider: Timing Offset"	0	0	Arp2600		0
+1739	caXEtt/eEe6NRXDNYKrNDg==	5	Rez Sync, MW Atk Control				Lead;Bass;		"Peter ""Ski"" Schwartz"			1710185697	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Very velocity-sensitive
+
+MW = slower attack
+
+AT = vibrato"	0	0	Arp2600		0
+1740	iQcjGFP5Ee+IHXDNYKrNDg==	5	Ride Tssss				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722951668	1723687033	1723687033	0		0	ART-Z 2600 Drums	0	0	0	0	MW = shorter	0	0	Arp2600		0
+1741	p4pb6lPUEe+GBXDNYKrNDg==	5	Rimshot 1 Knock				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722935828	1723673402	1723673402	0		0	ART-Z 2600 Drums	0	0	0	0	MW = stereo delay	0	0	Arp2600		0
+1742	DZZYJFqKEe+703DNYKrNDg==	5	Rimshot 2 Stick				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723673445	1723684963	1723684963	0		0	ART-Z 2600 Drums	0	0	0	0	MW = stereo delay	0	0	Arp2600		0
+1743	1VC3kFqqEe+99HDNYKrNDg==	5	Rimshot 3 Side				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723687524	1723687570	1723687570	0		0	ART-Z 2600 Drums	0	0	0	0	MW = stereo delay	0	0	Arp2600		0
+1744	/vWXplqkEe+XfXDNYKrNDg==	5	Rimshot 4 Hollow				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723685017	1723685050	1723685050	0		0	ART-Z 2600 Drums	0	0	0	0	MW = stereo delay	0	0	Arp2600		0
+1745	6Ag4LFPUEe+pVHDNYKrNDg==	5	Rimshot 5 Clack				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722935936	1723687392	1723687392	0		0	ART-Z 2600 Drums	0	0	0	0	MW = stereo delay	0	0	Arp2600		0
+1746	zU7TVu/yEe6W73DNYKrNDg==	5	Ring Mod Rhythms MW				Gtr/Plucked;Soundscape;		"Peter ""Ski"" Schwartz"			1711953660	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = sweep stop	0	0	Arp2600		0
+1747	dXE/1FapEe+ArXDNYKrNDg==	5	Rio (ModWhl)				Seq;Rhythm Hard;		"Peter ""Ski"" Schwartz"			1723247129	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Best range approx. G3 to C4 (middle C)
+
+Modwheel = filter adventure! 
+
+AT = increases sample/hold intensity"	0	0	Arp2600		0
+1748	jMw7+lelEe+RmXDNYKrNDg==	5	Rotating Flutes MW				Synth;Woodwind;		"Peter ""Ski"" Schwartz"			1723355401	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW slows repeat rate (Aux LFO)
+
+AT = swell (works great with Poly AT) and increases repeat rate"	0	0	Arp2600		0
+1749	LOrOYFniEe+iOXDNYKrNDg==	5	Rotating Flutes MW (8v)				Synth;Woodwind;		"Peter ""Ski"" Schwartz"			1723601342	1723680311	1723680311	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW slows repeat rate (Aux LFO)
+
+AT = swell (works great with Poly AT) and increases repeat rate"	0	0	Arp2600		0
+1750	jxPNAEvQEe+nNnDNYKrNDg==	5	Silver Elegy				Soundscape;Brass;		"Peter ""Ski"" Schwartz"			1722054459	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW & AT = vibrato
+
+Adjust rate of waver with VCO 2. For slower rate, decrease VCO 2 Fine Tune."	0	0	Arp2600		0
+1751	PFUpIlniEe+E9HDNYKrNDg==	5	Silver Elegy (8v)				Soundscape;Brass;		"Peter ""Ski"" Schwartz"			1723601368	1723620390	1723620390	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW & AT = vibrato
+
+Adjust rate of waver with VCO 2. For slower rate, decrease VCO 2 Fine Tune."	0	0	Arp2600		0
+1752	4/mzHlYiEe+uJnDNYKrNDg==	5	Silver Sitars MW				Gtr/Plucked;Soundscape;		"Peter ""Ski"" Schwartz"			1723189332	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW reduces auto pitch-bend at start of notes	0	0	Arp2600		0
+1753	REmjnFniEe+Hq3DNYKrNDg==	5	Silver Sitars MW (8v)				Gtr/Plucked;Soundscape;		"Peter ""Ski"" Schwartz"			1723601381	1723620394	1723620394	0		0	ART-Z 2600 (8v)	0	0	0	0	MW reduces auto pitch-bend at start of notes	0	0	Arp2600		0
+1754	aZtrYFahEe+OSHDNYKrNDg==	5	Simple Steps 3/4				Lead;Seq;		"Peter ""Ski"" Schwartz"			1723243673	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW adds a perucssive high pass filter sweep from the Mode Sweep Filter (play, hold, wait for it).
+
+AT increases cutoff on the VCF. Especially effective with Poly AT.
+
+Fun to play and compose using just single notes. Two and three note chords are effective also. Basically, less is more, but it's your patch now, do what you want! :)
+
+"	0	0	Arp2600		0
+1755	OL2VlOMvEe6RhHDNYKrNDg==	5	Simple Steps 4/4				Lead;Seq;		"Peter ""Ski"" Schwartz"			1710550244	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW adds a perucssive high pass filter sweep from the Mode Sweep Filter (play, hold, wait for it).
+
+AT increases cutoff on the VCF. Especially effective with Poly AT.
+
+Fun to play and compose using just single notes. Two and three note chords are effective also. Basically, less is more, but it's your patch now, do what you want! :)
+
+"	0	0	Arp2600		0
+1756	vswjnFRgEe+X8nDNYKrNDg==	5	Simplicity Bells				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1722995996	1723679305	1723679305	0		0	ART-Z 2600	0	0	0	0	"MW adds Phaser
+
+AT = vibrato"	0	0	Arp2600		0
+1757	OYxaWlngEe+i8HDNYKrNDg==	5	Simplicity Bells (8v)				Bell/Mallet;None;		"Peter ""Ski"" Schwartz"			1723600504	1723679311	1723679311	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW adds Phaser
+
+AT = vibrato"	0	0	Arp2600		0
+1758	YkDp6lLlEe+f33DNYKrNDg==	5	Snare FYC Drive				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722833062	1723637423	1723637423	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1759	2zSuKlqKEe+mNXDNYKrNDg==	5	Snare Impact MW (C4)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723673790	1723687892	1723687892	0		0	ART-Z 2600 Drums	0	0	0	0	MW = shorter decay	0	0	Arp2600		0
+1760	3YxnkFYuEe++znDNYKrNDg==	5	Snare Power (C4)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723194475	1723688013	1723688013	0		0	ART-Z 2600 Drums	0	0	0	0	MW = shorter decay, gated reverb	0	0	Arp2600		0
+1761	oCJzuFYuEe+5JnDNYKrNDg==	5	Snare Trash 2 (C4) MW				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723194372	1723685114	1723685114	0		0	ART-Z 2600 Drums	0	0	0	0	MW = gated effect	0	0	Arp2600		0
+1762	NJateFFyEe+dRnDNYKrNDg==	5	Snare Trash Bright (C4)				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722673642	1723697551	1723697551	0		0	ART-Z 2600 Drums	0	0	0	0	MW = shorter decay, gated effect	0	0	Arp2600		0
+1763	VdbvclCAEe+wh3DNYKrNDg==	5	Softly Cloud (Hold)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1722569759	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = vibrato	0	0	Arp2600		0
+1764	TVoydlniEe+hk3DNYKrNDg==	5	Softly Cloud (Hold) 8v				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723601396	1723681003	1723681003	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = vibrato	0	0	Arp2600		0
+1765	DXr5KE8bEe+XmnDNYKrNDg==	5	Softly Sweeper (Hold)				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1722416308	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = subtle change in sound of ""strings"" sweep
+
+AT = very subtle vibrato"	0	0	Arp2600		0
+1766	Xl8LvlniEe+ufXDNYKrNDg==	5	Softly Sweeper (Hold) 8v				Pad;Soundscape;		"Peter ""Ski"" Schwartz"			1723601425	1723681011	1723681011	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = subtle change in sound of ""strings"" sweep
+
+AT = very subtle vibrato"	0	0	Arp2600		0
+1767	sfLk5lerEe+jZXDNYKrNDg==	5	Soliloquy Lead 1 Osc				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723358040	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Notes auto-swell with vibrato, intended for plaintive melodies
+
+MW = additional vibrato
+
+AT = VCF filter swell (subtle)"	0	0	Arp2600		0
+1768	nhWgvFerEe+y33DNYKrNDg==	5	Soliloquy Lead 2 Osc				Lead;Synth;		"Peter ""Ski"" Schwartz"			1723358007	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"2-oscillator version of Soliloquy. Notes auto-swell with vibrato, intended for plaintive melodies.
+
+MW = additional vibrato
+
+AT = VCF filter swell (subtle)"	0	0	Arp2600		0
+1769	IplwJEkqEe+ca3DNYKrNDg==	5	Spacey Squares MW				Synth;Soundscape;		"Peter ""Ski"" Schwartz"			1721763078	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = less resonance for sweep
+
+AT = vibrato"	0	0	Arp2600		0
+1770	t7tc0FniEe+YM3DNYKrNDg==	5	Spacey Squares MW (8v)				Synth;Soundscape;		"Peter ""Ski"" Schwartz"			1723601575	1723620400	1723620400	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = less resonance for sweep
+
+AT = vibrato"	0	0	Arp2600		0
+1771	+vCYbFbCEe+hc3DNYKrNDg==	5	Square Clarity Keys				E.Piano;Piano/Keys;		"Peter ""Ski"" Schwartz"			1723258090	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"For sensitive playing or comping
+
+MW & AT = vibrato
+
+VCA controlled by AUX EG. Set sustain level lower if you don't want the sound to sustain when notes are held for a long time."	0	0	Arp2600		0
+1772	wCOX/FniEe+be3DNYKrNDg==	5	Square Clarity Keys (8v)				E.Piano;Piano/Keys;		"Peter ""Ski"" Schwartz"			1723601589	1723620403	1723620403	0		0	ART-Z 2600 (8v)	0	0	0	0	"For sensitive playing or comping
+
+MW & AT = vibrato
+
+VCA controlled by AUX EG. Set sustain level lower if you don't want the sound to sustain when notes are held for a long time."	0	0	Arp2600		0
+1773	6rQanFexEe+GWHDNYKrNDg==	5	Stereo Reversals MW				Soundscape;None;		"Peter ""Ski"" Schwartz"			1723360713	1723680766	1723680766	0		0	ART-Z 2600	0	0	0	0	"MW = increases repeat rate (Aux LFO) and increases Multi-Sweep filter cutoff slightly. LFO rate is scaled by the keyboard (see Mod Matrix).
+
+AT = slight increase in filter cutoff and detuning of VCO 2"	0	0	Arp2600		0
+1774	Fv167lniEe++nnDNYKrNDg==	5	Stereo Reversals MW (8v)				Soundscape;None;		"Peter ""Ski"" Schwartz"			1723601305	1723680798	1723680798	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = increases repeat rate (Aux LFO) and increases Multi-Sweep filter cutoff slightly. LFO rate is scaled by the keyboard (see Mod Matrix).
+
+AT = slight increase in filter cutoff and detuning of VCO 2"	0	0	Arp2600		0
+1775	J51kmv9gEe6zfHDNYKrNDg==	5	StereoPlay & Air	000_ Init Performance.performance			Soundscape;Gtr/Plucked;		"Peter ""Ski"" Schwartz"			1713649894	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1776	B2ATwFnjEe+LDHDNYKrNDg==	5	StereoPlay & Air (8v)	000_ Init Performance.performance			Soundscape;Gtr/Plucked;		"Peter ""Ski"" Schwartz"			1723601708	1723620406	1723620406	0		0	ART-Z 2600 (8v)	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1777	5DLKqv9lEe6hGnDNYKrNDg==	5	StereoPlay Rez Pad	000_ Init Performance.performance			Soundscape;Brass;		"Peter ""Ski"" Schwartz"			1713652358	1723680022	1723680022	0		0	ART-Z 2600	0	0	0	0	"Play harder to introduce a kind of brassy synth sound
+
+MW = stereo delays/ambience
+
+AT = subtle vibrato"	0	0	Arp2600		0
+1778	EtqT7FnjEe+FFXDNYKrNDg==	5	StereoPlay Rez Pad (8v)	000_ Init Performance.performance			Soundscape;Brass;		"Peter ""Ski"" Schwartz"			1723601728	1723680015	1723680015	0		0	ART-Z 2600 (8v)	0	0	0	0	"Play harder to introduce a kind of brassy synth sound
+
+MW = stereo delays/ambience
+
+AT = subtle vibrato"	0	0	Arp2600		0
+1779	5W/wvFa1Ee+EpHDNYKrNDg==	5	StereoPlay+Mello Pad	000_ Init Performance.performance			Soundscape;Brass;		"Peter ""Ski"" Schwartz"			1723252471	1723680532	1723680532	0		0	ART-Z 2600	0	0	0	0	"MW = stereo delays/ambience
+
+AT = subtle vibrato
+
+Velocity sensitive. Play harder to introduce a kind of brassy synth sound"	0	0	Arp2600		0
+1780	DcnSvlnjEe+xm3DNYKrNDg==	5	StereoPlay+Mello Pad 8v	000_ Init Performance.performance			Soundscape;Brass;		"Peter ""Ski"" Schwartz"			1723601719	1723681039	1723681039	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = stereo delays/ambience
+
+AT = subtle vibrato
+
+Velocity sensitive. Play harder to introduce a kind of brassy synth sound"	0	0	Arp2600		0
+1781	H8HZ2kr3Ee+scXDNYKrNDg==	5	Sweet Dreams Stringsish				Strings;None;		"Peter ""Ski"" Schwartz"			1721961072	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = vibrato	0	0	Arp2600		0
+1782	zHX02FoOEe+XtcoEE03+ZA==	5	Sweet Sines				Pad;Synth;		John Lehmkuhl			1723620507	1723620507	1723620507	0		0	ART-Z 2600	0	0	0	0	Dark Sine Wave pad with Chorus. Mod Wheel opens the filter for more air....	0	0	Arp2600		0
+1783	oC3MOloNEe+2x8oEE03+ZA==	5	Sweet Sines (8v)				Pad;Synth;		John Lehmkuhl			1723620004	1723620240	1723620240	0		0	ART-Z 2600 (8v)	0	0	0	0	Dark Sine Wave pad with Chorus. Mod Wheel opens the filter for more air....	0	0	Arp2600		0
+1784	1eR6xloOEe+uYsoEE03+ZA==	5	Sweet Strings				Strings;Synth;		John Lehmkuhl			1723620523	1723620523	1723620523	0		0	ART-Z 2600	0	0	0	0	Sweet Detuned Synth strings. Mod Wheel does cool pitch drop on one OSC so you can do cool things by moving the Mod Wheel up/down while playing notes.... but careful, it takes practice and this is one of those things where just a little goes a long way.	0	0	Arp2600		0
+1785	yn8DlloNEe+YCsoEE03+ZA==	5	Sweet Strings (8v)				Strings;Synth;		John Lehmkuhl			1723620075	1723620254	1723620254	0		0	ART-Z 2600 (8v)	0	0	0	0	Sweet Detuned Synth strings. Mod Wheel does cool pitch drop on one OSC so you can do cool things by moving the Mod Wheel up/down while playing notes.... but careful, it takes practice and this is one of those things where just a little goes a long way.	0	0	Arp2600		0
+1786	VrggrEikEe+4NHDNYKrNDg==	5	Swirl-alicious MW				Synth;Pad;		"Peter ""Ski"" Schwartz"			1721705613	1723680282	1723680282	0		0	ART-Z 2600	0	0	0	0	"MW = swirl rate
+
+AT = Vibrato, generated by Step Seq 1 with Smooth Output enabled. Change vibrato rate by adjusting Step Seq Rate knob. You can also change the vibrato rate by changing the Tempo (because the sequencer's clock is based on the BPM setting). This will not affect the Stereo/Cross Delay times (FX3)."	0	0	Arp2600		0
+1787	MsWHSFnjEe+Y+nDNYKrNDg==	5	Swirl-alicious MW (8v)				Synth;Pad;		"Peter ""Ski"" Schwartz"			1723601781	1723680272	1723680272	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = swirl rate
+
+AT = Vibrato, generated by Step Seq 1 with Smooth Output enabled. Change vibrato rate by adjusting Step Seq Rate knob. You can also change the vibrato rate by changing the Tempo (because the sequencer's clock is based on the BPM setting). This will not affect the Stereo/Cross Delay times (FX3)."	0	0	Arp2600		0
+1788	o64qlFqPEe+sKXDNYKrNDg==	5	Syn Cowbell (C4)				Percussion;Drums;		"Peter ""Ski"" Schwartz"			1723675844	1723700423	1723700423	0		0	ART-Z 2600 Drums	0	0	0	0	MW = Pitch FX	0	0	Arp2600		0
+1789	AoIjqN8DEe6raXDNYKrNDg==	5	Sync Alert				Rhythm Hard;None;		"Peter ""Ski"" Schwartz"			1710091451	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = sample & hold
+
+AT = vibrato"	0	0	Arp2600		0
+1790	/28KGOdLEe6D+nDNYKrNDg==	5	Sync-a-Matic				Rhythm Hard;Seq;		"Peter ""Ski"" Schwartz"			1711002408	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = Sync Range	0	0	Arp2600		0
+1791	5A11JEpSEe+ddXDNYKrNDg==	5	The Scream				Vocal/Airy;SFX;		"Peter ""Ski"" Schwartz"			1721890534	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = increases pitch rise time and depth
+
+AT = vibrato (just because LOL)"	0	0	Arp2600		0
+1792	kb3s2kpiEe+rTHDNYKrNDg==	5	The Traveler (Phased)				Seq;Rhythm Soft;		"Peter ""Ski"" Schwartz"			1721897268	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = pattern change
+
+AT = adds noise"	0	0	Arp2600		0
+1793	z2mZIk5EEe+SYnDNYKrNDg==	5	The Traveler (Straight)				Seq;Soundscape;		"Peter ""Ski"" Schwartz"			1722324291	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW & AT change pattern
+"	0	0	Arp2600		0
+1794	wC8kFlnMEe+TTnDNYKrNDg==	5	Tin Cannery				Bell/Mallet;Percussion;		"Peter ""Ski"" Schwartz"			1723592140	1723679424	1723679424	0		0	ART-Z 2600	0	0	0	0	MW = vibrato	0	0	Arp2600		0
+1795	duAgTFExEe+kaHDNYKrNDg==	5	Tom: Deep/Stick				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722645836	1723698519	1723698519	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1796	C7UlOFqHEe+2enDNYKrNDg==	5	Toms: Deep/Long				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723672153	1723699056	1723699056	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1797	EnIcHFqnEe+lUXDNYKrNDg==	5	Toms: Impact Boo				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1723685908	1723699116	1723699116	0		0	ART-Z 2600 Drums	0	0	0	0	"MW = longer decay
+"	0	0	Arp2600		0
+1798	E6SdVlGAEe+lyXDNYKrNDg==	5	Toms: Trashy				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722679599	1723698490	1723698490	0		0	ART-Z 2600 Drums	0	0	0	0	MW = reverb	0	0	Arp2600		0
+1799	AIDXTFEyEe+aenDNYKrNDg==	5	Toms: V. Dynamic				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722646067	1723699065	1723699065	0		0	ART-Z 2600 Drums	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1800	yGBz/k7AEe+263DNYKrNDg==	5	Tone Click				Synth;None;		"Peter ""Ski"" Schwartz"			1722377537	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = longer decay	0	0	Arp2600		0
+1801	8Ah/PlSkEe+eAnDNYKrNDg==	5	Toot Floot				Woodwind;Lead;		"Peter ""Ski"" Schwartz"			1723025285	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW & AT = vibrato	0	0	Arp2600		0
+1802	7DaWxlPWEe+dpnDNYKrNDg==	5	Tri: Classic MW op/cl				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722936802	1723698679	1723698679	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed < > open	0	0	Arp2600		0
+1803	WXr78FPXEe+aiHDNYKrNDg==	5	Tri: Electric MW op/cl				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722936985	1723698740	1723698740	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed < > open	0	0	Arp2600		0
+1804	+KNnQlPyEe+3pXDNYKrNDg==	5	Tri: Large High MW op/cl				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722948849	1723698779	1723698779	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed < > open	0	0	Arp2600		0
+1805	4tgWsFPyEe+6OXDNYKrNDg==	5	Tri: Large MW op/cl				Drums;Percussion;		"Peter ""Ski"" Schwartz"			1722948812	1723698755	1723698755	0		0	ART-Z 2600 Drums	0	0	0	0	MW = closed < > open	0	0	Arp2600		0
+1806	AlPbekvMEe+8BnDNYKrNDg==	5	Uuuuuuuh				Synth;None;		"Peter ""Ski"" Schwartz"			1722052505	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = reverse FX
+
+AT = vibrato"	0	0	Arp2600		0
+1807	8JeIIkrSEe+s1XDNYKrNDg==	5	Vintage Stere-RP VEL				Synth;None;		"Peter ""Ski"" Schwartz"			1721945531	1723679954	1723679954	0		0	ART-Z 2600	0	0	0	0	"Stereo filters producing an ""enveloper follower"" type sound. This is the Velocity-sensitive version.
+
+MW = vibrato
+
+Right signal level controlled by VCA AR slider"	0	0	Arp2600		0
+1808	Pj/lMlnjEe+TanDNYKrNDg==	5	Vintage StereARP VEL(8v)				Synth;None;		"Peter ""Ski"" Schwartz"			1723601800	1723679939	1723679939	0		0	ART-Z 2600 (8v)	0	0	0	0	"Stereo filters producing an ""enveloper follower"" type sound. This is the Velocity-sensitive version.
+
+MW = vibrato
+
+Right signal level controlled by VCA AR slider"	0	0	Arp2600		0
+1809	q86uWkpkEe+OdnDNYKrNDg==	5	Vintage StereoARP				Synth;None;		"Peter ""Ski"" Schwartz"			1721898171	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"Stereo filters producing an ""enveloper follower"" type sound. This version is not velocity sensitive.
+
+MW = vibrato
+
+Voltage Processor Slide #3 adjusts R volume"	0	0	Arp2600		0
+1810	QsRG8lnjEe+jpnDNYKrNDg==	5	Vintage StereoARP (8v)				Synth;None;		"Peter ""Ski"" Schwartz"			1723601808	1723620417	1723620417	0		0	ART-Z 2600 (8v)	0	0	0	0	"Stereo filters producing an ""enveloper follower"" type sound. This version is not velocity sensitive.
+
+MW = vibrato
+
+Voltage Processor Slide #3 adjusts R volume"	0	0	Arp2600		0
+1811	0iDowFatEe+q2nDNYKrNDg==	5	Vox Pad MW-Xfade				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1723249002	1723680857	1723680857	0		0	ART-Z 2600	0	0	0	0	"MW = fades out lower octave to reveal higher octave sound
+
+AT = subtle vibrato"	0	0	Arp2600		0
+1812	Y5JU7FniEe+kuHDNYKrNDg==	5	Vox Pad MW-Xfade (8v)				Vocal/Airy;Pad;		"Peter ""Ski"" Schwartz"			1723601433	1723680864	1723680864	0		0	ART-Z 2600 (8v)	0	0	0	0	"MW = fades out lower octave to reveal higher octave sound
+
+AT = subtle vibrato"	0	0	Arp2600		0
+1813	UMNw2kYtEe+E7nDNYKrNDg==	5	Voxxy Hoover				Lead;None;		"Peter ""Ski"" Schwartz"			1721434591	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	"MW = Filter Sweep
+
+AT VIBRATO: adjust amount with AT Vibrato Depth knob"	0	0	Arp2600		0
+1814	EsGXlk93Ee+sTHDNYKrNDg==	5	Whisper Strings				Strings;Pad;		"Peter ""Ski"" Schwartz"			1722455830	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = increases filter resonance	0	0	Arp2600		0
+1815	Ssf0/FnjEe+go3DNYKrNDg==	5	Whisper Strings (8v)				Strings;Pad;		"Peter ""Ski"" Schwartz"			1723601821	1723620429	1723620429	0		0	ART-Z 2600 (8v)	0	0	0	0	MW = increases filter resonance	0	0	Arp2600		0
+1816	UZ8u+Ny7Ee6OcXDNYKrNDg==	5	Zaps				SFX;None;		"Peter ""Ski"" Schwartz"			1709840758	1723602001	1723602001	0		0	ART-Z 2600	0	0	0	0	MW = longer decay	0	0	Arp2600		0
