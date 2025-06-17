@@ -2,7 +2,10 @@
 #include <JuceHeader.h>
 
 //#define LIST_TYPES_AND_SUBTYPES
-#define DIVINE_PATCH_PREFIXES
+#ifndef LIST_TYPES_AND_SUBTYPES
+  #define LOOK_UP_PATCH_PREFIXES
+  #define FORCE_TYPE_SUBTYPE_COMMENTS
+#endif
 
 class PatchConverter
 {
@@ -12,7 +15,18 @@ public:
     //String libraryName = "Unified - Arturia Pigments";
     //String libraryName = "Unified - SabrePigs";
     //String libraryName = "Unified - Tom Wolfe's SynthVault";
-    String libraryName = "RMS Pigments - Celestial Resonance";
+    //String libraryName = "RMS Pigments - Celestial Resonance";
+    //String libraryName = "MUM Pigments - Mystic Moonlight";
+    //String libraryName = "MUM Pigments - Spice";
+    //String libraryName = "Trajectoire Pigments - Shades Blue";
+    //String libraryName = "Trajectoire Pigments - Shades Green";
+    //String libraryName = "Trajectoire Pigments - Shades Complete";
+    //String libraryName = "Fractal Sounds Pigments - Cloudlands";
+    //String libraryName = "Fractal Sounds Pigments - Liquid Synths";
+    //String libraryName = "Fractal Sounds Pigments - Psytrance Fusion";
+    //String libraryName = "Fractal Sounds Pigments - Psytrance Fusion 2";
+    //String libraryName = "Fractal Sounds Pigments - Shamanic Voices";
+    String libraryName = "Fractal Sounds Pigments - Vapor Voices";
 
 public:
     PatchConverter();

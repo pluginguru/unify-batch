@@ -9,6 +9,7 @@ static struct
 }
 typeSubtypePrefix[] =
 {
+#if 1
     // Factory presets
     { "Keys", "Evolving Keys" , "KEY" },
     { "Bass", "Plucked Bass" , "BASS" },
@@ -87,6 +88,7 @@ typeSubtypePrefix[] =
     { "Vocal", "Vocoder" , "VOX" },
     { "Brass & Winds", "Winds Acoustic" , "WIND" },
     { "Electric Piano", "Digital Piano" , "KEY" },
+#endif
 
 #if 0
     // SabrePigs v1
@@ -117,7 +119,7 @@ typeSubtypePrefix[] =
     { "Keys", "Textural Keys" , "KEY" },
 #endif
 
-#if 1
+#if 0
     // Celestial Resonance
     { "Pad", "Ambient Pad" , "PAD" },
     { "Pad", "Ambient SFX" , "SFX" },
@@ -127,6 +129,171 @@ typeSubtypePrefix[] =
     { "Lead", "Classic Synth Keys" , "LEAD" },
     { "Organ", "Space Organ" , "ORGAN" },
     { "Pad", "Soundscape" , "PAD" },
+#endif
+
+#if 0
+    // Mystic Moonlight
+    { "Sequence", "Sequence" , "BPM SEQ" },
+    { "Sequence", "Synth Sequence" , "BPM SEQ" },
+    { "Lead", "Leads" , "LEAD" },
+    { "Sequence", "Psytrance Sequence" , "BPM SEQ" },
+    { "Sequence", "Pulse" , "BPM SEQ" },
+    { "Bass", "Pulse" , "BASS" },
+    { "Keys", "Gritty Keys" , "KEY" },
+    { "Pad", "Pad" , "PAD" },
+    { "Pad", "Distorted Texture" , "TEXT" },
+    { "Pad", "Sweeping Texture" , "SWEEP" },
+    { "Pad", "Soundscape" , "ATMO" },
+    { "Pad", "Textural Pad" , "TEXT" },
+    { "Pad", "Dark Texture" , "TEXT" },
+    { "Sequence", "Acid Sequence" , "BPM SEQ" },
+    { "Sequence", "Bass Sequence" , "BPM SEQ" },
+    { "Pad", "Utility FX" , "PAD" },
+    { "Sound Effects", "Riser" , "RISER" },
+    { "Bass", "Bass" , "BASS" },
+#endif
+
+#if 0
+    // Spice
+    { "Pad", "Textural Pad" , "TEXT" },
+    { "Sequence", "Sequence" , "BPM SEQ" },
+    { "Sequence", "Bass Sequence" , "BPM SEQ" },
+    { "Pad", "Drone" , "PAD" },
+    { "Bass", "Poly Lead" , "BASS" },
+    { "Vocal", "Vocal Pad" , "VOX" },
+    { "Sequence", "Hard Bass" , "BPM SEQ" },
+    { "Pad", "Pad" , "PAD" },
+    { "Pad", "Noise" , "PAD" },
+    { "Pad", "Dark Texture" , "TEXT" },
+    { "Pad", "Distorted Texture" , "TEXT" },
+    { "Bass", "Bass" , "BASS" },
+    { "Custom", "Pulse" , "PULSE" },
+    { "Custom", "Sequence" , "BPM SEQ" },
+    { "Custom", "Sweeping Texture" , "SWEEP" },
+    { "Pad", "Sweeps" , "SWEE" },
+    { "Bass", "Atmosphere" , "BASS" },
+    { "Drums", "Hit" , "DRUM" },
+    { "Pad", "Bass" , "PAD" },
+    { "Lead", "Leads" , "LEAD" },
+    { "Sequence", "Textural Bass" , "BPM SEQ" },
+    { "Custom", "Textural Pad" , "TEXT" },
+    { "Pad", "Ambient Pad" , "AMBI" },
+    { "Pad", "Sweeping Texture" , "SWEEP" },
+    { "Custom", "Dark Pad" , "PAD" },
+    { "Vocal", "Vocal Grunt" , "VOX" },
+    { "Sequence", "Cinematic Sequence" , "BPM SEQ" },
+    { "Bass", "Big Lead" , "BASS" },
+    { "Pad", "Granular Texture" , "TEXT" },
+#endif
+
+#if 0
+    // Shades Blue
+    { "Pad", "Ambient Pad" , "AMBI" },
+    { "Custom", "Ambient Pad" , "AMBI" },
+    { "Pad", "Soundtrack" , "PAD" },
+    { "Pad", "Pad" , "PAD" },
+    { "Vocal", "Plucked" , "VOX" },
+    { "Pad", "Plucked Keys" , "PAD" },
+    { "Keys", "Ambient Pad" , "AMBI" },
+    { "Keys", "Bass" , "KEY" },
+    { "Pad", "Plucked" , "PLUCK" },
+    { "Pad", "Creative SFX" , "BPM PAD" },
+    { "Electric Piano", "Soundtrack" , "AMBI" },
+    { "Electric Piano", "Evolving Pad" , "PAD" },
+    { "Electric Piano", "Ambient Pad" , "AMBI" },
+    { "Keys", "Evolving Pad" , "PAD" },
+    { "Strings", "" , "STRING" },
+    { "Pad", "Lofi Keys" , "PAD" },
+    { "Pad", "Bass Line" , "BPM BASS" },
+    { "Custom", "Pad" , "PAD" },
+    { "Keys", "Plucked" , "PLUCK" },
+    { "Keys", "String Ensemble" , "STRING" },
+#endif
+
+#if 0
+    // Shades Green
+    { "Pad", "Ambient Pad" , "AMBI" },
+    { "Pad", "Plucked" , "PLUC" },
+    { "Pad", "Soundtrack" , "AMBI" },
+    { "Pad", "Ambient SFX" , "SFX" },
+    { "Pad", "Synth Choir" , "CHOIR" },
+    { "Pad", "Bells" , "BELL" },
+    { "Pad", "Pad" , "PAD" },
+    { "Pad", "Plucked Keys" , "PLUCK" },
+    { "Custom", "Pad" , "PAD" },
+    { "Electric Piano", "Evolving Pad" , "KEY" },
+    { "Electric Piano", "Synth Choir" , "CHOIR" },
+    { "Electric Piano", "Plucked Keys" , "PLUCK" },
+    { "Pad", "Lofi Keys" , "PAD" },
+    { "Keys", "Plucked" , "PLUCK" },
+    { "Keys", "Creative Drums" , "DRUM" },
+    { "Keys", "Evolving Pad" , "PAD" },
+    { "Keys", "Ambient Pad" , "AMBI" },
+    { "Pad", "Evolving Keys" , "PAD" },
+    { "Keys", "Creative EP" , "KEY" },
+    { "Pad", "Synth Lead" , "LEAD" },
+#endif
+
+#if 0
+    // Cloudlands
+    { "Lead", "Dreamy Lead" , "LEAD" },
+    { "Pad", "Dreamy Atmosphere" , "PAD" },
+    { "Sequence", "Dreamy Sequence" , "BPM SEQ" },
+    { "Lead", "Dreamy Pluck" , "LEAD" },
+    { "Sound Effects", "Granular FX" , "SFX" },
+#endif
+
+#if 0
+    // Liquid Synths
+    { "Sequence", "Analog Lead Sequence" , "BPM SEQ" },
+    { "Custom", "Analog Lead Sequence" , "BPM SEQ" },
+    { "Custom", "Analog Bass" , "BASS" },
+    { "Bass", "Analog Bass" , "BASS" },
+    { "Custom", "Analog Lead" , "LEAD" },
+    { "Lead", "Analog Lead" , "LEAD" },
+    { "Pad", "Analog Pad" , "PAD" },
+    { "Custom", "Analog Pad" , "PAD" },
+    { "Lead", "Plucked Analog Lead" , "PLUCK" },
+    { "Custom", "Plucked Analog Lead" , "PLUCK" },
+#endif
+
+#if 0
+    // Psytrance Fusion
+    { "Lead", "Lead Sequence" , "BPM SEQ" },
+    { "Pad", "Vocal Pad" , "PAD" },
+    { "Custom", "Squelch" , "BPM SFX" },
+    { "Custom", "Psychedelic FX" , "SFX" },
+    { "Lead", "Psytrance Lead" , "LEAD" },
+    { "Custom", "Utility Fx" , "SFX" },
+    { "Bass", "Psytrance Bass" , "BASS" },
+    { "Custom", "Word" , "VOX" },
+    { "Custom", "Acid" , "BPM SEQ" },
+    { "Custom", "Grid" , "BPM SFX" },
+    { "Custom", "Granular FX" , "SFX" },
+    { "Custom", "Psy-Trance Lead" , "LEAD" },
+    { "Custom", "Psy-Trance Bass" , "BASS" },
+#endif
+
+#if 0
+    // Psytrance Fusion 2
+#endif
+
+#if 0
+    // Shamanic Voices
+    { "Custom", "Shamanic Voice Drone" , "VOX" },
+    { "Custom", "Shamanic Soundscape" , "AMBI" },
+    { "Custom", "Tribal Chant" , "VOX" },
+    { "Custom", "Shamanic Melody" , "BPM SEQ" },
+    { "Custom", "Shamanic FX" , "SFX" },
+    { "Custom", "Shamanic Instrument" , "PLUCK" },
+#endif
+
+#if 1
+    // Vapor Voices
+    { "Vocal", "Gated Vocal Melody" , "BPM SEQ" },
+    { "Vocal", "Vocal Melody/Pad" , "BPM SEQ" },
+    { "Vocal", "Vocal Soundscape" , "AMBI" },
+    { "Custom", "Granular Vocal FX" , "SFX" },
 #endif
 };
 
@@ -160,7 +327,7 @@ PatchConverter::PatchConverter()
 {
     MemoryBlock mb;
     File assetsFolder("C:\\Users\\owner\\Documents\\GitHub\\unify-batch\\Arturia VST3 Unifier\\Assets");
-    assetsFolder.getChildFile("Unify patch.unify").loadFileAsData(mb);
+    assetsFolder.getChildFile("BPM VOX - Acalypha.unify").loadFileAsData(mb);
 
     unifyPatchXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
 
@@ -364,6 +531,10 @@ void PatchConverter::getMetadata(MemoryBlock mb)
         tagsArray.addArray(StringArray::fromTokens(list, "|", "\""));
     }
     tags = tagsArray.joinIntoString(";");
+
+#ifdef FORCE_TYPE_SUBTYPE_COMMENTS
+    comment = type + " | " + subtype;
+#endif
 }
 
 XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameOrErrorMessage)
@@ -380,7 +551,7 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     return nullptr;
 #else
 
-#ifdef DIVINE_PATCH_PREFIXES
+#ifdef LOOK_UP_PATCH_PREFIXES
     prefix = getPrefix(type, subtype);
     newPatchNameOrErrorMessage = prefix + " - " + presetName;
 #else
