@@ -43,14 +43,20 @@ void PatchConverter::test()
     auto singleLineFormat = format.singleLine();
     presetXml->writeTo(assetsDir.getChildFile("Plugin State short.xml"), singleLineFormat);
 #else
+    MemoryBlock mb;
+
+#if 1
+    File(assetsDir).getChildFile("BASS - Bass Du Jour.unify").loadFileAsData(mb);
+    auto patchXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
+#else
     auto patchXml = parseXML(File(assetsDir).getChildFile("Unify Patch.xml"));
+#endif
 
     // tear the sample patch apart to create the plugin-state XML file
     auto layerXml = patchXml->getChildByName("Layer");
     auto instXml = layerXml->getChildByName("Instrument");
     auto stateInfoString = instXml->getStringAttribute("stateInformation");
 
-    MemoryBlock mb;
     bool b64ok = mb.fromBase64Encoding(stateInfoString);
 
     auto vst3stateXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
@@ -139,6 +145,12 @@ void PatchConverter::processFile(File file, int& fileCount)
 XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameOrErrorMessage)
 {
     auto presetXml = parseXML(inFile);
+    if (!presetXml)
+    {
+        DBG("                   XML ERROR: " + inFile.getFileName());
+        return nullptr;
+    }
+
 #ifdef PLUGIN_IS_BABYLON2
     String presetName = presetXml->getStringAttribute("PresetName");
 
@@ -183,10 +195,15 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
         wtXml->setAttribute("F_FXOrder", "1");
   #endif
 #else
+
+#ifdef PLUGIN_IS_HALOGEN
+    presetXml->setTagName("Halogen");
+#else
     presetXml->setTagName("STATE");
+#endif
 
     auto metadataXml = presetXml->getChildByName("metadata");
-#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE) || defined(PLUGIN_IS_BASSSTATION) || defined(PLUGIN_IS_TVSPRO)
+#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE) || defined(PLUGIN_IS_BASSSTATION) || defined(PLUGIN_IS_TVSPRO) || defined(PLUGIN_IS_HALOGEN)
     metadataXml->setAttribute("path", inFile.getFullPathName());
 #endif
 
@@ -194,6 +211,26 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     String author = metadataXml->getStringAttribute("author");
     String collection = metadataXml->getStringAttribute("collection");
     String notes = metadataXml->getStringAttribute("notes") + "\nCollection: " + collection;
+#endif
+
+#if 0   // Experimental stuff for Halogen patches that crash on load
+    {
+        auto parameterXml = presetXml->getChildByName("parameter_data");
+        String paramData = parameterXml->getStringAttribute("data");
+        MemoryBlock mb;
+        mb.fromBase64Encoding(paramData);
+        //File assetsDir("C:\\Users\\owner\\Documents\\GitHub\\unify-batch\\GForce XML Unifiers\\Assets");
+        //assetsDir.getChildFile(presetName + ".xml").replaceWithData(mb.getData(), mb.getSize());
+
+        if (*((uint8_t*)mb.getData()) == 0)
+        {
+            DBG("                  DATA ERROR: " + presetName);
+            return nullptr;
+            //presetName.copyToUTF8((juce::CharPointer_UTF8::CharType*)mb.getData(), presetName.getNumBytesAsUTF8());
+            //paramData = mb.toBase64Encoding();
+            //parameterXml->setAttribute("data", paramData);
+        }
+    }
 #endif
 
 #ifdef CHECK_CATEGORIES
@@ -225,7 +262,7 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
         .replace(",,", ",");
 #endif
 
-#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE)
+#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE) || defined(PLUGIN_IS_HALOGEN)
     // at this point, presetXml is the state XML
     // convert state XML to binary and convert to base64
     MemoryBlock mb;
@@ -440,7 +477,8 @@ static struct { String catFromPreset, category, prefix; } categoryTable[] =
     { "Leads", "Lead", "LEAD" },
     { "Organ", "Organ", "ORGAN" },
     { "Pads", "Pad", "PAD" },
-    { "Hits", "Drum", "DRUM" },
+    //{ "Hits", "Drum", "DRUM" },
+    { "Hits", "Hit", "HIT" },
     { "Sequence & Bass", "Sequence", "BPM BASS" },
     { "Sequence & Lead", "Sequence", "BPM LEAD" },
     { "Sequence & Pad", "Sequence", "BPM PAD" },

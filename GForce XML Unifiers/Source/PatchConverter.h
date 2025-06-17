@@ -6,7 +6,8 @@
 //#define PLUGIN_IS_AXXESS
 //#define PLUGIN_IS_OBONE
 //#define PLUGIN_IS_BASSSTATION
-#define PLUGIN_IS_TVSPRO
+//#define PLUGIN_IS_TVSPRO
+#define PLUGIN_IS_HALOGEN
 //#define PLUGIN_IS_BABYLON2
 
 #if defined(PLUGIN_IS_IMPOSCAR3)
@@ -19,6 +20,8 @@
     #define LIBRARY_NAME "Unified - GForce Bass Station"
 #elif defined(PLUGIN_IS_TVSPRO)
     #define LIBRARY_NAME "Unified - GForce TVS Pro"
+#elif defined(PLUGIN_IS_HALOGEN)
+    #define LIBRARY_NAME "Unified - GForce Halogen FM"
 #elif defined(PLUGIN_IS_BABYLON2)
     #define LIBRARY_NAME "Unified - WAP Babylon 2"
 #endif
