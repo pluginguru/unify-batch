@@ -38,7 +38,25 @@ MainComponent::MainComponent()
 		}
 	};
 
-    setSize(800, 200);
+	// Toggle whether or not to update Guru Sampler Library Name.
+	updateGuruSamplerLibraryToggle.setButtonText("Update Guru Sampler Library reference?  "
+		"Checked will update library name to new name.  Unchecked will leave reference as-is.");
+	updateGuruSamplerLibraryToggle.setToggleState(true, dontSendNotification);
+	addAndMakeVisible(updateGuruSamplerLibraryToggle);
+	updateGuruSamplerLibraryToggle.onClick = [this] {
+		patchConverter.updateGuruSamplerLibraryName = updateGuruSamplerLibraryToggle.getToggleState();
+		};
+
+	// Toggle whether or not to update MIDI Box Library reference name.
+	updateMIDIBoxToggle.setButtonText("Update MIDI Box reference name?  "
+		"Checked will update library name to new library name.  Unchecked will leave reference as-is.");
+	updateMIDIBoxToggle.setToggleState(true, dontSendNotification);
+	addAndMakeVisible(updateMIDIBoxToggle);
+	updateMIDIBoxToggle.onClick = [this] {
+		patchConverter.updateMIDIBoxName = updateMIDIBoxToggle.getToggleState();
+		};
+
+    setSize(800, 310);
 }
 
 void MainComponent::resized()
@@ -52,6 +70,10 @@ void MainComponent::resized()
     library.setBounds(bounds.removeFromTop(24));
 	bounds.removeFromTop(20);
 	outputFolderPath.setBounds(bounds.removeFromTop(24));
+	bounds.removeFromTop(20);
+	updateGuruSamplerLibraryToggle.setBounds(bounds.removeFromTop(35));
+	bounds.removeFromTop(25);
+	updateMIDIBoxToggle.setBounds(bounds.removeFromTop(55));
 }
 
 void MainComponent::paint(Graphics& g)

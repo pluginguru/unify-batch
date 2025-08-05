@@ -23,6 +23,8 @@ private:
 
     TextEditor library;		        Label libraryLabel;
     TextButton outputFolderPath;    Label outputFolderPathLabel;
+    ToggleButton updateGuruSamplerLibraryToggle;
+    ToggleButton updateMIDIBoxToggle;
 
     String message;
 
