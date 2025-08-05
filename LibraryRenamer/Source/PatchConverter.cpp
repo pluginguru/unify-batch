@@ -277,7 +277,8 @@ String PatchConverter::convertGuruSamplerState(String stateInfo)
     String libName = xml->getStringAttribute("osc1LibraryName");
     jassert(libName.isNotEmpty());
 
-    if (xml->getStringAttribute("osc1LibraryName") != "Unify Standard Library")
+    // Be sure user is OK with updating the Guru Sampler Library Name.
+    if (this->updateGuruSamplerLibraryName && xml->getStringAttribute("osc1LibraryName") != "Unify Standard Library")
         xml->setAttribute("osc1LibraryName", libraryName);
 
     MemoryBlock outBlock;
@@ -297,7 +298,8 @@ String PatchConverter::convertMIDIBoxState(String stateInfo)
     String libName = xml->getStringAttribute("libraryName");
     String midiFilePath = xml->getStringAttribute("midiFilePath").replace("\\", "/");
 
-    if (xml->getStringAttribute("libraryName") != "Unify Standard Library")
+    // Be sure user is OK with updating the MIDI Box reference.
+    if (this->updateMIDIBoxName && xml->getStringAttribute("libraryName") != "Unify Standard Library")
     {
         xml->setAttribute("libraryName", libraryName);
 

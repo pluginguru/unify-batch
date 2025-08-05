@@ -7,6 +7,8 @@ public:
     String unifyRootFolderPath;
     String libraryName;
     String outputFolderPath;
+    bool updateGuruSamplerLibraryName = true;
+    bool updateMIDIBoxName = true;
 
 public:
     PatchConverter();
