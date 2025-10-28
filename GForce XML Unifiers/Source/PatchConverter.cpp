@@ -3,7 +3,15 @@
 
 PatchConverter::PatchConverter()
 {
+#if 1
+    MemoryBlock mb;
+    File assetsDir("C:\\Users\\owner\\Documents\\GitHub\\unify-batch\\GForce XML Unifiers\\Assets");
+    File(assetsDir).getChildFile("INIT - Remote Living.unify").loadFileAsData(mb);
+    unifyPatchXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
+#else
+    // the old way of doing this
     unifyPatchXml = parseXML(BinaryData::Unify_patch_xml);
+#endif
 
     //test();
     //reveng();
@@ -46,7 +54,7 @@ void PatchConverter::test()
     MemoryBlock mb;
 
 #if 1
-    File(assetsDir).getChildFile("BASS - Bass Du Jour.unify").loadFileAsData(mb);
+    File(assetsDir).getChildFile("INIT - Remote Living.unify").loadFileAsData(mb);
     auto patchXml = AudioProcessor::getXmlFromBinary(mb.getData(), mb.getSize());
 #else
     auto patchXml = parseXML(File(assetsDir).getChildFile("Unify Patch.xml"));
@@ -144,6 +152,10 @@ void PatchConverter::processFile(File file, int& fileCount)
 
 XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameOrErrorMessage)
 {
+#if 0
+    // so program will build while reverse-engineering a new plugin
+    return nullptr;
+#else
     auto presetXml = parseXML(inFile);
     if (!presetXml)
     {
@@ -196,14 +208,16 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
   #endif
 #else
 
-#ifdef PLUGIN_IS_HALOGEN
+#if defined(PLUGIN_IS_HALOGEN)
     presetXml->setTagName("Halogen");
+#elif defined(PLUGIN_IS_MAP)
+    presetXml->setTagName("state");
 #else
     presetXml->setTagName("STATE");
 #endif
 
     auto metadataXml = presetXml->getChildByName("metadata");
-#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE) || defined(PLUGIN_IS_BASSSTATION) || defined(PLUGIN_IS_TVSPRO) || defined(PLUGIN_IS_HALOGEN)
+#if defined(PLUGIN_IS_IMPOSCAR3) || defined(PLUGIN_IS_OBONE) || defined(PLUGIN_IS_BASSSTATION) || defined(PLUGIN_IS_TVSPRO) || defined(PLUGIN_IS_HALOGEN) || defined(PLUGIN_IS_MAP)
     metadataXml->setAttribute("path", inFile.getFullPathName());
 #endif
 
@@ -351,6 +365,34 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     MemoryBlock mb;
     AudioProcessor::copyXmlToBinary(*presetXml, mb);
     auto b64state = mb.toBase64Encoding();
+#elif defined(PLUGIN_IS_MAP)
+    auto pdXml = new XmlElement("instanceSettings");
+    pdXml->setAttribute("isBrowserVisible", "0");
+    pdXml->setAttribute("currentAdsrView", "0");
+    pdXml->setAttribute("currentLfoView", "0");
+    pdXml->setAttribute("isModMatrixVisible", "0");
+    pdXml->setAttribute("isModSettingVisible", "0");
+    pdXml->setAttribute("referenceToneState", "0");
+    pdXml->setAttribute("referenceToneTuning", "0");
+    pdXml->setAttribute("selectedParamId", "Filter B Frequency");
+    pdXml->setAttribute("selectedFilterABandIndex", "0");
+    pdXml->setAttribute("ArpLock", "0");
+    pdXml->setAttribute("ColourLock", "0");
+    pdXml->setAttribute("TimeLock", "0");
+    pdXml->setAttribute("SpaceLock", "0");
+    presetXml->addChildElement(pdXml);
+
+    auto dshXml = new XmlElement("dawSyncHandler");
+    dshXml->setAttribute("tempo", "120.0");
+    presetXml->addChildElement(dshXml);
+
+    auto tiXml = new XmlElement("TimeInfo");
+    tiXml->setAttribute("bpm", "120.0");
+    presetXml->addChildElement(tiXml);
+
+    MemoryBlock mb;
+    AudioProcessor::copyXmlToBinary(*presetXml, mb);
+    auto b64state = mb.toBase64Encoding();
 #elif defined(PLUGIN_IS_BABYLON2)
     // for Babylon2 we use the preset XML, but it must be shortened to a single line
     XmlElement::TextFormat format;
@@ -425,6 +467,7 @@ XmlElement* PatchConverter::processPresetFile(File inFile, String& newPatchNameO
     pmXml->setAttribute("library", libraryName);
 
     return patchXml;
+#endif
 }
 
 void PatchConverter::saveUnifyPatch(File inFile, String patchName, XmlElement* patchXml)
