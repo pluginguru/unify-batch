@@ -22,7 +22,7 @@ private:
     PatchConverter patchConverter;
 
     Label referencePatchPathLabel; TextButton referencePatchPath;
-    Label updateL1Label; ToggleButton updateLayer1TitleToggle;
+    Label optionsLabel; ToggleButton metronomeOnlyToggle; ToggleButton updateLayer1TitleToggle;
 
     Label preserveLabel;
     ToggleButton saveInstToggle, saveMidiFxToggle, saveAudioFxToggle;

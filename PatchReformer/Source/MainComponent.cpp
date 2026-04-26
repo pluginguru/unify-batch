@@ -24,9 +24,26 @@ MainComponent::MainComponent()
 		}
 	};
 
-	updateL1Label.setText("While processing:", dontSendNotification);
-	updateL1Label.setJustificationType(Justification::right);
-	updateL1Label.attachToComponent(&updateLayer1TitleToggle, true);
+	optionsLabel.setText("Options:", dontSendNotification);
+	optionsLabel.setJustificationType(Justification::right);
+	optionsLabel.attachToComponent(&metronomeOnlyToggle, true);
+
+	metronomeOnlyToggle.setButtonText("Copy Metronome only");
+	metronomeOnlyToggle.onStateChange = [this]()
+		{
+			patchConverter.metronomeOnly = metronomeOnlyToggle.getToggleState();
+			if (patchConverter.metronomeOnly)
+			{
+				saveInstToggle.setToggleState(false, sendNotification);
+				saveMidiFxToggle.setToggleState(false, sendNotification);
+				saveAudioFxToggle.setToggleState(false, sendNotification);
+			}
+			saveInstToggle.setEnabled(!patchConverter.metronomeOnly);
+			saveMidiFxToggle.setEnabled(!patchConverter.metronomeOnly);
+			saveAudioFxToggle.setEnabled(!patchConverter.metronomeOnly);
+		};
+	addAndMakeVisible(metronomeOnlyToggle);
+
 	updateLayer1TitleToggle.setButtonText("Update INST1 layer title to match patch name");
 	updateLayer1TitleToggle.onStateChange = [this]()
 	{
@@ -95,9 +112,11 @@ void MainComponent::resized()
 
 	referencePatchPath.setBounds(bounds.removeFromTop(24));
 	bounds.removeFromTop(20);
-	updateLayer1TitleToggle.setBounds(bounds.removeFromTop(24));
-	bounds.removeFromTop(8);
 	auto row = bounds.removeFromTop(24);
+	metronomeOnlyToggle.setBounds(row.removeFromLeft(180));
+	updateLayer1TitleToggle.setBounds(row);
+	bounds.removeFromTop(8);
+	row = bounds.removeFromTop(24);
 	saveInstToggle.setBounds(row.removeFromLeft(180));
 	saveMidiFxToggle.setBounds(row.removeFromLeft(160));
 	saveAudioFxToggle.setBounds(row.removeFromLeft(160));

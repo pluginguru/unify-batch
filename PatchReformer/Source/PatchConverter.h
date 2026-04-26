@@ -6,6 +6,7 @@ class PatchConverter
 public:
     String referencePatchPath;
     String outputFolderPath;
+    bool metronomeOnly;
     bool updateLayer1Title;
     bool saveInstPlugin, saveMidiFx, saveAudioFx;
 
