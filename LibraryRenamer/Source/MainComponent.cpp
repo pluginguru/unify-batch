@@ -39,22 +39,32 @@ MainComponent::MainComponent()
 	};
 
 	// Toggle whether or not to update Guru Sampler Library Name.
-	updateGuruSamplerLibraryToggle.setButtonText("Update Guru Sampler library references");
+	updateGuruSamplerLibraryToggle.setButtonText("Update Guru Sampler [2] library references");
 	updateGuruSamplerLibraryToggle.setToggleState(true, dontSendNotification);
 	addAndMakeVisible(updateGuruSamplerLibraryToggle);
 	updateGuruSamplerLibraryToggle.onClick = [this] {
 		patchConverter.updateGuruSamplerLibraryName = updateGuruSamplerLibraryToggle.getToggleState();
 		};
 
+	updateGuruSamplerFolderToggle.setButtonText("Change samples folder name to:");
+	updateGuruSamplerFolderToggle.setToggleState(false, dontSendNotification);
+	addAndMakeVisible(updateGuruSamplerFolderToggle);
+	updateGuruSamplerFolderToggle.onClick = [this] {
+		patchConverter.updateGuruSamplerFolderName = updateGuruSamplerFolderToggle.getToggleState();
+		};
+
+	sampleFolder.setTextToShowWhenEmpty("Enter new sample folder name here (if needed)", darkText);
+	addAndMakeVisible(sampleFolder);
+
 	// Toggle whether or not to update MIDI Box Library reference name.
 	updateMIDIBoxToggle.setButtonText("Update MIDIBox library references");
 	updateMIDIBoxToggle.setToggleState(true, dontSendNotification);
 	addAndMakeVisible(updateMIDIBoxToggle);
 	updateMIDIBoxToggle.onClick = [this] {
-		patchConverter.updateMIDIBoxName = updateMIDIBoxToggle.getToggleState();
+		patchConverter.updateMIDIBoxLibraryName = updateMIDIBoxToggle.getToggleState();
 		};
 
-    setSize(800, 310);
+    setSize(800, 300);
 }
 
 void MainComponent::resized()
@@ -69,9 +79,19 @@ void MainComponent::resized()
 	bounds.removeFromTop(20);
 	outputFolderPath.setBounds(bounds.removeFromTop(24));
 	bounds.removeFromTop(24);
-	updateGuruSamplerLibraryToggle.setBounds(bounds.removeFromTop(20));
-	bounds.removeFromTop(14);
-	updateMIDIBoxToggle.setBounds(bounds.removeFromTop(20));
+
+	bounds.removeFromLeft(-80);
+	bounds.removeFromRight(20);
+
+	auto row = bounds.removeFromTop(20);
+	updateGuruSamplerLibraryToggle.setBounds(row.removeFromLeft(320));
+	updateMIDIBoxToggle.setBounds(row.removeFromRight(240));
+	bounds.removeFromTop(20);
+
+	row = bounds.removeFromTop(24);
+	updateGuruSamplerFolderToggle.setBounds(row.removeFromLeft(230));
+	row.removeFromLeft(4);
+	sampleFolder.setBounds(row);
 }
 
 void MainComponent::paint(Graphics& g)
@@ -93,6 +113,7 @@ bool MainComponent::isInterestedInFileDrag(const StringArray&)
 void MainComponent::filesDropped(const StringArray& filePaths, int, int)
 {
 	patchConverter.libraryName	= library.getText();
+	patchConverter.guruSamplerFolderName = sampleFolder.getText();
 	if (patchConverter.libraryName.isEmpty())
 	{
 		message = "You must specify the new library name";

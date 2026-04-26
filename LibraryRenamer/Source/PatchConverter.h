@@ -7,8 +7,12 @@ public:
     String unifyRootFolderPath;
     String libraryName;
     String outputFolderPath;
+
     bool updateGuruSamplerLibraryName = true;
-    bool updateMIDIBoxName = true;
+    bool updateMIDIBoxLibraryName = true;
+
+    bool updateGuruSamplerFolderName = false;
+    String guruSamplerFolderName;
 
 public:
     PatchConverter();
@@ -22,7 +26,7 @@ protected:
     String convertComboBoxState(String stateInfo);
     String convertGuruSamplerState(String stateInfo);
     String convertMIDIBoxState(String stateInfo);
-    String convertKlangFalterState(String stateInfo, String newLibraryName);
+    String convertKlangFalterState(String stateInfo);
 
 private:
     File unifyRootFolder, outputFolder;

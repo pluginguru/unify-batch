@@ -75,6 +75,9 @@ void PatchConverter::processPatchXml(XmlElement* patchXml, bool embedded)
         processLayerXml(layerXml, embedded);
     forEachXmlChildElementWithTagName(*patchXml, layerXml, "MidiLane")
         processLayerXml(layerXml, embedded);
+    XmlElement* metronomePatchXml = patchXml->getChildByName("MetronomePatch");
+    if (metronomePatchXml)
+        processPatchXml(metronomePatchXml, true);
 }
 
 void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
@@ -114,7 +117,7 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
             if (pluginName == "KlangFalter" && pluginFormat == "VST")
             {
                 String stateInfo = insertXml->getStringAttribute("stateInformation");
-                stateInfo = convertKlangFalterState(stateInfo, libraryName);
+                stateInfo = convertKlangFalterState(stateInfo);
                 insertXml->setAttribute("stateInformation", stateInfo);
             }
         }
@@ -125,7 +128,7 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
         String pluginName = pluginXml->getStringAttribute("name");
         String pluginFormat = pluginXml->getStringAttribute("format");
 
-        if (pluginName == "Unify" && pluginFormat == "Built-In")
+        if (pluginName.startsWith("Unify") && pluginFormat == "Built-In")
         {
             String stateInfo = instXml->getStringAttribute("stateInformation");
             stateInfo = convertUnifyState(stateInfo);
@@ -139,7 +142,7 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
             instXml->setAttribute("stateInformation", stateInfo);
         }
 
-        if (pluginName == "Guru Sampler" && pluginFormat == "Built-In")
+        if (pluginName.startsWith("Guru Sampler") && pluginFormat == "Built-In")
         {
             String stateInfo = instXml->getStringAttribute("stateInformation");
             stateInfo = convertGuruSamplerState(stateInfo);
@@ -184,7 +187,7 @@ void PatchConverter::processLayerXml(XmlElement* layerXml, bool embedded)
             if (pluginName == "KlangFalter" && pluginFormat == "VST")
             {
                 String stateInfo = insertXml->getStringAttribute("stateInformation");
-                stateInfo = convertKlangFalterState(stateInfo, libraryName);
+                stateInfo = convertKlangFalterState(stateInfo);
                 insertXml->setAttribute("stateInformation", stateInfo);
             }
         }
@@ -254,7 +257,7 @@ String PatchConverter::convertComboBoxState(String stateInfo)
             else if (pluginName == "KlangFalter" && pluginFormat == "VST")
             {
                 auto stateXml = filterXml->getChildByName("STATE");
-                String pluginState = convertKlangFalterState(stateInfo, libraryName);
+                String pluginState = convertKlangFalterState(stateInfo);
                 stateXml->setAttribute("stateInformation", pluginState);
             }
         }
@@ -278,8 +281,10 @@ String PatchConverter::convertGuruSamplerState(String stateInfo)
     jassert(libName.isNotEmpty());
 
     // Be sure user is OK with updating the Guru Sampler Library Name.
-    if (this->updateGuruSamplerLibraryName && xml->getStringAttribute("osc1LibraryName") != "Unify Standard Library")
+    if (updateGuruSamplerLibraryName && xml->getStringAttribute("osc1LibraryName") != "Unify Standard Library")
         xml->setAttribute("osc1LibraryName", libraryName);
+    if (updateGuruSamplerFolderName)
+        xml->setAttribute("osc1SampleFolder", guruSamplerFolderName);
 
     MemoryBlock outBlock;
     AudioProcessor::copyXmlToBinary(*xml, outBlock);
@@ -299,7 +304,7 @@ String PatchConverter::convertMIDIBoxState(String stateInfo)
     String midiFilePath = xml->getStringAttribute("midiFilePath").replace("\\", "/");
 
     // Be sure user is OK with updating the MIDI Box reference.
-    if (this->updateMIDIBoxName && xml->getStringAttribute("libraryName") != "Unify Standard Library")
+    if (this->updateMIDIBoxLibraryName && xml->getStringAttribute("libraryName") != "Unify Standard Library")
     {
         xml->setAttribute("libraryName", libraryName);
 
@@ -330,7 +335,7 @@ String PatchConverter::convertMIDIBoxState(String stateInfo)
     return outBlock.toBase64Encoding();
 }
 
-String PatchConverter::convertKlangFalterState(String stateInfo, String newLibraryName)
+String PatchConverter::convertKlangFalterState(String stateInfo)
 {
     MemoryBlock memBlock;
     memBlock.fromBase64Encoding(stateInfo);
@@ -344,7 +349,7 @@ String PatchConverter::convertKlangFalterState(String stateInfo, String newLibra
     for (auto* irXml : kfXml->getChildWithTagNameIterator("ImpulseResponse"))
     {
         String path = irXml->getStringAttribute("file");
-        irXml->setAttribute("file", path.replaceCharacter('\\', '/').replace(oldLibraryName, newLibraryName));
+        irXml->setAttribute("file", path.replaceCharacter('\\', '/').replace(oldLibraryName, libraryName));
     }
 
     //DBG(kfXml->toString());

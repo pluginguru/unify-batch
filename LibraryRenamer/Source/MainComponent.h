@@ -21,9 +21,13 @@ private:
     std::unique_ptr<PropertiesFile> settings;
     PatchConverter patchConverter;
 
-    TextEditor library;		        Label libraryLabel;
-    TextButton outputFolderPath;    Label outputFolderPathLabel;
+    TextEditor library;
+    Label libraryLabel;
+    TextButton outputFolderPath;
+    Label outputFolderPathLabel;
     ToggleButton updateGuruSamplerLibraryToggle;
+    ToggleButton updateGuruSamplerFolderToggle;
+    TextEditor sampleFolder;
     ToggleButton updateMIDIBoxToggle;
 
     String message;
