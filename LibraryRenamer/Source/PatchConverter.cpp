@@ -240,7 +240,7 @@ String PatchConverter::convertComboBoxState(String stateInfo)
                     String pluginState = convertComboBoxState(stateXml->getAllSubText());
                     stateXml->getFirstChildElement()->setText(pluginState);
                 }
-                if (pluginName == "Guru Sampler")
+                if (pluginName.startsWith("Guru Sampler"))
                 {
                     auto stateXml = filterXml->getChildByName("STATE");
                     String pluginState = convertGuruSamplerState(stateXml->getAllSubText());
