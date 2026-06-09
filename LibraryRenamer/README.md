@@ -7,7 +7,7 @@ To understand this code, you need to learn about [the structure of Unify patch f
 
 ### GUI and usage
 
-![LibraryRenamer](C:\Users\owner\Documents\GitHub\unify-batch\LibraryRenamer\LibraryRenamer.png)
+![LibraryRenamer](LibraryRenamer.png)
 
 Enter the new library name you want in the "Library Name" text box.
 
